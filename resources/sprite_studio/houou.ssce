@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SpriteStudioCellMap version="1.00.02">
+	<name>houou</name>
+	<exportPath></exportPath>
+	<generator>SpriteStudio</generator>
+	<packed>0</packed>
+	<imagePath>houou.png</imagePath>
+	<pixelSize>1024 1024</pixelSize>
+	<overrideTexSettings>0</overrideTexSettings>
+	<wrapMode>clamp</wrapMode>
+	<filterMode>linear</filterMode>
+	<imagePathAtImport></imagePathAtImport>
+	<packInfoFilePath></packInfoFilePath>
+	<texPackSettings>
+		<maxSize>4096 4096</maxSize>
+		<forcePo2>1</forcePo2>
+		<forceSquare>0</forceSquare>
+		<margin>0</margin>
+		<padding>1</padding>
+	</texPackSettings>
+	<cells>
+		<cell>
+			<name>body</name>
+			<tags>
+				<value>body</value>
+				<value>side</value>
+			</tags>
+			<pos>256 0</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>body_f</name>
+			<tags>
+				<value>back</value>
+				<value>body</value>
+			</tags>
+			<pos>256 64</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>hand</name>
+			<tags>
+				<value>hand</value>
+				<value>side</value>
+			</tags>
+			<pos>128 0</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>head_damage</name>
+			<tags>
+				<value>head</value>
+				<value>option</value>
+			</tags>
+			<pos>0 128</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>head_blink</name>
+			<tags>
+				<value>head</value>
+				<value>option</value>
+			</tags>
+			<pos>0 192</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>head_back</name>
+			<tags>
+				<value>back</value>
+				<value>head</value>
+			</tags>
+			<pos>0 256</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>knee_back</name>
+			<tags>
+				<value>back</value>
+				<value>knee</value>
+			</tags>
+			<pos>64 128</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>hand_back</name>
+			<tags>
+				<value>back</value>
+				<value>hand</value>
+			</tags>
+			<pos>128 128</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>leg_back</name>
+			<tags>
+				<value>back</value>
+				<value>leg</value>
+			</tags>
+			<pos>192 128</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>body_back</name>
+			<tags>
+				<value>back</value>
+				<value>body</value>
+			</tags>
+			<pos>256 128</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>hand_f</name>
+			<tags>
+				<value>front</value>
+				<value>hand</value>
+			</tags>
+			<pos>128 64</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>head</name>
+			<tags>
+				<value>head</value>
+				<value>side</value>
+			</tags>
+			<pos>0 0</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>head_f</name>
+			<tags>
+				<value>front</value>
+				<value>head</value>
+			</tags>
+			<pos>0 64</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>knee</name>
+			<tags>
+				<value>knee</value>
+				<value>side</value>
+			</tags>
+			<pos>64 0</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>knee_f</name>
+			<tags>
+				<value>front</value>
+				<value>knee</value>
+			</tags>
+			<pos>64 64</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>leg</name>
+			<tags>
+				<value>leg</value>
+				<value>side</value>
+			</tags>
+			<pos>192 0</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+		<cell>
+			<name>leg_f</name>
+			<tags>
+				<value>front</value>
+				<value>leg</value>
+			</tags>
+			<pos>192 64</pos>
+			<size>64 64</size>
+			<pivot>0 0</pivot>
+			<rotated>0</rotated>
+			<orgImageName></orgImageName>
+			<posStable>0</posStable>
+		</cell>
+	</cells>
+</SpriteStudioCellMap>

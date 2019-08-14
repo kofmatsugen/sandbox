@@ -1,0 +1,11 @@
+[package]
+name = "amethyst_sandbox"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[dependencies]
+amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulkan"] }
+amethyst-sprite-studio={path="../amethyst-sprite-studio/"}
+debug_system={path="../debug_system/"}
+log = "*"
