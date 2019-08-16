@@ -1,5 +1,5 @@
 use amethyst::{
-    assets::{Handle, Prefab, PrefabLoader, PrefabLoaderSystem, ProgressCounter, RonFormat},
+    assets::{Handle, Prefab, PrefabLoader, PrefabLoaderSystemDesc, ProgressCounter, RonFormat},
     core::transform::{Transform, TransformBundle},
     input::StringBindings,
     prelude::*,
@@ -79,7 +79,7 @@ fn main() -> amethyst::Result<()> {
     let game_data = GameDataBuilder::default()
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<StringBindings>::new())?
-        .with(PrefabLoaderSystem::<SpriteAnimation>::default(), "", &[])
+        .with_system_desc(PrefabLoaderSystemDesc::<SpriteAnimation>::default(), "", &[])
         .with(EntityCountSystem::new(), "", &[])
         .with(PositionDrawSystem::new(), "", &[])
         .with_bundle(
