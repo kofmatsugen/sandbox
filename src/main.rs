@@ -13,7 +13,7 @@ use amethyst::{
     utils::application_root_dir,
     window::ScreenDimensions,
 };
-use amethyst_sprite_studio::SpriteAnimation;
+use amethyst_sprite_studio::prefab::SpriteAnimation;
 use debug_system::{EntityCountSystem, PositionDrawSystem};
 
 #[derive(Default)]
@@ -79,7 +79,11 @@ fn main() -> amethyst::Result<()> {
     let game_data = GameDataBuilder::default()
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<StringBindings>::new())?
-        .with_system_desc(PrefabLoaderSystemDesc::<SpriteAnimation>::default(), "", &[])
+        .with_system_desc(
+            PrefabLoaderSystemDesc::<SpriteAnimation>::default(),
+            "",
+            &[],
+        )
         .with(EntityCountSystem::new(), "", &[])
         .with(PositionDrawSystem::new(), "", &[])
         .with_bundle(
