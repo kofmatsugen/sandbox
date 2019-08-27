@@ -9,3 +9,4 @@ amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulka
 amethyst-sprite-studio={path="../amethyst-sprite-studio/"}
 debug_system={path="../debug_system/"}
 log = "*"
+glob="*"

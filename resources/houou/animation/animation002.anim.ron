@@ -1,0 +1,2169 @@
+(
+	timelines: [
+		(
+			id: 0,
+			parent: None,
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [11]
+			],
+		),// [0]
+		(
+			id: 1,
+			parent: Some(0),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [11]
+			],
+		),// [1]
+		(
+			id: 2,
+			parent: Some(1),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [11]
+			],
+		),// [2]
+		(
+			id: 3,
+			parent: Some(0),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-2,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							2.0000002,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							6.0000005,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							10,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							10,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							8.285714,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							6.571429,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							4.8571424,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							3.142857,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							1.4285712,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-0.2857144,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-2,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [11]
+			],
+		),// [3]
+		(
+			id: 4,
+			parent: Some(3),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							20,
+							10,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							26.666666,
+							7.9999995,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							33.333336,
+							6,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							40,
+							4,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							40,
+							4,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							37.142857,
+							4.857143,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							34.285717,
+							5.714286,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							31.42857,
+							6.5714283,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							28.571428,
+							7.4285717,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							25.714287,
+							8.285715,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							22.857141,
+							9.142857,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							20,
+							10,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [11]
+			],
+		),// [4]
+		(
+			id: 5,
+			parent: Some(4),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: Some(false),
+				),// [0]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: None,
+				),// [2]
+				(
+					user: Some(()),
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [3]
+				(
+					user: Some(()),
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: Some(false),
+				),// [4]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [11]
+			],
+		),// [5]
+		(
+			id: 6,
+			parent: Some(3),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							-2,
+							-1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [11]
+			],
+		),// [6]
+		(
+			id: 7,
+			parent: Some(3),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							20,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							22.666666,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							25.333334,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							28,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							28,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							26.857143,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							25.714287,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							24.571426,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							23.42857,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							22.285715,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							21.142857,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							20,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [11]
+			],
+		),// [7]
+		(
+			id: 8,
+			parent: Some(7),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							12,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							8.666666,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							5.333333,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							2,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							2,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							3.4285717,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							4.8571434,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							6.285714,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							7.7142863,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							9.142857,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							10.571428,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							12,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [11]
+			],
+		),// [8]
+		(
+			id: 9,
+			parent: Some(3),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-4,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-6.6666665,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-9.333333,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-12,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-12,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-10.857142,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-9.714286,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-8.571428,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-7.4285707,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-6.285714,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-5.142857,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-4,
+							-22,
+							-4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [11]
+			],
+		),// [9]
+		(
+			id: 10,
+			parent: Some(9),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							-6,
+							-20,
+							-5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [11]
+			],
+		),// [10]
+		(
+			id: 11,
+			parent: Some(3),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [11]
+			],
+		),// [11]
+		(
+			id: 12,
+			parent: Some(11),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(false),
+				),// [0]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [11]
+			],
+		),// [12]
+		(
+			id: 13,
+			parent: Some(11),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							-1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+				),// [0]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [1]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [2]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [3]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [4]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [5]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [6]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [7]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [8]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [9]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [10]
+				(
+					user: None,
+					transform: None,
+					visible: None,
+				),// [11]
+			],
+		),// [13]
+	],
+)
