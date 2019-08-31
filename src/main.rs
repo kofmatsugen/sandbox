@@ -1,5 +1,5 @@
 use amethyst::{
-    assets::{AssetStorage, Handle, Loader, Processor, Progress, ProgressCounter, RonFormat},
+    assets::{AssetStorage, Loader, Processor, ProgressCounter, RonFormat},
     core::transform::{Transform, TransformBundle},
     ecs::{Read, ReadExpect, Write},
     input::StringBindings,
@@ -8,7 +8,7 @@ use amethyst::{
         camera::Camera,
         formats::texture::ImageFormat,
         plugins::{RenderDebugLines, RenderFlat2D, RenderToWindow},
-        sprite::{SpriteSheet, SpriteSheetFormat, SpriteSheetHandle},
+        sprite::{SpriteSheet, SpriteSheetFormat},
         types::DefaultBackend,
         RenderingBundle, Texture,
     },
@@ -17,21 +17,13 @@ use amethyst::{
     utils::application_root_dir,
     window::ScreenDimensions,
 };
-use amethyst_sprite_studio::timeline::SpriteAnimation;
+use amethyst_sprite_studio::{
+    components::PlayAnimationKey, resource::AnimationStore, system::TimeLineApplySystem,
+    timeline::SpriteAnimation,
+};
 use debug_system::{EntityCountSystem, PositionDrawSystem};
 
 type Animation = SpriteAnimation<()>;
-
-#[derive(Default, Debug)]
-struct AnimationData {
-    animation: Vec<Handle<Animation>>,
-    sprite_sheet: Vec<SpriteSheetHandle>,
-}
-
-#[derive(Default, Debug)]
-struct AnimationDict {
-    dictionary: std::collections::BTreeMap<String, AnimationData>,
-}
 
 #[derive(Default)]
 struct MyState {
@@ -46,7 +38,7 @@ fn initialise_camera(world: &mut World) {
     };
 
     let mut camera_transform = Transform::default();
-    camera_transform.set_translation_z(1.0);
+    camera_transform.set_translation_z(100.0);
 
     world
         .create_entity()
@@ -105,14 +97,13 @@ impl MyState {
             },
         );
 
-        world.exec(|mut anim_data: Write<AnimationDict>| {
-            anim_data.dictionary.insert(
-                pack_name.into(),
-                AnimationData {
-                    animation,
-                    sprite_sheet,
-                },
-            );
+        world.exec(|mut anim_data: Write<AnimationStore<String, ()>>| {
+            for anim in animation {
+                anim_data.insert_animation(pack_name, anim);
+            }
+            for sheet in sprite_sheet {
+                anim_data.insert_sprite_sheet(pack_name, sheet);
+            }
         });
     }
 }
@@ -129,6 +120,11 @@ impl SimpleState for MyState {
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
+                let mut anim_key = PlayAnimationKey::<String>::new();
+                anim_key.set_key(("houou".into(), 0usize));
+
+                data.world.create_entity().with(anim_key).build();
+
                 log::info!("complete!");
                 self.setuped = true;
             }
@@ -136,11 +132,7 @@ impl SimpleState for MyState {
         Trans::None
     }
 
-    fn on_stop(&mut self, _data: StateData<'_, GameData<'_, '_>>) {
-        _data.world.exec(|mut anim_data: Write<AnimationDict>| {
-            *anim_data = AnimationDict::default();
-        });
-    }
+    fn on_stop(&mut self, _data: StateData<'_, GameData<'_, '_>>) {}
 }
 
 fn main() -> amethyst::Result<()> {
@@ -157,6 +149,7 @@ fn main() -> amethyst::Result<()> {
         .with(EntityCountSystem::new(), "", &[])
         .with(PositionDrawSystem::new(), "", &[])
         .with(Processor::<Animation>::new(), "", &[])
+        .with(TimeLineApplySystem::<String, ()>::new(), "", &[])
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
                 .with_plugin(RenderFlat2D::default())
