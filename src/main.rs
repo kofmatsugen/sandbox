@@ -18,7 +18,9 @@ use amethyst::{
     window::ScreenDimensions,
 };
 use amethyst_sprite_studio::{
-    components::PlayAnimationKey, resource::AnimationStore, system::TimeLineApplySystem,
+    components::{AnimationTime, PlayAnimationKey},
+    resource::AnimationStore,
+    system::{AnimationTimeIncrementSystem, TimeLineApplySystem},
     timeline::SpriteAnimation,
 };
 use debug_system::{EntityCountSystem, PositionDrawSystem};
@@ -121,9 +123,19 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("houou".into(), 0usize));
+                anim_key.set_key(("houou".into(), 1usize));
 
-                data.world.create_entity().with(anim_key).build();
+                let anim_time = AnimationTime::new();
+
+                let mut transform = Transform::default();
+                transform.set_scale([2.0, 2.0, 1.0].into());
+
+                data.world
+                    .create_entity()
+                    .with(transform)
+                    .with(anim_key)
+                    .with(anim_time)
+                    .build();
 
                 log::info!("complete!");
                 self.setuped = true;
@@ -150,6 +162,7 @@ fn main() -> amethyst::Result<()> {
         .with(PositionDrawSystem::new(), "", &[])
         .with(Processor::<Animation>::new(), "", &[])
         .with(TimeLineApplySystem::<String, ()>::new(), "", &[])
+        .with(AnimationTimeIncrementSystem::new(), "", &[])
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
                 .with_plugin(RenderFlat2D::default())

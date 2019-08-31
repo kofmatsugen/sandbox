@@ -1,5 +1,6 @@
 (
 	fps: 60,
+	total_frame: 12,
 	timelines: [
 		(
 			id: 0,
