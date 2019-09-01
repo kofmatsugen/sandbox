@@ -123,7 +123,7 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("houou".into(), 1usize));
+                anim_key.set_key(("houou".into(), 0usize));
 
                 let anim_time = AnimationTime::new();
 
