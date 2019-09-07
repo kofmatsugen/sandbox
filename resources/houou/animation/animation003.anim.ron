@@ -1,6 +1,6 @@
 (
 	fps: 60,
-	total_frame: 14,
+	total_frame: 12,
 	timelines: [
 		(
 			id: 0,
@@ -107,20 +107,6 @@
 					cell: None,
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
 		),// [0]
 		(
@@ -228,20 +214,6 @@
 					cell: None,
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
 		),// [1]
 		(
@@ -349,20 +321,6 @@
 					cell: None,
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
 		),// [2]
 		(
@@ -400,7 +358,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-2,
+							2.0000002,
 							48,
 							0,
 						),
@@ -424,7 +382,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-2,
+							6.0000005,
 							48,
 							0,
 						),
@@ -448,7 +406,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-2,
+							10,
 							48,
 							0,
 						),
@@ -472,7 +430,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-2,
+							10,
 							48,
 							0,
 						),
@@ -496,7 +454,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-2,
+							8.285714,
 							48,
 							0,
 						),
@@ -520,7 +478,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-2,
+							6.571429,
 							48,
 							0,
 						),
@@ -542,53 +500,127 @@
 				),// [6]
 				(
 					user: None,
-					transform: None,
+					transform: Some((
+						translation: (
+							4.8571424,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
 					visible: None,
 					cell: None,
 					color: None,
 				),// [7]
 				(
 					user: None,
-					transform: None,
+					transform: Some((
+						translation: (
+							3.142857,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
 					visible: None,
 					cell: None,
 					color: None,
 				),// [8]
 				(
 					user: None,
-					transform: None,
+					transform: Some((
+						translation: (
+							1.4285712,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
 					visible: None,
 					cell: None,
 					color: None,
 				),// [9]
 				(
 					user: None,
-					transform: None,
+					transform: Some((
+						translation: (
+							-0.2857144,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
 					visible: None,
 					cell: None,
 					color: None,
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
+					transform: Some((
+						translation: (
+							-2,
+							48,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+					cell: Some((
+						0,
+						0,
+					)),
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
 		),// [3]
 		(
@@ -624,29 +656,394 @@
 				),// [0]
 				(
 					user: None,
-					transform: None,
+					transform: Some((
+						translation: (
+							26.666666,
+							7.9999995,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
 					visible: None,
 					cell: None,
 					color: None,
 				),// [1]
 				(
 					user: None,
-					transform: None,
+					transform: Some((
+						translation: (
+							33.333336,
+							6,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
 					visible: None,
 					cell: None,
 					color: None,
 				),// [2]
 				(
 					user: None,
-					transform: None,
+					transform: Some((
+						translation: (
+							40,
+							4,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
 					visible: None,
 					cell: None,
 					color: None,
 				),// [3]
 				(
 					user: None,
-					transform: None,
+					transform: Some((
+						translation: (
+							40,
+							4,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
 					visible: None,
+					cell: None,
+					color: None,
+				),// [4]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							37.142857,
+							4.857143,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+					cell: None,
+					color: None,
+				),// [5]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							34.285717,
+							5.714286,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+					cell: None,
+					color: None,
+				),// [6]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							31.42857,
+							6.5714283,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+					cell: None,
+					color: None,
+				),// [7]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							28.571428,
+							7.4285717,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+					cell: None,
+					color: None,
+				),// [8]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							25.714287,
+							8.285715,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+					cell: None,
+					color: None,
+				),// [9]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							22.857141,
+							9.142857,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: None,
+					cell: None,
+					color: None,
+				),// [10]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							20,
+							10,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+					cell: Some((
+						0,
+						2,
+					)),
+					color: None,
+				),// [11]
+			],
+		),// [4]
+		(
+			id: 5,
+			parent: Some(4),
+			key_frames: [
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: Some(false),
+					cell: None,
+					color: None,
+				),// [0]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: None,
+					cell: None,
+					color: None,
+				),// [1]
+				(
+					user: None,
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: None,
+					cell: None,
+					color: None,
+				),// [2]
+				(
+					user: Some(()),
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: Some(true),
+					cell: None,
+					color: None,
+				),// [3]
+				(
+					user: Some(()),
+					transform: Some((
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					)),
+					visible: Some(false),
 					cell: None,
 					color: None,
 				),// [4]
@@ -699,22 +1096,8 @@
 					cell: None,
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
-		),// [4]
+		),// [5]
 		(
 			id: 6,
 			parent: Some(3),
@@ -823,22 +1206,8 @@
 					cell: None,
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
-		),// [5]
+		),// [6]
 		(
 			id: 7,
 			parent: Some(3),
@@ -874,7 +1243,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							18,
+							22.666666,
 							-22,
 							4,
 						),
@@ -898,7 +1267,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							16,
+							25.333334,
 							-22,
 							4,
 						),
@@ -922,7 +1291,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							14,
+							28,
 							-22,
 							4,
 						),
@@ -946,7 +1315,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							12,
+							28,
 							-22,
 							4,
 						),
@@ -970,7 +1339,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							7.9999995,
+							26.857143,
 							-22,
 							4,
 						),
@@ -994,7 +1363,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							3.9999998,
+							25.714287,
 							-22,
 							4,
 						),
@@ -1018,7 +1387,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							0,
+							24.571426,
 							-22,
 							4,
 						),
@@ -1042,8 +1411,8 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-1,
-							-21.999998,
+							23.42857,
+							-22,
 							4,
 						),
 						rotation: (
@@ -1066,7 +1435,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-2,
+							22.285715,
 							-22,
 							4,
 						),
@@ -1090,7 +1459,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-3,
+							21.142857,
 							-22,
 							4,
 						),
@@ -1114,7 +1483,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-4,
+							20,
 							-22,
 							4,
 						),
@@ -1130,60 +1499,15 @@
 							1,
 						),
 					)),
-					visible: None,
-					cell: None,
+					visible: Some(true),
+					cell: Some((
+						0,
+						13,
+					)),
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: Some((
-						translation: (
-							-5,
-							-22,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: Some((
-						translation: (
-							-6,
-							-22,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
-		),// [6]
+		),// [7]
 		(
 			id: 8,
 			parent: Some(7),
@@ -1219,7 +1543,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							11.142857,
+							8.666666,
 							-20,
 							5,
 						),
@@ -1243,7 +1567,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							10.285714,
+							5.333333,
 							-20,
 							5,
 						),
@@ -1267,7 +1591,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							9.428571,
+							2,
 							-20,
 							5,
 						),
@@ -1291,7 +1615,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							8.571428,
+							2,
 							-20,
 							5,
 						),
@@ -1315,7 +1639,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							7.7142854,
+							3.4285717,
 							-20,
 							5,
 						),
@@ -1339,7 +1663,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							6.8571424,
+							4.8571434,
 							-20,
 							5,
 						),
@@ -1363,7 +1687,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							6,
+							6.285714,
 							-20,
 							5,
 						),
@@ -1387,7 +1711,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							3.6666665,
+							7.7142863,
 							-20,
 							5,
 						),
@@ -1411,7 +1735,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							1.333333,
+							9.142857,
 							-20,
 							5,
 						),
@@ -1435,7 +1759,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-1,
+							10.571428,
 							-20,
 							5,
 						),
@@ -1459,7 +1783,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-3.3333335,
+							12,
 							-20,
 							5,
 						),
@@ -1475,60 +1799,15 @@
 							1,
 						),
 					)),
-					visible: None,
-					cell: None,
+					visible: Some(true),
+					cell: Some((
+						0,
+						15,
+					)),
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: Some((
-						translation: (
-							-5.6666665,
-							-20,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: Some((
-						translation: (
-							-8,
-							-20,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
-		),// [7]
+		),// [8]
 		(
 			id: 9,
 			parent: Some(3),
@@ -1564,7 +1843,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-3.4285715,
+							-6.6666665,
 							-22,
 							4,
 						),
@@ -1588,7 +1867,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-2.857143,
+							-9.333333,
 							-22,
 							4,
 						),
@@ -1612,7 +1891,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-2.2857141,
+							-12,
 							-22,
 							4,
 						),
@@ -1636,7 +1915,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-1.7142856,
+							-12,
 							-22,
 							4,
 						),
@@ -1660,7 +1939,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-1.1428571,
+							-10.857142,
 							-22,
 							4,
 						),
@@ -1684,7 +1963,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							-0.57142854,
+							-9.714286,
 							-22,
 							4,
 						),
@@ -1708,7 +1987,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							0,
+							-8.571428,
 							-22,
 							4,
 						),
@@ -1732,7 +2011,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							4,
+							-7.4285707,
 							-22,
 							4,
 						),
@@ -1756,7 +2035,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							8,
+							-6.285714,
 							-22,
 							4,
 						),
@@ -1780,7 +2059,7 @@
 					user: None,
 					transform: Some((
 						translation: (
-							12,
+							-5.142857,
 							-22,
 							4,
 						),
@@ -1802,27 +2081,33 @@
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
+					transform: Some((
+						translation: (
+							-4,
+							-22,
+							4,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					)),
+					visible: Some(true),
+					cell: Some((
+						0,
+						13,
+					)),
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
-		),// [8]
+		),// [9]
 		(
 			id: 10,
 			parent: Some(9),
@@ -1856,240 +2141,70 @@
 				),// [0]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							-4.7999997,
-							-18.5,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
 				),// [1]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							-3.6000001,
-							-17,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
 				),// [2]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							-2.3999996,
-							-17.375,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
 				),// [3]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							-1.2,
-							-17.75,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
 				),// [4]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							0,
-							-18.125,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
 				),// [5]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							1.2000003,
-							-18.5,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
 				),// [6]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							2.3999996,
-							-18.875,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
 				),// [7]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							3.6000004,
-							-19.25,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
 				),// [8]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							4.799999,
-							-19.625,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
 				),// [9]
 				(
 					user: None,
-					transform: Some((
-						translation: (
-							6,
-							-20,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					)),
+					transform: None,
 					visible: None,
 					cell: None,
 					color: None,
@@ -2101,22 +2216,8 @@
 					cell: None,
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
-		),// [9]
+		),// [10]
 		(
 			id: 11,
 			parent: Some(3),
@@ -2222,22 +2323,8 @@
 					cell: None,
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
-		),// [10]
+		),// [11]
 		(
 			id: 12,
 			parent: Some(11),
@@ -2346,22 +2433,8 @@
 					cell: None,
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
-		),// [11]
+		),// [12]
 		(
 			id: 13,
 			parent: Some(11),
@@ -2470,21 +2543,7 @@
 					cell: None,
 					color: None,
 				),// [11]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [12]
-				(
-					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
-				),// [13]
 			],
-		),// [12]
+		),// [13]
 	],
 )

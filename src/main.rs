@@ -1,8 +1,8 @@
 use amethyst::{
     assets::{AssetStorage, Loader, Processor, ProgressCounter, RonFormat},
     core::transform::{Transform, TransformBundle},
-    ecs::{Read, ReadExpect, Write},
-    input::StringBindings,
+    ecs::{Entity, Read, ReadExpect, Write, WriteStorage},
+    input::{get_key, InputEvent, StringBindings, VirtualKeyCode},
     prelude::*,
     renderer::{
         camera::Camera,
@@ -16,9 +16,11 @@ use amethyst::{
     ui::{RenderUi, UiBundle},
     utils::application_root_dir,
     window::ScreenDimensions,
+    winit::ElementState,
 };
 use amethyst_sprite_studio::{
     components::{AnimationTime, PlayAnimationKey},
+    renderer::RenderSpriteAnimation,
     resource::AnimationStore,
     system::{AnimationTimeIncrementSystem, TimeLineApplySystem},
     timeline::SpriteAnimation,
@@ -30,6 +32,7 @@ type Animation = SpriteAnimation<()>;
 #[derive(Default)]
 struct MyState {
     progress_counter: ProgressCounter,
+    target_entity: Option<Entity>,
     setuped: bool,
 }
 
@@ -114,7 +117,7 @@ impl SimpleState for MyState {
     fn on_start(&mut self, mut data: StateData<'_, GameData<'_, '_>>) {
         self.setuped = false;
 
-        self.load_animation(&mut data.world, "houou", 1, 3);
+        self.load_animation(&mut data.world, "houou", 1, 4);
 
         initialise_camera(&mut data.world);
     }
@@ -123,19 +126,21 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("houou".into(), 0usize));
+                anim_key.set_key(("houou".into(), 2usize));
 
                 let anim_time = AnimationTime::new();
 
                 let mut transform = Transform::default();
                 transform.set_scale([2.0, 2.0, 1.0].into());
 
-                data.world
+                self.target_entity = data
+                    .world
                     .create_entity()
                     .with(transform)
                     .with(anim_key)
                     .with(anim_time)
-                    .build();
+                    .build()
+                    .into();
 
                 log::info!("complete!");
                 self.setuped = true;
@@ -144,6 +149,31 @@ impl SimpleState for MyState {
         Trans::None
     }
 
+    fn handle_event(
+        &mut self,
+        _data: StateData<'_, GameData<'_, '_>>,
+        event: StateEvent,
+    ) -> SimpleTrans {
+        let StateData { world, .. } = _data;
+        if let StateEvent::Window(event) = &event {
+            match get_key(&event) {
+                Some((VirtualKeyCode::Space, ElementState::Pressed)) => {
+                    world.exec(|mut key: WriteStorage<PlayAnimationKey<String>>| {
+                        if let Some(key) = self.target_entity.and_then(|e| key.get_mut(e)) {
+                            let new_key = match key.key() {
+                                Some((name, id)) => (name.clone(), (*id + 1) % 4),
+                                None => ("houou".into(), 0usize),
+                            };
+
+                            key.set_key(new_key);
+                        }
+                    });
+                }
+                _ => {}
+            }
+        }
+        Trans::None
+    }
     fn on_stop(&mut self, _data: StateData<'_, GameData<'_, '_>>) {}
 }
 
@@ -165,7 +195,7 @@ fn main() -> amethyst::Result<()> {
         .with(AnimationTimeIncrementSystem::new(), "", &[])
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
-                .with_plugin(RenderFlat2D::default())
+                .with_plugin(RenderSpriteAnimation::default())
                 .with_plugin(RenderUi::default())
                 .with_plugin(RenderDebugLines::default())
                 .with_plugin(
