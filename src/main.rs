@@ -126,7 +126,7 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("houou".into(), 2usize));
+                anim_key.set_key(("houou".into(), 3));
 
                 let anim_time = AnimationTime::new();
 
@@ -195,7 +195,7 @@ fn main() -> amethyst::Result<()> {
         .with(AnimationTimeIncrementSystem::new(), "", &[])
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
-                .with_plugin(RenderSpriteAnimation::default())
+                .with_plugin(RenderSpriteAnimation::<String, ()>::default())
                 .with_plugin(RenderUi::default())
                 .with_plugin(RenderDebugLines::default())
                 .with_plugin(

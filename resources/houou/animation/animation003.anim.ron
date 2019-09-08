@@ -8,7 +8,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							0,
@@ -25,87 +25,334 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [0]
@@ -115,7 +362,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							0,
@@ -132,87 +379,334 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [1]
@@ -222,7 +716,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							35,
@@ -239,87 +733,334 @@
 							70,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							35,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							30,
+							70,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [2]
@@ -329,7 +1070,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-2,
 							48,
@@ -346,17 +1087,22 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						0,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							2.0000002,
 							48,
@@ -373,14 +1119,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							6.0000005,
 							48,
@@ -397,14 +1151,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							10,
 							48,
@@ -421,14 +1183,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							10,
 							48,
@@ -445,14 +1215,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							8.285714,
 							48,
@@ -469,14 +1247,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							6.571429,
 							48,
@@ -493,14 +1279,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							4.8571424,
 							48,
@@ -517,14 +1311,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							3.142857,
 							48,
@@ -541,14 +1343,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							1.4285712,
 							48,
@@ -565,14 +1375,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-0.2857144,
 							48,
@@ -589,14 +1407,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						0,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-2,
 							48,
@@ -613,13 +1439,18 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						0,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [3]
@@ -629,7 +1460,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							20,
 							10,
@@ -646,17 +1477,22 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						2,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							26.666666,
 							7.9999995,
@@ -673,14 +1509,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							33.333336,
 							6,
@@ -697,14 +1541,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							40,
 							4,
@@ -721,14 +1573,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							40,
 							4,
@@ -745,14 +1605,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							37.142857,
 							4.857143,
@@ -769,14 +1637,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							34.285717,
 							5.714286,
@@ -793,14 +1669,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							31.42857,
 							6.5714283,
@@ -817,14 +1701,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							28.571428,
 							7.4285717,
@@ -841,14 +1733,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							25.714287,
 							8.285715,
@@ -865,14 +1765,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							22.857141,
 							9.142857,
@@ -889,14 +1797,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							20,
 							10,
@@ -913,13 +1829,18 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						2,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [4]
@@ -929,7 +1850,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							0,
@@ -946,14 +1867,19 @@
 							20,
 							1,
 						),
-					)),
-					visible: Some(false),
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							0,
@@ -970,14 +1896,19 @@
 							20,
 							1,
 						),
-					)),
-					visible: None,
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							0,
@@ -994,14 +1925,19 @@
 							20,
 							1,
 						),
-					)),
-					visible: None,
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: Some(()),
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							0,
@@ -1018,14 +1954,19 @@
 							20,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: Some(()),
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							0,
@@ -1042,59 +1983,218 @@
 							20,
 							1,
 						),
-					)),
-					visible: Some(false),
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							20,
+							20,
+							1,
+						),
+					),
+					visible: false,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [5]
@@ -1104,7 +2204,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							-2,
@@ -1121,90 +2221,370 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						2,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							-2,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						2,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [6]
@@ -1214,7 +2594,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							20,
 							-22,
@@ -1231,17 +2611,22 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						13,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							22.666666,
 							-22,
@@ -1258,14 +2643,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							25.333334,
 							-22,
@@ -1282,14 +2675,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							28,
 							-22,
@@ -1306,14 +2707,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							28,
 							-22,
@@ -1330,14 +2739,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							26.857143,
 							-22,
@@ -1354,14 +2771,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							25.714287,
 							-22,
@@ -1378,14 +2803,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							24.571426,
 							-22,
@@ -1402,14 +2835,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							23.42857,
 							-22,
@@ -1426,14 +2867,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							22.285715,
 							-22,
@@ -1450,14 +2899,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							21.142857,
 							-22,
@@ -1474,14 +2931,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							20,
 							-22,
@@ -1498,13 +2963,18 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						13,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [7]
@@ -1514,7 +2984,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							12,
 							-20,
@@ -1531,17 +3001,22 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						15,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							8.666666,
 							-20,
@@ -1558,14 +3033,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							5.333333,
 							-20,
@@ -1582,14 +3065,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							2,
 							-20,
@@ -1606,14 +3097,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							2,
 							-20,
@@ -1630,14 +3129,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							3.4285717,
 							-20,
@@ -1654,14 +3161,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							4.8571434,
 							-20,
@@ -1678,14 +3193,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							6.285714,
 							-20,
@@ -1702,14 +3225,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							7.7142863,
 							-20,
@@ -1726,14 +3257,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							9.142857,
 							-20,
@@ -1750,14 +3289,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							10.571428,
 							-20,
@@ -1774,14 +3321,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							12,
 							-20,
@@ -1798,13 +3353,18 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						15,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [8]
@@ -1814,7 +3374,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-4,
 							-22,
@@ -1831,17 +3391,22 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						13,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-6.6666665,
 							-22,
@@ -1858,14 +3423,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-9.333333,
 							-22,
@@ -1882,14 +3455,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-12,
 							-22,
@@ -1906,14 +3487,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-12,
 							-22,
@@ -1930,14 +3519,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-10.857142,
 							-22,
@@ -1954,14 +3551,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-9.714286,
 							-22,
@@ -1978,14 +3583,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-8.571428,
 							-22,
@@ -2002,14 +3615,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-7.4285707,
 							-22,
@@ -2026,14 +3647,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-6.285714,
 							-22,
@@ -2050,14 +3679,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-5.142857,
 							-22,
@@ -2074,14 +3711,22 @@
 							1,
 							1,
 						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						13,
 					)),
-					visible: None,
-					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-4,
 							-22,
@@ -2098,13 +3743,18 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						13,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [9]
@@ -2114,7 +3764,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							-6,
 							-20,
@@ -2131,90 +3781,370 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						15,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							-6,
+							-20,
+							5,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						15,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [10]
@@ -2224,7 +4154,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							20,
@@ -2241,87 +4171,334 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
+					transform: (
+						translation: (
+							0,
+							20,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
 					cell: None,
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [11]
@@ -2331,7 +4508,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							0,
@@ -2348,90 +4525,370 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(false),
+					),
+					visible: false,
 					cell: Some((
 						0,
 						3,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							0,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: false,
+					cell: Some((
+						0,
+						3,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [12]
@@ -2441,7 +4898,7 @@
 			key_frames: [
 				(
 					user: None,
-					transform: Some((
+					transform: (
 						translation: (
 							0,
 							0,
@@ -2458,90 +4915,370 @@
 							1,
 							1,
 						),
-					)),
-					visible: Some(true),
+					),
+					visible: true,
 					cell: Some((
 						0,
 						11,
 					)),
-					color: None,
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [0]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [1]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [2]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [3]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [4]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [5]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [6]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [7]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [8]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [9]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [10]
 				(
 					user: None,
-					transform: None,
-					visible: None,
-					cell: None,
-					color: None,
+					transform: (
+						translation: (
+							0,
+							0,
+							1,
+						),
+						rotation: (
+							0,
+							0,
+							0,
+							1,
+						),
+						scale: (
+							1,
+							1,
+							1,
+						),
+					),
+					visible: true,
+					cell: Some((
+						0,
+						11,
+					)),
+					color: ((
+						1,
+						1,
+						1,
+						1,
+					)),
 				),// [11]
 			],
 		),// [13]
