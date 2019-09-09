@@ -58,19 +58,21 @@ impl MyState {
         world: &mut World,
         pack_name: &str,
         sprite_num: usize,
-        anim_num: usize,
+        anim_nums: Vec<usize>,
     ) {
         let animation = world.exec(
             |(loader, storage): (ReadExpect<Loader>, Read<AssetStorage<Animation>>)| {
                 let mut animation = vec![];
-                for i in 0..anim_num {
-                    let handle = loader.load(
-                        format!("{}/animation/animation{:03}.anim.ron", pack_name, i),
-                        RonFormat,
-                        &mut self.progress_counter,
-                        &storage,
-                    );
-                    animation.push(handle);
+                for (pack_idx, anim_num) in anim_nums.into_iter().enumerate() {
+                    for i in 0..anim_num {
+                        let handle = loader.load(
+                            format!("{}/animation/pack{:03}/animation{:03}.anim.ron", pack_name, pack_idx, i),
+                            RonFormat,
+                            &mut self.progress_counter,
+                            &storage,
+                        );
+                        animation.push(handle);
+                    }
                 }
                 animation
             },
@@ -117,7 +119,7 @@ impl SimpleState for MyState {
     fn on_start(&mut self, mut data: StateData<'_, GameData<'_, '_>>) {
         self.setuped = false;
 
-        self.load_animation(&mut data.world, "houou", 1, 4);
+        self.load_animation(&mut data.world, "houou", 1, vec![4,]);
 
         initialise_camera(&mut data.world);
     }
