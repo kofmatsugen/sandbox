@@ -62,19 +62,24 @@ impl MyState {
     ) {
         let animation = world.exec(
             |(loader, storage): (ReadExpect<Loader>, Read<AssetStorage<Animation>>)| {
-                let mut animation = vec![];
+                let mut pack = vec![];
                 for (pack_idx, anim_num) in anim_nums.into_iter().enumerate() {
+                    let mut animation = vec![];
                     for i in 0..anim_num {
                         let handle = loader.load(
-                            format!("{}/animation/pack{:03}/animation{:03}.anim.ron", pack_name, pack_idx, i),
+                            format!(
+                                "{}/animation/pack{:03}/animation{:03}.anim.ron",
+                                pack_name, pack_idx, i
+                            ),
                             RonFormat,
                             &mut self.progress_counter,
                             &storage,
                         );
                         animation.push(handle);
                     }
+                    pack.push(animation);
                 }
-                animation
+                pack
             },
         );
 
@@ -119,7 +124,7 @@ impl SimpleState for MyState {
     fn on_start(&mut self, mut data: StateData<'_, GameData<'_, '_>>) {
         self.setuped = false;
 
-        self.load_animation(&mut data.world, "houou", 1, vec![4,]);
+        self.load_animation(&mut data.world, "houou", 1, vec![4]);
 
         initialise_camera(&mut data.world);
     }
@@ -128,7 +133,7 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("houou".into(), 3));
+                anim_key.set_key(("houou".into(), 0, 0));
 
                 let anim_time = AnimationTime::new();
 
@@ -163,8 +168,10 @@ impl SimpleState for MyState {
                     world.exec(|mut key: WriteStorage<PlayAnimationKey<String>>| {
                         if let Some(key) = self.target_entity.and_then(|e| key.get_mut(e)) {
                             let new_key = match key.key() {
-                                Some((name, id)) => (name.clone(), (*id + 1) % 4),
-                                None => ("houou".into(), 0usize),
+                                Some((name, pack_id, id)) => {
+                                    (name.clone(), *pack_id, (*id + 1) % 4)
+                                }
+                                None => ("houou".into(), 0, 0usize),
                             };
 
                             key.set_key(new_key);
