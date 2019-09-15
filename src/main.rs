@@ -23,7 +23,7 @@ use amethyst_sprite_studio::{
     renderer::RenderSpriteAnimation,
     resource::AnimationStore,
     system::{AnimationTimeIncrementSystem, TimeLineApplySystem},
-    timeline::SpriteAnimation,
+    SpriteAnimation,
 };
 use debug_system::{EntityCountSystem, PositionDrawSystem};
 

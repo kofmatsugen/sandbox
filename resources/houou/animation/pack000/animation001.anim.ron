@@ -3,8 +3,12 @@
 	total_frame: 60,
 	timelines: [
 		(
-			id: 0,
-			parent: None,
+			part_info: (
+				id: 0,
+				parent: None,
+				part_type: Null,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -1749,8 +1753,12 @@
 			],
 		),// [0]
 		(
-			id: 1,
-			parent: Some(0),
+			part_info: (
+				id: 1,
+				parent: Some(0),
+				part_type: Null,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -3495,8 +3503,12 @@
 			],
 		),// [1]
 		(
-			id: 2,
-			parent: Some(1),
+			part_info: (
+				id: 2,
+				parent: Some(1),
+				part_type: Normal,
+				bounds: Some(Aabb),
+			),
 			key_frames: [
 				(
 					user: None,
@@ -5241,8 +5253,12 @@
 			],
 		),// [2]
 		(
-			id: 3,
-			parent: Some(0),
+			part_info: (
+				id: 3,
+				parent: Some(0),
+				part_type: Normal,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -7167,8 +7183,12 @@
 			],
 		),// [3]
 		(
-			id: 4,
-			parent: Some(3),
+			part_info: (
+				id: 4,
+				parent: Some(3),
+				part_type: Normal,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -9093,8 +9113,12 @@
 			],
 		),// [4]
 		(
-			id: 6,
-			parent: Some(3),
+			part_info: (
+				id: 6,
+				parent: Some(3),
+				part_type: Normal,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -11019,8 +11043,12 @@
 			],
 		),// [5]
 		(
-			id: 7,
-			parent: Some(3),
+			part_info: (
+				id: 7,
+				parent: Some(3),
+				part_type: Normal,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -12945,8 +12973,12 @@
 			],
 		),// [6]
 		(
-			id: 8,
-			parent: Some(7),
+			part_info: (
+				id: 8,
+				parent: Some(7),
+				part_type: Normal,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -14871,8 +14903,12 @@
 			],
 		),// [7]
 		(
-			id: 9,
-			parent: Some(3),
+			part_info: (
+				id: 9,
+				parent: Some(3),
+				part_type: Normal,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -16797,8 +16833,12 @@
 			],
 		),// [8]
 		(
-			id: 10,
-			parent: Some(9),
+			part_info: (
+				id: 10,
+				parent: Some(9),
+				part_type: Normal,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -18723,8 +18763,12 @@
 			],
 		),// [9]
 		(
-			id: 11,
-			parent: Some(3),
+			part_info: (
+				id: 11,
+				parent: Some(3),
+				part_type: Null,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -20469,8 +20513,12 @@
 			],
 		),// [10]
 		(
-			id: 12,
-			parent: Some(11),
+			part_info: (
+				id: 12,
+				parent: Some(11),
+				part_type: Normal,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
@@ -22395,8 +22443,12 @@
 			],
 		),// [11]
 		(
-			id: 13,
-			parent: Some(11),
+			part_info: (
+				id: 13,
+				parent: Some(11),
+				part_type: Normal,
+				bounds: None,
+			),
 			key_frames: [
 				(
 					user: None,
