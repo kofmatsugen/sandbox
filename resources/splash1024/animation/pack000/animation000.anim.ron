@@ -8,6 +8,7 @@
 				parent: None,
 				part_type: Null,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -38,6 +39,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -67,6 +69,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -96,6 +99,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -125,6 +129,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -154,6 +159,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -183,6 +189,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -212,6 +219,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -241,6 +249,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -270,6 +279,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -299,6 +309,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -328,6 +339,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -357,6 +369,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -386,6 +399,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -415,6 +429,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 				(
 					user: None,
@@ -444,6 +459,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [14]
 				(
 					user: None,
@@ -473,6 +489,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [15]
 				(
 					user: None,
@@ -502,6 +519,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [16]
 				(
 					user: None,
@@ -531,6 +549,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [17]
 				(
 					user: None,
@@ -560,6 +579,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [18]
 				(
 					user: None,
@@ -589,6 +609,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [19]
 				(
 					user: None,
@@ -618,6 +639,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [20]
 				(
 					user: None,
@@ -647,6 +669,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [21]
 				(
 					user: None,
@@ -676,6 +699,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [22]
 				(
 					user: None,
@@ -705,6 +729,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [23]
 				(
 					user: None,
@@ -734,6 +759,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [24]
 				(
 					user: None,
@@ -763,6 +789,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [25]
 				(
 					user: None,
@@ -792,6 +819,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [26]
 				(
 					user: None,
@@ -821,6 +849,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [27]
 				(
 					user: None,
@@ -850,6 +879,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [28]
 				(
 					user: None,
@@ -879,6 +909,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [29]
 				(
 					user: None,
@@ -908,6 +939,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [30]
 				(
 					user: None,
@@ -937,6 +969,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [31]
 				(
 					user: None,
@@ -966,6 +999,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [32]
 				(
 					user: None,
@@ -995,6 +1029,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [33]
 				(
 					user: None,
@@ -1024,6 +1059,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [34]
 				(
 					user: None,
@@ -1053,6 +1089,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [35]
 				(
 					user: None,
@@ -1082,6 +1119,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [36]
 				(
 					user: None,
@@ -1111,6 +1149,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [37]
 				(
 					user: None,
@@ -1140,6 +1179,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [38]
 				(
 					user: None,
@@ -1169,6 +1209,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [39]
 				(
 					user: None,
@@ -1198,6 +1239,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [40]
 				(
 					user: None,
@@ -1227,6 +1269,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [41]
 				(
 					user: None,
@@ -1256,6 +1299,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [42]
 				(
 					user: None,
@@ -1285,6 +1329,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [43]
 				(
 					user: None,
@@ -1314,6 +1359,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [44]
 				(
 					user: None,
@@ -1343,6 +1389,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [45]
 				(
 					user: None,
@@ -1372,6 +1419,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [46]
 				(
 					user: None,
@@ -1401,6 +1449,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [47]
 				(
 					user: None,
@@ -1430,6 +1479,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [48]
 				(
 					user: None,
@@ -1459,6 +1509,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [49]
 				(
 					user: None,
@@ -1488,6 +1539,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [50]
 				(
 					user: None,
@@ -1517,6 +1569,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [51]
 				(
 					user: None,
@@ -1546,6 +1599,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [52]
 				(
 					user: None,
@@ -1575,6 +1629,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [53]
 				(
 					user: None,
@@ -1604,6 +1659,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [54]
 				(
 					user: None,
@@ -1633,6 +1689,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [55]
 				(
 					user: None,
@@ -1662,6 +1719,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [56]
 				(
 					user: None,
@@ -1691,6 +1749,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [57]
 				(
 					user: None,
@@ -1720,6 +1779,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [58]
 				(
 					user: None,
@@ -1749,6 +1809,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [59]
 				(
 					user: None,
@@ -1778,6 +1839,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [60]
 				(
 					user: None,
@@ -1807,6 +1869,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [61]
 				(
 					user: None,
@@ -1836,6 +1899,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [62]
 				(
 					user: None,
@@ -1865,6 +1929,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [63]
 				(
 					user: None,
@@ -1894,6 +1959,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [64]
 				(
 					user: None,
@@ -1923,6 +1989,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [65]
 				(
 					user: None,
@@ -1952,6 +2019,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [66]
 				(
 					user: None,
@@ -1981,6 +2049,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [67]
 				(
 					user: None,
@@ -2010,6 +2079,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [68]
 				(
 					user: None,
@@ -2039,6 +2109,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [69]
 				(
 					user: None,
@@ -2068,6 +2139,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [70]
 				(
 					user: None,
@@ -2097,6 +2169,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [71]
 				(
 					user: None,
@@ -2126,6 +2199,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [72]
 				(
 					user: None,
@@ -2155,6 +2229,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [73]
 				(
 					user: None,
@@ -2184,6 +2259,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [74]
 				(
 					user: None,
@@ -2213,6 +2289,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [75]
 				(
 					user: None,
@@ -2242,6 +2319,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [76]
 				(
 					user: None,
@@ -2271,6 +2349,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [77]
 				(
 					user: None,
@@ -2300,6 +2379,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [78]
 				(
 					user: None,
@@ -2329,6 +2409,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [79]
 				(
 					user: None,
@@ -2358,6 +2439,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [80]
 				(
 					user: None,
@@ -2387,6 +2469,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [81]
 				(
 					user: None,
@@ -2416,6 +2499,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [82]
 				(
 					user: None,
@@ -2445,6 +2529,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [83]
 				(
 					user: None,
@@ -2474,6 +2559,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [84]
 				(
 					user: None,
@@ -2503,6 +2589,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [85]
 				(
 					user: None,
@@ -2532,6 +2619,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [86]
 				(
 					user: None,
@@ -2561,6 +2649,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [87]
 				(
 					user: None,
@@ -2590,6 +2679,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [88]
 				(
 					user: None,
@@ -2619,6 +2709,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [89]
 				(
 					user: None,
@@ -2648,6 +2739,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [90]
 				(
 					user: None,
@@ -2677,6 +2769,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [91]
 				(
 					user: None,
@@ -2706,6 +2799,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [92]
 				(
 					user: None,
@@ -2735,6 +2829,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [93]
 				(
 					user: None,
@@ -2764,6 +2859,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [94]
 				(
 					user: None,
@@ -2793,6 +2889,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [95]
 				(
 					user: None,
@@ -2822,6 +2919,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [96]
 				(
 					user: None,
@@ -2851,6 +2949,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [97]
 				(
 					user: None,
@@ -2880,6 +2979,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [98]
 				(
 					user: None,
@@ -2909,6 +3009,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [99]
 				(
 					user: None,
@@ -2938,6 +3039,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [100]
 				(
 					user: None,
@@ -2967,6 +3069,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [101]
 				(
 					user: None,
@@ -2996,6 +3099,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [102]
 				(
 					user: None,
@@ -3025,6 +3129,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [103]
 				(
 					user: None,
@@ -3054,6 +3159,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [104]
 				(
 					user: None,
@@ -3083,6 +3189,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [105]
 				(
 					user: None,
@@ -3112,6 +3219,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [106]
 				(
 					user: None,
@@ -3141,6 +3249,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [107]
 				(
 					user: None,
@@ -3170,6 +3279,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [108]
 				(
 					user: None,
@@ -3199,6 +3309,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [109]
 				(
 					user: None,
@@ -3228,6 +3339,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [110]
 				(
 					user: None,
@@ -3257,6 +3369,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [111]
 				(
 					user: None,
@@ -3286,6 +3399,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [112]
 				(
 					user: None,
@@ -3315,6 +3429,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [113]
 				(
 					user: None,
@@ -3344,6 +3459,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [114]
 				(
 					user: None,
@@ -3373,6 +3489,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [115]
 				(
 					user: None,
@@ -3402,6 +3519,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [116]
 				(
 					user: None,
@@ -3431,6 +3549,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [117]
 				(
 					user: None,
@@ -3460,6 +3579,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [118]
 				(
 					user: None,
@@ -3489,6 +3609,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [119]
 			],
 		),// [0]
@@ -3498,6 +3619,10 @@
 				parent: Some(0),
 				part_type: Instance,
 				bounds: None,
+				animation_ref: Some((
+					pack_id: 1,
+					animation_id: 0,
+				)),
 			),
 			key_frames: [
 				(
@@ -3528,6 +3653,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 0,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [0]
 				(
 					user: None,
@@ -3556,6 +3690,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 1,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [1]
 				(
@@ -3586,6 +3729,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 2,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [2]
 				(
 					user: None,
@@ -3614,6 +3766,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 3,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [3]
 				(
@@ -3644,6 +3805,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 4,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [4]
 				(
 					user: None,
@@ -3672,6 +3842,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 5,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [5]
 				(
@@ -3702,6 +3881,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 6,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [6]
 				(
 					user: None,
@@ -3730,6 +3918,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 7,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [7]
 				(
@@ -3760,6 +3957,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 8,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [8]
 				(
 					user: None,
@@ -3788,6 +3994,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 9,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [9]
 				(
@@ -3818,6 +4033,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 10,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [10]
 				(
 					user: None,
@@ -3846,6 +4070,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 11,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [11]
 				(
@@ -3876,6 +4109,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 12,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [12]
 				(
 					user: None,
@@ -3904,6 +4146,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 13,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [13]
 				(
@@ -3934,6 +4185,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 14,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [14]
 				(
 					user: None,
@@ -3962,6 +4222,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 15,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [15]
 				(
@@ -3992,6 +4261,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 16,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [16]
 				(
 					user: None,
@@ -4020,6 +4298,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 17,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [17]
 				(
@@ -4050,6 +4337,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 18,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [18]
 				(
 					user: None,
@@ -4078,6 +4374,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 19,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [19]
 				(
@@ -4108,6 +4413,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 20,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [20]
 				(
 					user: None,
@@ -4136,6 +4450,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 21,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [21]
 				(
@@ -4166,6 +4489,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 22,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [22]
 				(
 					user: None,
@@ -4194,6 +4526,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 23,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [23]
 				(
@@ -4224,6 +4565,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 24,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [24]
 				(
 					user: None,
@@ -4252,6 +4602,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 25,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [25]
 				(
@@ -4282,6 +4641,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 26,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [26]
 				(
 					user: None,
@@ -4310,6 +4678,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 27,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [27]
 				(
@@ -4340,6 +4717,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 28,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [28]
 				(
 					user: None,
@@ -4368,6 +4754,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 29,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [29]
 				(
@@ -4398,6 +4793,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 30,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [30]
 				(
 					user: None,
@@ -4426,6 +4830,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 31,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [31]
 				(
@@ -4456,6 +4869,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 32,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [32]
 				(
 					user: None,
@@ -4484,6 +4906,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 33,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [33]
 				(
@@ -4514,6 +4945,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 34,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [34]
 				(
 					user: None,
@@ -4542,6 +4982,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 35,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [35]
 				(
@@ -4572,6 +5021,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 36,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [36]
 				(
 					user: None,
@@ -4600,6 +5058,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 37,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [37]
 				(
@@ -4630,6 +5097,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 38,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [38]
 				(
 					user: None,
@@ -4658,6 +5134,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 39,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [39]
 				(
@@ -4688,6 +5173,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 40,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [40]
 				(
 					user: None,
@@ -4716,6 +5210,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 41,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [41]
 				(
@@ -4746,6 +5249,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 42,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [42]
 				(
 					user: None,
@@ -4774,6 +5286,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 43,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [43]
 				(
@@ -4804,6 +5325,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 44,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [44]
 				(
 					user: None,
@@ -4832,6 +5362,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 45,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [45]
 				(
@@ -4862,6 +5401,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 46,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [46]
 				(
 					user: None,
@@ -4890,6 +5438,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 47,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [47]
 				(
@@ -4920,6 +5477,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 48,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [48]
 				(
 					user: None,
@@ -4948,6 +5514,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 49,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [49]
 				(
@@ -4978,6 +5553,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 50,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [50]
 				(
 					user: None,
@@ -5006,6 +5590,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 51,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [51]
 				(
@@ -5036,6 +5629,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 52,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [52]
 				(
 					user: None,
@@ -5064,6 +5666,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 53,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [53]
 				(
@@ -5094,6 +5705,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 54,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [54]
 				(
 					user: None,
@@ -5122,6 +5742,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 55,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [55]
 				(
@@ -5152,6 +5781,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 56,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [56]
 				(
 					user: None,
@@ -5180,6 +5818,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 57,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [57]
 				(
@@ -5210,6 +5857,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 58,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [58]
 				(
 					user: None,
@@ -5238,6 +5894,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 59,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [59]
 				(
@@ -5268,6 +5933,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 60,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [60]
 				(
 					user: None,
@@ -5296,6 +5970,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 61,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [61]
 				(
@@ -5326,6 +6009,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 62,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [62]
 				(
 					user: None,
@@ -5354,6 +6046,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 63,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [63]
 				(
@@ -5384,6 +6085,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 64,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [64]
 				(
 					user: None,
@@ -5412,6 +6122,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 65,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [65]
 				(
@@ -5442,6 +6161,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 66,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [66]
 				(
 					user: None,
@@ -5470,6 +6198,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 67,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [67]
 				(
@@ -5500,6 +6237,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 68,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [68]
 				(
 					user: None,
@@ -5528,6 +6274,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 69,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [69]
 				(
@@ -5558,6 +6313,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 70,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [70]
 				(
 					user: None,
@@ -5586,6 +6350,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 71,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [71]
 				(
@@ -5616,6 +6389,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 72,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [72]
 				(
 					user: None,
@@ -5644,6 +6426,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 73,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [73]
 				(
@@ -5674,6 +6465,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 74,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [74]
 				(
 					user: None,
@@ -5702,6 +6502,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 75,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [75]
 				(
@@ -5732,6 +6541,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 76,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [76]
 				(
 					user: None,
@@ -5760,6 +6578,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 77,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [77]
 				(
@@ -5790,6 +6617,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 78,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [78]
 				(
 					user: None,
@@ -5818,6 +6654,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 79,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [79]
 				(
@@ -5848,6 +6693,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 80,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [80]
 				(
 					user: None,
@@ -5876,6 +6730,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 81,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [81]
 				(
@@ -5906,6 +6769,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 82,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [82]
 				(
 					user: None,
@@ -5934,6 +6806,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 83,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [83]
 				(
@@ -5964,6 +6845,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 84,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [84]
 				(
 					user: None,
@@ -5992,6 +6882,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 85,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [85]
 				(
@@ -6022,6 +6921,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 86,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [86]
 				(
 					user: None,
@@ -6050,6 +6958,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 87,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [87]
 				(
@@ -6080,6 +6997,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 88,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [88]
 				(
 					user: None,
@@ -6108,6 +7034,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 89,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [89]
 				(
@@ -6138,6 +7073,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 90,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [90]
 				(
 					user: None,
@@ -6166,6 +7110,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 91,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [91]
 				(
@@ -6196,6 +7149,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 92,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [92]
 				(
 					user: None,
@@ -6224,6 +7186,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 93,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [93]
 				(
@@ -6254,6 +7225,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 94,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [94]
 				(
 					user: None,
@@ -6282,6 +7262,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 95,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [95]
 				(
@@ -6312,6 +7301,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 96,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [96]
 				(
 					user: None,
@@ -6340,6 +7338,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 97,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [97]
 				(
@@ -6370,6 +7377,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 98,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [98]
 				(
 					user: None,
@@ -6398,6 +7414,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 99,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [99]
 				(
@@ -6428,6 +7453,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 100,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [100]
 				(
 					user: None,
@@ -6456,6 +7490,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 101,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [101]
 				(
@@ -6486,6 +7529,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 102,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [102]
 				(
 					user: None,
@@ -6514,6 +7566,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 103,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [103]
 				(
@@ -6544,6 +7605,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 104,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [104]
 				(
 					user: None,
@@ -6572,6 +7642,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 105,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [105]
 				(
@@ -6602,6 +7681,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 106,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [106]
 				(
 					user: None,
@@ -6630,6 +7718,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 107,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [107]
 				(
@@ -6660,6 +7757,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 108,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [108]
 				(
 					user: None,
@@ -6688,6 +7794,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 109,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [109]
 				(
@@ -6718,6 +7833,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 110,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [110]
 				(
 					user: None,
@@ -6746,6 +7870,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 111,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [111]
 				(
@@ -6776,6 +7909,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 112,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [112]
 				(
 					user: None,
@@ -6804,6 +7946,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 113,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [113]
 				(
@@ -6834,6 +7985,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 114,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [114]
 				(
 					user: None,
@@ -6862,6 +8022,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 115,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [115]
 				(
@@ -6892,6 +8061,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 116,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [116]
 				(
 					user: None,
@@ -6920,6 +8098,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 117,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [117]
 				(
@@ -6950,6 +8137,15 @@
 						1,
 						1,
 					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 118,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
+					)),
 				),// [118]
 				(
 					user: None,
@@ -6978,6 +8174,15 @@
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 119,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [119]
 			],
@@ -6988,6 +8193,10 @@
 				parent: Some(0),
 				part_type: Instance,
 				bounds: None,
+				animation_ref: Some((
+					pack_id: 1,
+					animation_id: 1,
+				)),
 			),
 			key_frames: [
 				(
@@ -7018,6 +8227,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -7047,6 +8257,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -7076,6 +8287,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -7105,6 +8317,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -7134,6 +8347,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -7163,6 +8377,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -7192,6 +8407,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -7221,6 +8437,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -7250,6 +8467,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -7279,6 +8497,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -7308,6 +8527,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -7337,6 +8557,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -7366,6 +8587,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -7395,6 +8617,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 				(
 					user: None,
@@ -7424,6 +8647,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [14]
 				(
 					user: None,
@@ -7453,6 +8677,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [15]
 				(
 					user: None,
@@ -7482,6 +8707,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [16]
 				(
 					user: None,
@@ -7511,6 +8737,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [17]
 				(
 					user: None,
@@ -7540,6 +8767,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [18]
 				(
 					user: None,
@@ -7569,6 +8797,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [19]
 				(
 					user: None,
@@ -7598,6 +8827,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [20]
 				(
 					user: None,
@@ -7627,6 +8857,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [21]
 				(
 					user: None,
@@ -7656,6 +8887,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [22]
 				(
 					user: None,
@@ -7685,6 +8917,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [23]
 				(
 					user: None,
@@ -7714,6 +8947,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [24]
 				(
 					user: None,
@@ -7743,6 +8977,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [25]
 				(
 					user: None,
@@ -7772,6 +9007,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [26]
 				(
 					user: None,
@@ -7801,6 +9037,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [27]
 				(
 					user: None,
@@ -7830,6 +9067,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [28]
 				(
 					user: None,
@@ -7859,6 +9097,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [29]
 				(
 					user: None,
@@ -7888,6 +9127,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [30]
 				(
 					user: None,
@@ -7917,6 +9157,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [31]
 				(
 					user: None,
@@ -7946,6 +9187,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [32]
 				(
 					user: None,
@@ -7975,6 +9217,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [33]
 				(
 					user: None,
@@ -8004,6 +9247,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [34]
 				(
 					user: None,
@@ -8033,6 +9277,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [35]
 				(
 					user: None,
@@ -8062,6 +9307,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [36]
 				(
 					user: None,
@@ -8091,6 +9337,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [37]
 				(
 					user: None,
@@ -8120,6 +9367,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [38]
 				(
 					user: None,
@@ -8149,6 +9397,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [39]
 				(
 					user: None,
@@ -8178,6 +9427,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [40]
 				(
 					user: None,
@@ -8207,6 +9457,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [41]
 				(
 					user: None,
@@ -8236,6 +9487,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [42]
 				(
 					user: None,
@@ -8265,6 +9517,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [43]
 				(
 					user: None,
@@ -8294,6 +9547,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [44]
 				(
 					user: None,
@@ -8323,6 +9577,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [45]
 				(
 					user: None,
@@ -8352,6 +9607,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [46]
 				(
 					user: None,
@@ -8381,6 +9637,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [47]
 				(
 					user: None,
@@ -8410,6 +9667,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [48]
 				(
 					user: None,
@@ -8439,6 +9697,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [49]
 				(
 					user: None,
@@ -8468,6 +9727,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [50]
 				(
 					user: None,
@@ -8497,6 +9757,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [51]
 				(
 					user: None,
@@ -8526,6 +9787,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [52]
 				(
 					user: None,
@@ -8555,6 +9817,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [53]
 				(
 					user: None,
@@ -8584,6 +9847,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [54]
 				(
 					user: None,
@@ -8613,6 +9877,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [55]
 				(
 					user: None,
@@ -8642,6 +9907,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [56]
 				(
 					user: None,
@@ -8671,6 +9937,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [57]
 				(
 					user: None,
@@ -8700,6 +9967,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [58]
 				(
 					user: None,
@@ -8729,6 +9997,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [59]
 				(
 					user: None,
@@ -8758,6 +10027,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [60]
 				(
 					user: None,
@@ -8787,6 +10057,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [61]
 				(
 					user: None,
@@ -8816,6 +10087,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [62]
 				(
 					user: None,
@@ -8845,6 +10117,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [63]
 				(
 					user: None,
@@ -8874,6 +10147,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [64]
 				(
 					user: None,
@@ -8903,6 +10177,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [65]
 				(
 					user: None,
@@ -8932,6 +10207,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [66]
 				(
 					user: None,
@@ -8961,6 +10237,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [67]
 				(
 					user: None,
@@ -8990,6 +10267,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [68]
 				(
 					user: None,
@@ -9019,6 +10297,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [69]
 				(
 					user: None,
@@ -9048,6 +10327,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [70]
 				(
 					user: None,
@@ -9077,6 +10357,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [71]
 				(
 					user: None,
@@ -9106,6 +10387,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [72]
 				(
 					user: None,
@@ -9135,6 +10417,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [73]
 				(
 					user: None,
@@ -9164,6 +10447,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [74]
 				(
 					user: None,
@@ -9193,6 +10477,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [75]
 				(
 					user: None,
@@ -9222,6 +10507,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [76]
 				(
 					user: None,
@@ -9251,6 +10537,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [77]
 				(
 					user: None,
@@ -9280,6 +10567,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [78]
 				(
 					user: None,
@@ -9309,6 +10597,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [79]
 				(
 					user: None,
@@ -9338,6 +10627,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [80]
 				(
 					user: None,
@@ -9367,6 +10657,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [81]
 				(
 					user: None,
@@ -9396,6 +10687,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [82]
 				(
 					user: None,
@@ -9425,6 +10717,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [83]
 				(
 					user: None,
@@ -9454,6 +10747,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [84]
 				(
 					user: None,
@@ -9483,6 +10777,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [85]
 				(
 					user: None,
@@ -9512,6 +10807,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [86]
 				(
 					user: None,
@@ -9541,6 +10837,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [87]
 				(
 					user: None,
@@ -9570,6 +10867,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [88]
 				(
 					user: None,
@@ -9599,6 +10897,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [89]
 				(
 					user: None,
@@ -9628,6 +10927,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [90]
 				(
 					user: None,
@@ -9657,6 +10957,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [91]
 				(
 					user: None,
@@ -9686,6 +10987,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [92]
 				(
 					user: None,
@@ -9715,6 +11017,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [93]
 				(
 					user: None,
@@ -9744,6 +11047,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [94]
 				(
 					user: None,
@@ -9773,6 +11077,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [95]
 				(
 					user: None,
@@ -9802,6 +11107,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [96]
 				(
 					user: None,
@@ -9831,6 +11137,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [97]
 				(
 					user: None,
@@ -9860,6 +11167,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [98]
 				(
 					user: None,
@@ -9889,6 +11197,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [99]
 				(
 					user: None,
@@ -9910,13 +11219,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 0,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [100]
 				(
@@ -9939,13 +11257,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 1,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [101]
 				(
@@ -9968,13 +11295,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 2,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [102]
 				(
@@ -9997,13 +11333,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 3,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [103]
 				(
@@ -10026,13 +11371,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 4,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [104]
 				(
@@ -10055,13 +11409,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 5,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [105]
 				(
@@ -10084,13 +11447,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 6,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [106]
 				(
@@ -10113,13 +11485,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 7,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [107]
 				(
@@ -10142,13 +11523,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 8,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [108]
 				(
@@ -10171,13 +11561,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 9,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [109]
 				(
@@ -10200,13 +11599,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 10,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [110]
 				(
@@ -10229,13 +11637,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 11,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [111]
 				(
@@ -10258,13 +11675,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 12,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [112]
 				(
@@ -10287,13 +11713,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 13,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [113]
 				(
@@ -10316,13 +11751,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 14,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [114]
 				(
@@ -10345,13 +11789,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 15,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [115]
 				(
@@ -10374,13 +11827,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 16,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [116]
 				(
@@ -10403,13 +11865,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 17,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [117]
 				(
@@ -10432,13 +11903,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 18,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [118]
 				(
@@ -10461,13 +11941,22 @@
 							1,
 						),
 					),
-					visible: true,
+					visible: false,
 					cell: None,
 					color: ((
 						1,
 						1,
 						1,
 						1,
+					)),
+					instance_key: Some((
+						independent: false,
+						loop_num: Some(1),
+						play_frame: 19,
+						end_offset: 0,
+						reverse: false,
+						pingpong: true,
+						speed_rate: 1,
 					)),
 				),// [119]
 			],

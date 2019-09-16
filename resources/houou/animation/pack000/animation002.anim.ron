@@ -8,6 +8,7 @@
 				parent: None,
 				part_type: Null,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -38,6 +39,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -67,6 +69,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -96,6 +99,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -125,6 +129,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -154,6 +159,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -183,6 +189,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -212,6 +219,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -241,6 +249,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -270,6 +279,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -299,6 +309,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -328,6 +339,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -357,6 +369,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -386,6 +399,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -415,6 +429,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [0]
@@ -424,6 +439,7 @@
 				parent: Some(0),
 				part_type: Null,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -454,6 +470,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -483,6 +500,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -512,6 +530,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -541,6 +560,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -570,6 +590,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -599,6 +620,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -628,6 +650,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -657,6 +680,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -686,6 +710,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -715,6 +740,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -744,6 +770,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -773,6 +800,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -802,6 +830,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -831,6 +860,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [1]
@@ -840,6 +870,7 @@
 				parent: Some(1),
 				part_type: Normal,
 				bounds: Some(Aabb),
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -870,6 +901,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -899,6 +931,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -928,6 +961,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -957,6 +991,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -986,6 +1021,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -1015,6 +1051,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -1044,6 +1081,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -1073,6 +1111,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -1102,6 +1141,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -1131,6 +1171,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -1160,6 +1201,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -1189,6 +1231,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -1218,6 +1261,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -1247,6 +1291,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [2]
@@ -1256,6 +1301,7 @@
 				parent: Some(0),
 				part_type: Normal,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -1289,6 +1335,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -1321,6 +1368,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -1353,6 +1401,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -1385,6 +1434,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -1417,6 +1467,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -1449,6 +1500,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -1481,6 +1533,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -1513,6 +1566,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -1545,6 +1599,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -1577,6 +1632,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -1609,6 +1665,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -1641,6 +1698,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -1673,6 +1731,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -1705,6 +1764,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [3]
@@ -1714,6 +1774,7 @@
 				parent: Some(3),
 				part_type: Normal,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -1747,6 +1808,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -1779,6 +1841,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -1811,6 +1874,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -1843,6 +1907,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -1875,6 +1940,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -1907,6 +1973,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -1939,6 +2006,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -1971,6 +2039,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -2003,6 +2072,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -2035,6 +2105,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -2067,6 +2138,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -2099,6 +2171,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -2131,6 +2204,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -2163,6 +2237,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [4]
@@ -2172,6 +2247,7 @@
 				parent: Some(3),
 				part_type: Normal,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -2205,6 +2281,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -2237,6 +2314,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -2269,6 +2347,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -2301,6 +2380,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -2333,6 +2413,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -2365,6 +2446,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -2397,6 +2479,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -2429,6 +2512,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -2461,6 +2545,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -2493,6 +2578,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -2525,6 +2611,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -2557,6 +2644,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -2589,6 +2677,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -2621,6 +2710,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [5]
@@ -2630,6 +2720,7 @@
 				parent: Some(3),
 				part_type: Normal,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -2663,6 +2754,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -2695,6 +2787,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -2727,6 +2820,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -2759,6 +2853,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -2791,6 +2886,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -2823,6 +2919,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -2855,6 +2952,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -2887,6 +2985,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -2919,6 +3018,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -2951,6 +3051,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -2983,6 +3084,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -3015,6 +3117,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -3047,6 +3150,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -3079,6 +3183,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [6]
@@ -3088,6 +3193,7 @@
 				parent: Some(7),
 				part_type: Normal,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -3121,6 +3227,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -3153,6 +3260,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -3185,6 +3293,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -3217,6 +3326,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -3249,6 +3359,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -3281,6 +3392,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -3313,6 +3425,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -3345,6 +3458,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -3377,6 +3491,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -3409,6 +3524,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -3441,6 +3557,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -3473,6 +3590,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -3505,6 +3623,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -3537,6 +3656,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [7]
@@ -3546,6 +3666,7 @@
 				parent: Some(3),
 				part_type: Normal,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -3579,6 +3700,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -3611,6 +3733,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -3643,6 +3766,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -3675,6 +3799,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -3707,6 +3832,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -3739,6 +3865,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -3771,6 +3898,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -3803,6 +3931,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -3835,6 +3964,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -3867,6 +3997,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -3899,6 +4030,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -3931,6 +4063,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -3963,6 +4096,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -3995,6 +4129,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [8]
@@ -4004,6 +4139,7 @@
 				parent: Some(9),
 				part_type: Normal,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -4037,6 +4173,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -4069,6 +4206,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -4101,6 +4239,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -4133,6 +4272,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -4165,6 +4305,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -4197,6 +4338,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -4229,6 +4371,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -4261,6 +4404,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -4293,6 +4437,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -4325,6 +4470,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -4357,6 +4503,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -4389,6 +4536,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -4421,6 +4569,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -4453,6 +4602,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [9]
@@ -4462,6 +4612,7 @@
 				parent: Some(3),
 				part_type: Null,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -4492,6 +4643,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -4521,6 +4673,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -4550,6 +4703,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -4579,6 +4733,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -4608,6 +4763,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -4637,6 +4793,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -4666,6 +4823,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -4695,6 +4853,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -4724,6 +4883,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -4753,6 +4913,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -4782,6 +4943,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -4811,6 +4973,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -4840,6 +5003,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -4869,6 +5033,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [10]
@@ -4878,6 +5043,7 @@
 				parent: Some(11),
 				part_type: Normal,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -4911,6 +5077,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -4943,6 +5110,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -4975,6 +5143,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -5007,6 +5176,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -5039,6 +5209,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -5071,6 +5242,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -5103,6 +5275,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -5135,6 +5308,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -5167,6 +5341,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -5199,6 +5374,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -5231,6 +5407,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -5263,6 +5440,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -5295,6 +5473,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -5327,6 +5506,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [11]
@@ -5336,6 +5516,7 @@
 				parent: Some(11),
 				part_type: Normal,
 				bounds: None,
+				animation_ref: None,
 			),
 			key_frames: [
 				(
@@ -5369,6 +5550,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [0]
 				(
 					user: None,
@@ -5401,6 +5583,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [1]
 				(
 					user: None,
@@ -5433,6 +5616,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [2]
 				(
 					user: None,
@@ -5465,6 +5649,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [3]
 				(
 					user: None,
@@ -5497,6 +5682,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [4]
 				(
 					user: None,
@@ -5529,6 +5715,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [5]
 				(
 					user: None,
@@ -5561,6 +5748,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [6]
 				(
 					user: None,
@@ -5593,6 +5781,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [7]
 				(
 					user: None,
@@ -5625,6 +5814,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [8]
 				(
 					user: None,
@@ -5657,6 +5847,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [9]
 				(
 					user: None,
@@ -5689,6 +5880,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [10]
 				(
 					user: None,
@@ -5721,6 +5913,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [11]
 				(
 					user: None,
@@ -5753,6 +5946,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [12]
 				(
 					user: None,
@@ -5785,6 +5979,7 @@
 						1,
 						1,
 					)),
+					instance_key: None,
 				),// [13]
 			],
 		),// [12]
