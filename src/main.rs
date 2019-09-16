@@ -8,6 +8,7 @@ use amethyst::{
         camera::Camera,
         formats::texture::ImageFormat,
         plugins::{RenderDebugLines, RenderToWindow},
+        rendy::hal::image::Filter,
         sprite::{SpriteSheet, SpriteSheetFormat},
         types::DefaultBackend,
         RenderingBundle, Texture,
@@ -93,7 +94,7 @@ impl MyState {
                 for i in 0..sprite_num {
                     let texture = loader.load(
                         format!("{}/image/sprite{:03}.png", pack_name, i),
-                        ImageFormat::default(),
+                        texture_format(),
                         &mut self.progress_counter,
                         &tex_storage,
                     );
@@ -124,7 +125,7 @@ impl SimpleState for MyState {
     fn on_start(&mut self, mut data: StateData<'_, GameData<'_, '_>>) {
         self.setuped = false;
 
-        self.load_animation(&mut data.world, "houou", 1, vec![4]);
+        self.load_animation(&mut data.world, "splash1024", 1, vec![1, 2]);
 
         initialise_camera(&mut data.world);
     }
@@ -133,12 +134,9 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("houou".into(), 0, 0));
-
+                anim_key.set_key(("splash1024".into(), 0, 0));
                 let anim_time = AnimationTime::new();
-
-                let mut transform = Transform::default();
-                transform.set_scale([2.0, 2.0, 1.0].into());
+                let transform = Transform::default();
 
                 self.target_entity = data
                     .world
@@ -217,4 +215,14 @@ fn main() -> amethyst::Result<()> {
     game.run();
 
     Ok(())
+}
+
+fn texture_format() -> ImageFormat {
+    let mut format = ImageFormat::default();
+
+    format.0.sampler_info.min_filter = Filter::Linear;
+    format.0.sampler_info.mag_filter = Filter::Linear;
+    format.0.sampler_info.mip_filter = Filter::Linear;
+
+    format
 }
