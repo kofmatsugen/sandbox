@@ -18,6 +18,7 @@ use amethyst::{
     utils::application_root_dir,
     window::ScreenDimensions,
     winit::ElementState,
+    LogLevelFilter, LoggerConfig,
 };
 use amethyst_sprite_studio::{
     components::{AnimationTime, PlayAnimationKey},
@@ -44,7 +45,7 @@ fn initialise_camera(world: &mut World) {
     };
 
     let mut camera_transform = Transform::default();
-    camera_transform.set_translation_z(100.0);
+    camera_transform.set_translation_z(1024.0);
 
     world
         .create_entity()
@@ -125,7 +126,7 @@ impl SimpleState for MyState {
     fn on_start(&mut self, mut data: StateData<'_, GameData<'_, '_>>) {
         self.setuped = false;
 
-        self.load_animation(&mut data.world, "splash1024", 1, vec![1, 2]);
+        self.load_animation(&mut data.world, "character_template1", 1, vec![35]);
 
         initialise_camera(&mut data.world);
     }
@@ -134,9 +135,10 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("splash1024".into(), 0, 0));
+                anim_key.set_key(("character_template1".into(), 0, 34));
                 let anim_time = AnimationTime::new();
-                let transform = Transform::default();
+                let mut transform = Transform::default();
+                transform.set_translation_y(-200.);
 
                 self.target_entity = data
                     .world
@@ -167,7 +169,7 @@ impl SimpleState for MyState {
                         if let Some(key) = self.target_entity.and_then(|e| key.get_mut(e)) {
                             let new_key = match key.key() {
                                 Some((name, pack_id, id)) => {
-                                    (name.clone(), *pack_id, (*id + 1) % 4)
+                                    (name.clone(), *pack_id, (*id + 1) % 35)
                                 }
                                 None => ("houou".into(), 0, 0usize),
                             };
@@ -185,7 +187,9 @@ impl SimpleState for MyState {
 }
 
 fn main() -> amethyst::Result<()> {
-    amethyst::start_logger(Default::default());
+    amethyst::start_logger(LoggerConfig {
+        ..Default::default()
+    });
 
     let app_root = application_root_dir()?;
 

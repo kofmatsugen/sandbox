@@ -5,612 +5,29 @@
 		(
 			part_info: (
 				id: 0,
-				parent: None,
 				part_type: Null,
-				bounds: None,
-				animation_ref: None,
 			),
 			key_frames: [
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [0]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [1]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [2]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [3]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [4]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [5]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [6]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [7]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [8]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [9]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [10]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [11]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [12]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [13]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [14]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [15]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [16]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [17]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [18]
-				(
-					user: None,
-					transform: (
-						translation: (
-							0,
-							0,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
-					),
-					visible: true,
-					cell: None,
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
-				),// [19]
+				(),// [0]
+				(),// [1]
+				(),// [2]
+				(),// [3]
+				(),// [4]
+				(),// [5]
+				(),// [6]
+				(),// [7]
+				(),// [8]
+				(),// [9]
+				(),// [10]
+				(),// [11]
+				(),// [12]
+				(),// [13]
+				(),// [14]
+				(),// [15]
+				(),// [16]
+				(),// [17]
+				(),// [18]
+				(),// [19]
 			],
 		),// [0]
 		(
@@ -618,669 +35,186 @@
 				id: 1,
 				parent: Some(0),
 				part_type: Normal,
-				bounds: None,
-				animation_ref: None,
 			),
 			key_frames: [
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
 				),// [0]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.9,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0.9)),
 				),// [1]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.8,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0.8)),
 				),// [2]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.7,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0.7)),
 				),// [3]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.6,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0.6)),
 				),// [4]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.5,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0.5)),
 				),// [5]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.39999998,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0.39999998)),
 				),// [6]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.3,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0.3)),
 				),// [7]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.19999999,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0.19999999)),
 				),// [8]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.100000024,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0.100000024)),
 				),// [9]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [10]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [11]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [12]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [13]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [14]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [15]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [16]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [17]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [18]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-72,
-							0,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -72, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						3,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 3)),
+					color: ((1, 1, 1, 0)),
 				),// [19]
 			],
 		),// [1]
@@ -1289,669 +223,186 @@
 				id: 2,
 				parent: Some(0),
 				part_type: Normal,
-				bounds: None,
-				animation_ref: None,
 			),
 			key_frames: [
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
 				),// [0]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.9,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0.9)),
 				),// [1]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.8,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0.8)),
 				),// [2]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.7,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0.7)),
 				),// [3]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.6,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0.6)),
 				),// [4]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.5,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0.5)),
 				),// [5]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.39999998,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0.39999998)),
 				),// [6]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.3,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0.3)),
 				),// [7]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.19999999,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0.19999999)),
 				),// [8]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.100000024,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0.100000024)),
 				),// [9]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [10]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [11]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [12]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [13]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [14]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [15]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [16]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [17]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [18]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-44,
-							1,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -44, 1),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						2,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 2)),
+					color: ((1, 1, 1, 0)),
 				),// [19]
 			],
 		),// [2]
@@ -1960,669 +411,186 @@
 				id: 3,
 				parent: Some(0),
 				part_type: Normal,
-				bounds: None,
-				animation_ref: None,
 			),
 			key_frames: [
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
 				),// [0]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.9,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0.9)),
 				),// [1]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.8,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0.8)),
 				),// [2]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.7,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0.7)),
 				),// [3]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.6,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0.6)),
 				),// [4]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.5,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0.5)),
 				),// [5]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.39999998,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0.39999998)),
 				),// [6]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.3,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0.3)),
 				),// [7]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.19999999,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0.19999999)),
 				),// [8]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.100000024,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0.100000024)),
 				),// [9]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [10]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [11]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [12]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [13]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [14]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [15]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [16]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [17]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [18]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-24,
-							2,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -24, 2),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						1,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 1)),
+					color: ((1, 1, 1, 0)),
 				),// [19]
 			],
 		),// [3]
@@ -2631,669 +599,186 @@
 				id: 4,
 				parent: Some(0),
 				part_type: Normal,
-				bounds: None,
-				animation_ref: None,
 			),
 			key_frames: [
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
 				),// [0]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.9,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0.9)),
 				),// [1]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.8,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0.8)),
 				),// [2]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.7,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0.7)),
 				),// [3]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.6,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0.6)),
 				),// [4]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.5,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0.5)),
 				),// [5]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.39999998,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0.39999998)),
 				),// [6]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.3,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0.3)),
 				),// [7]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.19999999,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0.19999999)),
 				),// [8]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.100000024,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0.100000024)),
 				),// [9]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [10]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [11]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [12]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [13]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [14]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [15]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [16]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [17]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [18]
 				(
-					user: None,
 					transform: (
-						translation: (
-							0,
-							-4,
-							3,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (0, -4, 3),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						0,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 0)),
+					color: ((1, 1, 1, 0)),
 				),// [19]
 			],
 		),// [4]
@@ -3302,669 +787,176 @@
 				id: 5,
 				parent: Some(0),
 				part_type: Normal,
-				bounds: None,
-				animation_ref: None,
 			),
 			key_frames: [
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [0]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [1]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [2]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [3]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [4]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [5]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [6]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [7]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [8]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [9]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
 				),// [10]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50.000004,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50.000004, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.8888889,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
+					color: ((1, 1, 1, 0.8888889)),
 				),// [11]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.7777778,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
+					color: ((1, 1, 1, 0.7777778)),
 				),// [12]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.6666666,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
+					color: ((1, 1, 1, 0.6666666)),
 				),// [13]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.5555556,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
+					color: ((1, 1, 1, 0.5555556)),
 				),// [14]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.44444442,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
+					color: ((1, 1, 1, 0.44444442)),
 				),// [15]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.3333333,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
+					color: ((1, 1, 1, 0.3333333)),
 				),// [16]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.22222221,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
+					color: ((1, 1, 1, 0.22222221)),
 				),// [17]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.111111104,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
+					color: ((1, 1, 1, 0.111111104)),
 				),// [18]
 				(
-					user: None,
 					transform: (
-						translation: (
-							-50,
-							16,
-							4,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (-50, 16, 4),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						4,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 4)),
+					color: ((1, 1, 1, 0)),
 				),// [19]
 			],
 		),// [5]
@@ -3973,669 +965,176 @@
 				id: 6,
 				parent: Some(0),
 				part_type: Normal,
-				bounds: None,
-				animation_ref: None,
 			),
 			key_frames: [
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [0]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [1]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [2]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [3]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [4]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [5]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [6]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [7]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [8]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [9]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						1,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
 				),// [10]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.8888889,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
+					color: ((1, 1, 1, 0.8888889)),
 				),// [11]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.7777778,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
+					color: ((1, 1, 1, 0.7777778)),
 				),// [12]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.6666666,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
+					color: ((1, 1, 1, 0.6666666)),
 				),// [13]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.5555556,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
+					color: ((1, 1, 1, 0.5555556)),
 				),// [14]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.44444442,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
+					color: ((1, 1, 1, 0.44444442)),
 				),// [15]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.3333333,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
+					color: ((1, 1, 1, 0.3333333)),
 				),// [16]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.22222221,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
+					color: ((1, 1, 1, 0.22222221)),
 				),// [17]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0.111111104,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
+					color: ((1, 1, 1, 0.111111104)),
 				),// [18]
 				(
-					user: None,
 					transform: (
-						translation: (
-							158,
-							-70,
-							5,
-						),
-						rotation: (
-							0,
-							0,
-							0,
-							1,
-						),
-						scale: (
-							1,
-							1,
-							1,
-						),
+						translation: (158, -70, 5),
+						rotation: (0, 0, 0, 1),
+						scale: (1, 1, 1),
 					),
-					visible: true,
-					cell: Some((
-						0,
-						5,
-					)),
-					color: ((
-						1,
-						1,
-						1,
-						0,
-					)),
-					instance_key: None,
+					cell: Some((0, 5)),
+					color: ((1, 1, 1, 0)),
 				),// [19]
 			],
 		),// [6]

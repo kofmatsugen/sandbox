@@ -7,10 +7,7 @@
 			y: 0,
 			width: 1024,
 			height: 222,
-			offsets: Some((
-				0,
-				0,
-			)),
+			offsets: Some((0, 0)),
 			flip_horizontal: false,
 			flip_vertical: false,
 		),// [0]
@@ -19,10 +16,7 @@
 			y: 224,
 			width: 1024,
 			height: 200,
-			offsets: Some((
-				0,
-				0,
-			)),
+			offsets: Some((0, 0)),
 			flip_horizontal: false,
 			flip_vertical: false,
 		),// [1]
@@ -31,10 +25,7 @@
 			y: 424,
 			width: 1024,
 			height: 184,
-			offsets: Some((
-				0,
-				0,
-			)),
+			offsets: Some((0, 0)),
 			flip_horizontal: false,
 			flip_vertical: false,
 		),// [2]
@@ -43,10 +34,7 @@
 			y: 608,
 			width: 1024,
 			height: 146,
-			offsets: Some((
-				0,
-				0,
-			)),
+			offsets: Some((0, 0)),
 			flip_horizontal: false,
 			flip_vertical: false,
 		),// [3]
@@ -55,10 +43,7 @@
 			y: 758,
 			width: 798,
 			height: 162,
-			offsets: Some((
-				0,
-				0,
-			)),
+			offsets: Some((0, 0)),
 			flip_horizontal: false,
 			flip_vertical: false,
 		),// [4]
@@ -67,10 +52,7 @@
 			y: 918,
 			width: 340,
 			height: 40,
-			offsets: Some((
-				0,
-				0,
-			)),
+			offsets: Some((0, 0)),
 			flip_horizontal: false,
 			flip_vertical: false,
 		),// [5]
