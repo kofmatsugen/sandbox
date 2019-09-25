@@ -18,13 +18,13 @@ use amethyst::{
     utils::application_root_dir,
     window::ScreenDimensions,
     winit::ElementState,
-    LogLevelFilter, LoggerConfig,
+    LoggerConfig,
 };
 use amethyst_sprite_studio::{
     components::{AnimationTime, PlayAnimationKey},
     renderer::RenderSpriteAnimation,
     resource::AnimationStore,
-    system::{AnimationTimeIncrementSystem, TimeLineApplySystem},
+    system::{AnimationTimeIncrementSystem, DebugCollisionSystem, TimeLineApplySystem},
     SpriteAnimation,
 };
 use debug_system::{EntityCountSystem, PositionDrawSystem};
@@ -187,10 +187,10 @@ impl SimpleState for MyState {
 }
 
 fn main() -> amethyst::Result<()> {
-    amethyst::start_logger(LoggerConfig {
-        ..Default::default()
-    });
-
+    let logger_config = LoggerConfig::default();
+    amethyst::Logger::from_config(logger_config)
+        .level_for("debug_collision", amethyst::LogLevelFilter::Debug)
+        .start();
     let app_root = application_root_dir()?;
 
     let resources_dir = app_root.join("resources");
@@ -203,6 +203,7 @@ fn main() -> amethyst::Result<()> {
         .with(PositionDrawSystem::new(), "", &[])
         .with(Processor::<Animation>::new(), "", &[])
         .with(TimeLineApplySystem::<String, ()>::new(), "", &[])
+        .with(DebugCollisionSystem::<String, ()>::new(), "", &[])
         .with(AnimationTimeIncrementSystem::new(), "", &[])
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()

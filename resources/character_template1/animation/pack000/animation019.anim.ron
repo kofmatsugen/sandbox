@@ -33,7 +33,7 @@
 		),// [0]
 		(
 			part_info: (
-				id: 1,
+				id: 2,
 				parent: Some(0),
 				part_type: Normal,
 			),
@@ -210,8 +210,8 @@
 		),// [1]
 		(
 			part_info: (
-				id: 2,
-				parent: Some(1),
+				id: 3,
+				parent: Some(2),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -387,8 +387,8 @@
 		),// [2]
 		(
 			part_info: (
-				id: 3,
-				parent: Some(2),
+				id: 4,
+				parent: Some(3),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -564,8 +564,8 @@
 		),// [3]
 		(
 			part_info: (
-				id: 4,
-				parent: Some(3),
+				id: 5,
+				parent: Some(4),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -741,8 +741,8 @@
 		),// [4]
 		(
 			part_info: (
-				id: 5,
-				parent: Some(2),
+				id: 6,
+				parent: Some(3),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -918,8 +918,8 @@
 		),// [5]
 		(
 			part_info: (
-				id: 6,
-				parent: Some(5),
+				id: 7,
+				parent: Some(6),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1095,8 +1095,8 @@
 		),// [6]
 		(
 			part_info: (
-				id: 7,
-				parent: Some(2),
+				id: 8,
+				parent: Some(3),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1272,8 +1272,8 @@
 		),// [7]
 		(
 			part_info: (
-				id: 8,
-				parent: Some(7),
+				id: 9,
+				parent: Some(8),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1449,8 +1449,8 @@
 		),// [8]
 		(
 			part_info: (
-				id: 9,
-				parent: Some(1),
+				id: 10,
+				parent: Some(2),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1626,8 +1626,8 @@
 		),// [9]
 		(
 			part_info: (
-				id: 10,
-				parent: Some(9),
+				id: 11,
+				parent: Some(10),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1803,8 +1803,8 @@
 		),// [10]
 		(
 			part_info: (
-				id: 11,
-				parent: Some(1),
+				id: 12,
+				parent: Some(2),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1980,8 +1980,8 @@
 		),// [11]
 		(
 			part_info: (
-				id: 12,
-				parent: Some(11),
+				id: 13,
+				parent: Some(12),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -2157,7 +2157,7 @@
 		),// [12]
 		(
 			part_info: (
-				id: 13,
+				id: 14,
 				parent: Some(0),
 				part_type: Normal,
 			),

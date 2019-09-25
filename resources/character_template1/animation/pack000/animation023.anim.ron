@@ -36,6 +36,136 @@
 				id: 1,
 				parent: Some(0),
 				part_type: Normal,
+				bounds: Some(Aabb),
+			),
+			key_frames: [
+				(
+					visible: false,
+				),// [0]
+				(
+					visible: false,
+				),// [1]
+				(
+					visible: false,
+				),// [2]
+				(
+					visible: false,
+				),// [3]
+				(
+					visible: false,
+				),// [4]
+				(
+					visible: false,
+				),// [5]
+				(
+					visible: false,
+				),// [6]
+				(
+					visible: false,
+				),// [7]
+				(
+					visible: false,
+				),// [8]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+				),// [9]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+				),// [10]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+				),// [11]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+					visible: false,
+				),// [12]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+					visible: false,
+				),// [13]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+					visible: false,
+				),// [14]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+					visible: false,
+				),// [15]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+					visible: false,
+				),// [16]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+					visible: false,
+				),// [17]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+					visible: false,
+				),// [18]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+					visible: false,
+				),// [19]
+				(
+					transform: (
+						translation: (-224, 288, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (180, 60, 1),
+					),
+					visible: false,
+				),// [20]
+			],
+		),// [1]
+		(
+			part_info: (
+				id: 2,
+				parent: Some(0),
+				part_type: Normal,
 			),
 			key_frames: [
 				(
@@ -207,11 +337,11 @@
 					cell: Some((0, 2)),
 				),// [20]
 			],
-		),// [1]
+		),// [2]
 		(
 			part_info: (
-				id: 2,
-				parent: Some(1),
+				id: 3,
+				parent: Some(2),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -384,11 +514,11 @@
 					cell: Some((0, 1)),
 				),// [20]
 			],
-		),// [2]
+		),// [3]
 		(
 			part_info: (
-				id: 3,
-				parent: Some(2),
+				id: 4,
+				parent: Some(3),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -561,11 +691,11 @@
 					cell: Some((0, 0)),
 				),// [20]
 			],
-		),// [3]
+		),// [4]
 		(
 			part_info: (
-				id: 4,
-				parent: Some(3),
+				id: 5,
+				parent: Some(4),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -738,11 +868,11 @@
 					cell: Some((0, 9)),
 				),// [20]
 			],
-		),// [4]
+		),// [5]
 		(
 			part_info: (
-				id: 5,
-				parent: Some(2),
+				id: 6,
+				parent: Some(3),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -915,11 +1045,11 @@
 					cell: Some((0, 8)),
 				),// [20]
 			],
-		),// [5]
+		),// [6]
 		(
 			part_info: (
-				id: 6,
-				parent: Some(5),
+				id: 7,
+				parent: Some(6),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1092,11 +1222,11 @@
 					cell: Some((0, 7)),
 				),// [20]
 			],
-		),// [6]
+		),// [7]
 		(
 			part_info: (
-				id: 7,
-				parent: Some(2),
+				id: 8,
+				parent: Some(3),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1269,11 +1399,11 @@
 					cell: Some((0, 6)),
 				),// [20]
 			],
-		),// [7]
+		),// [8]
 		(
 			part_info: (
-				id: 8,
-				parent: Some(7),
+				id: 9,
+				parent: Some(8),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1446,11 +1576,11 @@
 					cell: Some((0, 10)),
 				),// [20]
 			],
-		),// [8]
+		),// [9]
 		(
 			part_info: (
-				id: 9,
-				parent: Some(1),
+				id: 10,
+				parent: Some(2),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1623,11 +1753,11 @@
 					cell: Some((0, 12)),
 				),// [20]
 			],
-		),// [9]
+		),// [10]
 		(
 			part_info: (
-				id: 10,
-				parent: Some(9),
+				id: 11,
+				parent: Some(10),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1800,11 +1930,11 @@
 					cell: Some((0, 5)),
 				),// [20]
 			],
-		),// [10]
+		),// [11]
 		(
 			part_info: (
-				id: 11,
-				parent: Some(1),
+				id: 12,
+				parent: Some(2),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -1977,11 +2107,11 @@
 					cell: Some((0, 3)),
 				),// [20]
 			],
-		),// [11]
+		),// [12]
 		(
 			part_info: (
-				id: 12,
-				parent: Some(11),
+				id: 13,
+				parent: Some(12),
 				part_type: Normal,
 			),
 			key_frames: [
@@ -2154,10 +2284,10 @@
 					cell: Some((0, 4)),
 				),// [20]
 			],
-		),// [12]
+		),// [13]
 		(
 			part_info: (
-				id: 13,
+				id: 14,
 				parent: Some(0),
 				part_type: Normal,
 			),
@@ -2352,6 +2482,6 @@
 					color: ((1, 1, 1, 0.5)),
 				),// [20]
 			],
-		),// [13]
+		),// [14]
 	],
 )
