@@ -11,7 +11,7 @@ use amethyst::{
         rendy::hal::image::Filter,
         sprite::{SpriteSheet, SpriteSheetFormat},
         types::DefaultBackend,
-        RenderingBundle, Texture,
+        ActiveCamera, RenderingBundle, Texture,
     },
     shred::World,
     ui::{RenderUi, UiBundle},
@@ -47,11 +47,15 @@ fn initialise_camera(world: &mut World) {
     let mut camera_transform = Transform::default();
     camera_transform.set_translation_z(1024.0);
 
-    world
+    let camera = world
         .create_entity()
         .with(camera_transform)
         .with(Camera::standard_2d(width, height))
         .build();
+
+    world.insert(ActiveCamera {
+        entity: Some(camera),
+    });
 }
 
 impl MyState {
@@ -135,7 +139,7 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("character_template1".into(), 0, 34));
+                anim_key.set_key(("character_template1".into(), 0, 31));
                 let anim_time = AnimationTime::new();
                 let mut transform = Transform::default();
                 transform.set_translation_y(-200.);
