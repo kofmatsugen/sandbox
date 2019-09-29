@@ -34,7 +34,7 @@ type Animation = SpriteAnimation<()>;
 #[derive(Default)]
 struct MyState {
     progress_counter: ProgressCounter,
-    target_entity: Option<Entity>,
+    target_entity: Vec<Entity>,
     setuped: bool,
 }
 
@@ -130,7 +130,7 @@ impl SimpleState for MyState {
     fn on_start(&mut self, mut data: StateData<'_, GameData<'_, '_>>) {
         self.setuped = false;
 
-        self.load_animation(&mut data.world, "character_template1", 1, vec![35]);
+        self.load_animation(&mut data.world, "sample", 1, vec![13]);
 
         initialise_camera(&mut data.world);
     }
@@ -139,19 +139,38 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("character_template1".into(), 0, 31));
+                anim_key.set_key(("sample".into(), 0, 10));
                 let anim_time = AnimationTime::new();
                 let mut transform = Transform::default();
+                transform.set_scale([-0.5, 0.5, 1.0].into());
+                transform.set_translation_x(-200.);
                 transform.set_translation_y(-200.);
 
-                self.target_entity = data
-                    .world
-                    .create_entity()
-                    .with(transform)
-                    .with(anim_key)
-                    .with(anim_time)
-                    .build()
-                    .into();
+                self.target_entity.push(
+                    data.world
+                        .create_entity()
+                        .with(transform)
+                        .with(anim_key)
+                        .with(anim_time)
+                        .build(),
+                );
+
+                let mut anim_key = PlayAnimationKey::<String>::new();
+                anim_key.set_key(("sample".into(), 0, 10));
+                let anim_time = AnimationTime::new();
+                let mut transform = Transform::default();
+                transform.set_scale([0.5, 0.5, 1.0].into());
+                transform.set_translation_x(200.);
+                transform.set_translation_y(-200.);
+
+                self.target_entity.push(
+                    data.world
+                        .create_entity()
+                        .with(transform)
+                        .with(anim_key)
+                        .with(anim_time)
+                        .build(),
+                );
 
                 log::info!("complete!");
                 self.setuped = true;
@@ -170,15 +189,17 @@ impl SimpleState for MyState {
             match get_key(&event) {
                 Some((VirtualKeyCode::Space, ElementState::Pressed)) => {
                     world.exec(|mut key: WriteStorage<PlayAnimationKey<String>>| {
-                        if let Some(key) = self.target_entity.and_then(|e| key.get_mut(e)) {
-                            let new_key = match key.key() {
-                                Some((name, pack_id, id)) => {
-                                    (name.clone(), *pack_id, (*id + 1) % 35)
-                                }
-                                None => ("houou".into(), 0, 0usize),
-                            };
+                        for e in &self.target_entity {
+                            if let Some(key) = key.get_mut(*e) {
+                                let new_key = match key.key() {
+                                    Some((name, pack_id, id)) => {
+                                        (name.clone(), *pack_id, (*id + 1) % 13)
+                                    }
+                                    None => ("houou".into(), 0, 0usize),
+                                };
 
-                            key.set_key(new_key);
+                                key.set_key(new_key);
+                            }
                         }
                     });
                 }
