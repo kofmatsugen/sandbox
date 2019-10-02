@@ -8,5 +8,6 @@ edition = "2018"
 amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulkan"] }
 amethyst-sprite-studio={path="../amethyst-sprite-studio/"}
 debug_system={path="../debug_system/"}
+fight_game={path = "../fight_game/"}
 log = "*"
 glob="*"

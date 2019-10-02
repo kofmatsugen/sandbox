@@ -1,3 +1,6 @@
+mod components;
+mod resources;
+
 use amethyst::{
     assets::{AssetStorage, Loader, Processor, ProgressCounter, RonFormat},
     core::transform::{Transform, TransformBundle},
@@ -28,8 +31,10 @@ use amethyst_sprite_studio::{
     SpriteAnimation,
 };
 use debug_system::{EntityCountSystem, PositionDrawSystem};
+use fight_game::paramater::AnimationParam;
 
-type Animation = SpriteAnimation<()>;
+type UserData = AnimationParam;
+type Animation = SpriteAnimation<UserData>;
 
 #[derive(Default)]
 struct MyState {
@@ -115,7 +120,7 @@ impl MyState {
             },
         );
 
-        world.exec(|mut anim_data: Write<AnimationStore<String, ()>>| {
+        world.exec(|mut anim_data: Write<AnimationStore<String, UserData>>| {
             for anim in animation {
                 anim_data.insert_animation(pack_name, anim);
             }
@@ -227,12 +232,12 @@ fn main() -> amethyst::Result<()> {
         .with(EntityCountSystem::new(), "", &[])
         .with(PositionDrawSystem::new(), "", &[])
         .with(Processor::<Animation>::new(), "", &[])
-        .with(TimeLineApplySystem::<String, ()>::new(), "", &[])
-        .with(DebugCollisionSystem::<String, ()>::new(), "", &[])
+        .with(TimeLineApplySystem::<String, UserData>::new(), "", &[])
+        .with(DebugCollisionSystem::<String, UserData>::new(), "", &[])
         .with(AnimationTimeIncrementSystem::new(), "", &[])
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
-                .with_plugin(RenderSpriteAnimation::<String, ()>::default())
+                .with_plugin(RenderSpriteAnimation::<String, UserData>::default())
                 .with_plugin(RenderUi::default())
                 .with_plugin(RenderDebugLines::default())
                 .with_plugin(

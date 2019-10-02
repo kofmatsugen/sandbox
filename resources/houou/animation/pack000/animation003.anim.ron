@@ -380,7 +380,9 @@
 					visible: false,
 				),// [2]
 				(
-					user: Some(()),
+					user: Some((
+						move_direction: (0, 0),
+					)),
 					transform: (
 						translation: (0, 0, 0),
 						rotation: (0, 0, 0, 1),
@@ -388,7 +390,9 @@
 					),
 				),// [3]
 				(
-					user: Some(()),
+					user: Some((
+						move_direction: (0, 0),
+					)),
 					transform: (
 						translation: (0, 0, 0),
 						rotation: (0, 0, 0, 1),
