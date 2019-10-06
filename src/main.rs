@@ -192,6 +192,28 @@ impl SimpleState for MyState {
         let StateData { world, .. } = _data;
         if let StateEvent::Window(event) = &event {
             match get_key(&event) {
+                Some((VirtualKeyCode::Up, ElementState::Pressed)) => {
+                    world.exec(|mut time: WriteStorage<AnimationTime>| {
+                        for e in &self.target_entity {
+                            if let Some(time) = time.get_mut(*e) {
+                                time.set_speed(0.);
+                                time.add_second(1. / 60.);
+                                println!("time: {}", time.current_time() * 60.);
+                            }
+                        }
+                    });
+                }
+                Some((VirtualKeyCode::Down, ElementState::Pressed)) => {
+                    world.exec(|mut time: WriteStorage<AnimationTime>| {
+                        for e in &self.target_entity {
+                            if let Some(time) = time.get_mut(*e) {
+                                time.set_speed(0.);
+                                time.add_second(-1. / 60.);
+                                println!("time: {}", time.current_time() * 60.);
+                            }
+                        }
+                    });
+                }
                 Some((VirtualKeyCode::Space, ElementState::Pressed)) => {
                     world.exec(|mut key: WriteStorage<PlayAnimationKey<String>>| {
                         for e in &self.target_entity {
