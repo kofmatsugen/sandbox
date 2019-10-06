@@ -215,20 +215,30 @@ impl SimpleState for MyState {
                     });
                 }
                 Some((VirtualKeyCode::Space, ElementState::Pressed)) => {
-                    world.exec(|mut key: WriteStorage<PlayAnimationKey<String>>| {
-                        for e in &self.target_entity {
-                            if let Some(key) = key.get_mut(*e) {
-                                let new_key = match key.key() {
-                                    Some((name, pack_id, id)) => {
-                                        (name.clone(), *pack_id, (*id + 1) % 13)
-                                    }
-                                    None => ("houou".into(), 0, 0usize),
-                                };
-
-                                key.set_key(new_key);
+                    world.exec(
+                        |(mut key, mut time): (
+                            WriteStorage<PlayAnimationKey<String>>,
+                            WriteStorage<AnimationTime>,
+                        )| {
+                            for e in &self.target_entity {
+                                if let Some(key) = key.get_mut(*e) {
+                                    let new_key = match key.key() {
+                                        Some((name, pack_id, id)) => {
+                                            (name.clone(), pack_id, (id + 1) % 13)
+                                        }
+                                        None => ("sample".into(), 0, 0usize),
+                                    };
+                                    key.set_key(new_key);
+                                }
                             }
-                        }
-                    });
+                            for e in &self.target_entity {
+                                if let Some(time) = time.get_mut(*e) {
+                                    time.set_speed(1.0);
+                                    time.set_time(0.0);
+                                }
+                            }
+                        },
+                    );
                 }
                 _ => {}
             }
