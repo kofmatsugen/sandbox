@@ -2,7 +2,7 @@ mod components;
 mod resources;
 
 use amethyst::{
-    assets::{AssetStorage, Loader, Processor, ProgressCounter, RonFormat},
+    assets::{AssetStorage, Loader, ProgressCounter, RonFormat},
     core::transform::{Transform, TransformBundle},
     ecs::{Entity, Read, ReadExpect, Write, WriteStorage},
     input::{get_key, StringBindings, VirtualKeyCode},
@@ -24,14 +24,14 @@ use amethyst::{
     LoggerConfig,
 };
 use amethyst_sprite_studio::{
+    bundle::SpriteStudioBundleBuilder,
     components::{AnimationTime, PlayAnimationKey},
     renderer::RenderSpriteAnimation,
     resource::AnimationStore,
-    system::{AnimationTimeIncrementSystem, DebugCollisionSystem, TimeLineApplySystem},
     SpriteAnimation,
 };
 use debug_system::{EntityCountSystem, PositionDrawSystem};
-use fight_game::paramater::AnimationParam;
+use fight_game::{paramater::AnimationParam, system::MoveSystem};
 
 type UserData = AnimationParam;
 type Animation = SpriteAnimation<UserData>;
@@ -233,7 +233,6 @@ impl SimpleState for MyState {
                             }
                             for e in &self.target_entity {
                                 if let Some(time) = time.get_mut(*e) {
-                                    time.set_speed(1.0);
                                     time.set_time(0.0);
                                 }
                             }
@@ -261,12 +260,13 @@ fn main() -> amethyst::Result<()> {
     let game_data = GameDataBuilder::default()
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<StringBindings>::new())?
+        .with_bundle(SpriteStudioBundleBuilder::with_debug_collision::<
+            String,
+            UserData,
+        >())?
+        .with(MoveSystem::<String>::new(), "move_system", &[])
         .with(EntityCountSystem::new(), "", &[])
         .with(PositionDrawSystem::new(), "", &[])
-        .with(Processor::<Animation>::new(), "", &[])
-        .with(TimeLineApplySystem::<String, UserData>::new(), "", &[])
-        .with(DebugCollisionSystem::<String, UserData>::new(), "", &[])
-        .with(AnimationTimeIncrementSystem::new(), "", &[])
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
                 .with_plugin(RenderSpriteAnimation::<String, UserData>::default())

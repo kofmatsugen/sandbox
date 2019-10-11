@@ -10,202 +10,202 @@
 			key_frames: [
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [0]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [1]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [2]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [3]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [4]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [5]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [6]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [7]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [8]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [9]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [10]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [11]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [12]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [13]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [14]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [15]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [16]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [17]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [18]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [19]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [20]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [21]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [22]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [23]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [24]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [25]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [26]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [27]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [28]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [29]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [30]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [31]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [32]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [33]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [34]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [35]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [36]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [37]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [38]
 				(
 					user: Some((
-						move_direction: (20, 0),
+						move_direction: (8, 0),
 					)),
 				),// [39]
 			],
