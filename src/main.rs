@@ -23,6 +23,7 @@ use amethyst::{
     winit::ElementState,
     LoggerConfig,
 };
+use amethyst_playfab::{bundle::PlayFabSystemBundle, components::PlayFabApi};
 use amethyst_sprite_studio::{
     bundle::SpriteStudioBundleBuilder,
     components::{AnimationTime, PlayAnimationKey},
@@ -32,6 +33,13 @@ use amethyst_sprite_studio::{
 };
 use debug_system::{EntityCountSystem, PositionDrawSystem};
 use fight_game::{paramater::AnimationParam, system::MoveSystem};
+use playfab_api::traits::PlayFabConfig;
+
+#[derive(Debug)]
+struct PlayFab;
+impl PlayFabConfig for PlayFab {
+    const TITLE_ID: &'static str = "5C86";
+}
 
 type UserData = AnimationParam;
 type Animation = SpriteAnimation<UserData>;
@@ -276,7 +284,8 @@ fn main() -> amethyst::Result<()> {
                     RenderToWindow::from_config_path(display_config_path)
                         .with_clear([0.34, 0.36, 0.52, 1.0]),
                 ),
-        )?;
+        )?
+        .with_bundle(PlayFabSystemBundle::<PlayFab>::new())?;
 
     let mut game = Application::new(resources_dir, MyState::default(), game_data)?;
     game.run();

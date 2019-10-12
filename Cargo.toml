@@ -7,6 +7,8 @@ edition = "2018"
 [dependencies]
 amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulkan"] }
 amethyst-sprite-studio={path="../amethyst-sprite-studio/"}
+amethyst-playfab={path="../amethyst-playfab/"}
+playfab-api={path="../playfab-api/"}
 debug_system={path="../debug_system/"}
 fight_game={path = "../fight_game/"}
 log = "*"
