@@ -19,12 +19,10 @@ where
     N: 'static + SimpleState + Default,
 {
     fn on_start(&mut self, data: StateData<'_, GameData<'_, '_>>) {
-        for _ in 1..10 {
-            let login = LoginReqest::new(false, "RustReqwest");
-            let mut component = PlayFabApi::<LoginReqest, _>::new();
-            let _ = component.request_post(login, ()).unwrap();
-            self.api_caller = data.world.create_entity().with(component).build().into();
-        }
+        let login = LoginReqest::new(false, "RustReqwest");
+        let mut component = PlayFabApi::<LoginReqest, _>::new();
+        let _ = component.request_post(login, ()).unwrap();
+        self.api_caller = data.world.create_entity().with(component).build().into();
     }
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
         if let Some(response) = self.api_caller.and_then(|e| {
