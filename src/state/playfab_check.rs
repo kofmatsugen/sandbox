@@ -1,6 +1,6 @@
 use crate::playfab::config::PlayFab;
 use amethyst::{
-    ecs::{Builder, Entities, Entity, WorldExt, WriteStorage},
+    ecs::{Builder, Entity, WorldExt, WriteStorage},
     prelude::{GameData, SimpleState, SimpleTrans, StateData, Trans},
 };
 use amethyst_playfab::components::PlayFabApi;
@@ -24,6 +24,7 @@ where
         let _ = component.request_post(login, ()).unwrap();
         self.api_caller = data.world.create_entity().with(component).build().into();
     }
+
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
         if let Some(response) = self.api_caller.and_then(|e| {
             data.world
@@ -36,7 +37,7 @@ where
         }) {
             log::info!("{:?}", response);
             if let Some(api_caller) = self.api_caller.take() {
-                log::info!("{:?}", data.world.delete_entity(api_caller));
+                let _ = data.world.delete_entity(api_caller);
             }
             Trans::Push(Box::new(N::default()))
         } else {
