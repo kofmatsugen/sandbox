@@ -4,7 +4,11 @@ mod resources;
 mod state;
 mod types;
 
-use crate::{playfab::config::PlayFab, state::example::MyState};
+use crate::{
+    playfab::config::PlayFab,
+    state::{example::MyState, playfab_check::PlayFabCheck},
+    types::*,
+};
 use amethyst::{
     core::transform::TransformBundle,
     input::StringBindings,
@@ -22,7 +26,6 @@ use amethyst_playfab::bundle::PlayFabSystemBundle;
 use amethyst_sprite_studio::{bundle::SpriteStudioBundleBuilder, renderer::RenderSpriteAnimation};
 use debug_system::{EntityCountSystem, PositionDrawSystem};
 use fight_game::system::MoveSystem;
-use types::*;
 
 fn main() -> amethyst::Result<()> {
     let logger_config = LoggerConfig::default();
@@ -56,7 +59,7 @@ fn main() -> amethyst::Result<()> {
         )?
         .with_bundle(PlayFabSystemBundle::<PlayFab>::new())?;
 
-    let mut game = Application::new(resources_dir, MyState::default(), game_data)?;
+    let mut game = Application::new(resources_dir, PlayFabCheck::<MyState>::default(), game_data)?;
     game.run();
 
     Ok(())
