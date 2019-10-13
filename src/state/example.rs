@@ -2,7 +2,7 @@ use crate::types::*;
 use amethyst::{
     assets::{AssetStorage, Loader, ProgressCounter, RonFormat},
     core::transform::Transform,
-    ecs::{Entity, Read, ReadExpect, Write, WriteStorage},
+    ecs::{BitSet, Entity, Join, Read, ReadExpect, Write, WriteStorage},
     input::{get_key, VirtualKeyCode},
     prelude::*,
     renderer::{
@@ -23,11 +23,52 @@ use amethyst_sprite_studio::{
 #[derive(Default)]
 pub struct MyState {
     progress_counter: ProgressCounter,
-    target_entity: Vec<Entity>,
+    target_entity: BitSet,
     setuped: bool,
 }
 
 impl MyState {
+    fn on_pressed_key(&mut self, world: &mut World, key: VirtualKeyCode) {
+        match key {
+            VirtualKeyCode::Up => {
+                world.exec(|mut time: WriteStorage<AnimationTime>| {
+                    for (_, time) in (&self.target_entity, &mut time).join() {
+                        time.set_speed(0.);
+                        time.add_second(1. / 60.);
+                        log::info!("time: {}", time.current_time() * 60.);
+                    }
+                });
+            }
+            VirtualKeyCode::Down => {
+                world.exec(|mut time: WriteStorage<AnimationTime>| {
+                    for (_, time) in (&self.target_entity, &mut time).join() {
+                        time.set_speed(0.);
+                        time.add_second(-1. / 60.);
+                        log::info!("time: {}", time.current_time() * 60.);
+                    }
+                });
+            }
+            VirtualKeyCode::Space => {
+                world.exec(
+                    |(mut key, mut time): (
+                        WriteStorage<PlayAnimationKey<String>>,
+                        WriteStorage<AnimationTime>,
+                    )| {
+                        for (_, key, time) in (&self.target_entity, &mut key, &mut time).join() {
+                            let new_key = match key.key() {
+                                Some((name, pack_id, id)) => (name.clone(), pack_id, (id + 1) % 13),
+                                None => ("sample".into(), 0, 0usize),
+                            };
+                            key.set_key(new_key);
+                            time.set_time(0.0);
+                        }
+                    },
+                );
+            }
+            _ => {}
+        }
+    }
+
     fn load_animation(
         &mut self,
         world: &mut World,
@@ -107,39 +148,11 @@ impl SimpleState for MyState {
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
-                let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("sample".into(), 0, 10));
-                let anim_time = AnimationTime::new();
-                let mut transform = Transform::default();
-                transform.set_scale([-0.5, 0.5, 1.0].into());
-                transform.set_translation_x(-200.);
-                transform.set_translation_y(-200.);
-
-                self.target_entity.push(
-                    data.world
-                        .create_entity()
-                        .with(transform)
-                        .with(anim_key)
-                        .with(anim_time)
-                        .build(),
+                self.target_entity.add(
+                    create_unit(data.world, "sample", 0, 10, (-200., -200.), (-0.5, 0.5)).id(),
                 );
-
-                let mut anim_key = PlayAnimationKey::<String>::new();
-                anim_key.set_key(("sample".into(), 0, 10));
-                let anim_time = AnimationTime::new();
-                let mut transform = Transform::default();
-                transform.set_scale([0.5, 0.5, 1.0].into());
-                transform.set_translation_x(200.);
-                transform.set_translation_y(-200.);
-
-                self.target_entity.push(
-                    data.world
-                        .create_entity()
-                        .with(transform)
-                        .with(anim_key)
-                        .with(anim_time)
-                        .build(),
-                );
+                self.target_entity
+                    .add(create_unit(data.world, "sample", 0, 10, (200., -200.), (0.5, 0.5)).id());
 
                 log::info!("complete!");
                 self.setuped = true;
@@ -156,52 +169,8 @@ impl SimpleState for MyState {
         let StateData { world, .. } = _data;
         if let StateEvent::Window(event) = &event {
             match get_key(&event) {
-                Some((VirtualKeyCode::Up, ElementState::Pressed)) => {
-                    world.exec(|mut time: WriteStorage<AnimationTime>| {
-                        for e in &self.target_entity {
-                            if let Some(time) = time.get_mut(*e) {
-                                time.set_speed(0.);
-                                time.add_second(1. / 60.);
-                                println!("time: {}", time.current_time() * 60.);
-                            }
-                        }
-                    });
-                }
-                Some((VirtualKeyCode::Down, ElementState::Pressed)) => {
-                    world.exec(|mut time: WriteStorage<AnimationTime>| {
-                        for e in &self.target_entity {
-                            if let Some(time) = time.get_mut(*e) {
-                                time.set_speed(0.);
-                                time.add_second(-1. / 60.);
-                                println!("time: {}", time.current_time() * 60.);
-                            }
-                        }
-                    });
-                }
-                Some((VirtualKeyCode::Space, ElementState::Pressed)) => {
-                    world.exec(
-                        |(mut key, mut time): (
-                            WriteStorage<PlayAnimationKey<String>>,
-                            WriteStorage<AnimationTime>,
-                        )| {
-                            for e in &self.target_entity {
-                                if let Some(key) = key.get_mut(*e) {
-                                    let new_key = match key.key() {
-                                        Some((name, pack_id, id)) => {
-                                            (name.clone(), pack_id, (id + 1) % 13)
-                                        }
-                                        None => ("sample".into(), 0, 0usize),
-                                    };
-                                    key.set_key(new_key);
-                                }
-                            }
-                            for e in &self.target_entity {
-                                if let Some(time) = time.get_mut(*e) {
-                                    time.set_time(0.0);
-                                }
-                            }
-                        },
-                    );
+                Some((key, ElementState::Pressed)) => {
+                    self.on_pressed_key(world, key);
                 }
                 _ => {}
             }
@@ -229,4 +198,34 @@ fn initialise_camera(world: &mut World) {
     world.insert(ActiveCamera {
         entity: Some(camera),
     });
+}
+
+fn create_unit<S, V2>(
+    world: &mut World,
+    file_name: S,
+    pack_id: usize,
+    anim_id: usize,
+    position: V2,
+    scale: V2,
+) -> Entity
+where
+    S: Into<String>,
+    V2: Into<Option<(f32, f32)>>,
+{
+    let (pos_x, pos_y) = position.into().unwrap_or((0., 0.));
+    let (scale_x, scale_y) = scale.into().unwrap_or((1., 1.));
+    let mut anim_key = PlayAnimationKey::<String>::new();
+    anim_key.set_key((file_name.into(), pack_id, anim_id));
+    let anim_time = AnimationTime::new();
+    let mut transform = Transform::default();
+    transform.set_scale([scale_x, scale_y, 1.0].into());
+    transform.set_translation_x(pos_x);
+    transform.set_translation_y(pos_y);
+
+    world
+        .create_entity()
+        .with(transform)
+        .with(anim_key)
+        .with(anim_time)
+        .build()
 }
