@@ -56,11 +56,12 @@ impl MyState {
                     )| {
                         for (_, key, time) in (&self.target_entity, &mut key, &mut time).join() {
                             let new_key = match key.key() {
-                                Some((name, pack_id, id)) => (name.clone(), pack_id, (id + 1) % 13),
+                                Some((name, pack_id, id)) => (name.clone(), pack_id, (id + 1) % 3),
                                 None => ("sample".into(), 0, 0usize),
                             };
                             key.set_key(new_key);
                             time.set_time(0.0);
+                            time.set_speed(1.);
                         }
                     },
                 );
@@ -148,11 +149,10 @@ impl SimpleState for MyState {
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
-                self.target_entity.add(
-                    create_unit(data.world, "sample", 0, 10, (-200., -200.), (-0.5, 0.5)).id(),
-                );
                 self.target_entity
-                    .add(create_unit(data.world, "sample", 0, 10, (200., -200.), (0.5, 0.5)).id());
+                    .add(create_unit(data.world, "sample", 0, 0, (-200., -200.), (-0.5, 0.5)).id());
+                self.target_entity
+                    .add(create_unit(data.world, "sample", 0, 1, (200., -200.), (0.45, 0.45)).id());
 
                 log::info!("complete!");
                 self.setuped = true;
@@ -216,7 +216,8 @@ where
     let (scale_x, scale_y) = scale.into().unwrap_or((1., 1.));
     let mut anim_key = PlayAnimationKey::<String>::new();
     anim_key.set_key((file_name.into(), pack_id, anim_id));
-    let anim_time = AnimationTime::new();
+    let mut anim_time = AnimationTime::new();
+    anim_time.set_speed(1.);
     let mut transform = Transform::default();
     transform.set_scale([scale_x, scale_y, 1.0].into());
     transform.set_translation_x(pos_x);

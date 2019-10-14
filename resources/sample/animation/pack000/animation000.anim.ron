@@ -1,6 +1,6 @@
 (
 	fps: 60,
-	total_frame: 60,
+	total_frame: 31,
 	timelines: [
 		(
 			part_info: (
@@ -39,37 +39,338 @@
 				(),// [28]
 				(),// [29]
 				(),// [30]
-				(),// [31]
-				(),// [32]
-				(),// [33]
-				(),// [34]
-				(),// [35]
-				(),// [36]
-				(),// [37]
-				(),// [38]
-				(),// [39]
-				(),// [40]
-				(),// [41]
-				(),// [42]
-				(),// [43]
-				(),// [44]
-				(),// [45]
-				(),// [46]
-				(),// [47]
-				(),// [48]
-				(),// [49]
-				(),// [50]
-				(),// [51]
-				(),// [52]
-				(),// [53]
-				(),// [54]
-				(),// [55]
-				(),// [56]
-				(),// [57]
-				(),// [58]
-				(),// [59]
 			],
 		),// [0]
+		(
+			part_info: (
+				id: 1,
+				parent: Some(0),
+				part_type: Normal,
+				bounds: Some(Aabb),
+			),
+			key_frames: [
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [0]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [1]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [2]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [3]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [4]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [5]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [6]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [7]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [8]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [9]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [10]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [11]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [12]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [13]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [14]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [15]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [16]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [17]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [18]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [19]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [20]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [21]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [22]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [23]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [24]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [25]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [26]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [27]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [28]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [29]
+				(
+					transform: (
+						translation: (0, 300, 0),
+						rotation: (0, 0, 0, 1),
+						scale: (200, 600, 1),
+					),
+				),// [30]
+			],
+		),// [1]
+		(
+			part_info: (
+				id: 2,
+				parent: Some(0),
+				part_type: Normal,
+				bounds: Some(Aabb),
+			),
+			key_frames: [
+				(
+					visible: false,
+				),// [0]
+				(
+					visible: false,
+				),// [1]
+				(
+					visible: false,
+				),// [2]
+				(
+					visible: false,
+				),// [3]
+				(
+					visible: false,
+				),// [4]
+				(
+					visible: false,
+				),// [5]
+				(
+					visible: false,
+				),// [6]
+				(
+					visible: false,
+				),// [7]
+				(
+					visible: false,
+				),// [8]
+				(
+					visible: false,
+				),// [9]
+				(
+					visible: false,
+				),// [10]
+				(
+					visible: false,
+				),// [11]
+				(
+					visible: false,
+				),// [12]
+				(
+					visible: false,
+				),// [13]
+				(
+					visible: false,
+				),// [14]
+				(
+					visible: false,
+				),// [15]
+				(
+					visible: false,
+				),// [16]
+				(
+					visible: false,
+				),// [17]
+				(
+					visible: false,
+				),// [18]
+				(
+					visible: false,
+				),// [19]
+				(
+					visible: false,
+				),// [20]
+				(
+					visible: false,
+				),// [21]
+				(
+					visible: false,
+				),// [22]
+				(
+					visible: false,
+				),// [23]
+				(
+					visible: false,
+				),// [24]
+				(
+					visible: false,
+				),// [25]
+				(
+					visible: false,
+				),// [26]
+				(
+					visible: false,
+				),// [27]
+				(
+					visible: false,
+				),// [28]
+				(
+					visible: false,
+				),// [29]
+				(
+					visible: false,
+				),// [30]
+			],
+		),// [2]
 		(
 			part_info: (
 				id: 3,
@@ -87,478 +388,246 @@
 				),// [0]
 				(
 					transform: (
-						translation: (-15, 221, 0),
-						rotation: (0, 0, -0.07247489, 0.99737024),
+						translation: (-11.875, 222.875, 0),
+						rotation: (0, 0, -0.042965215, 0.99907655),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [1]
 				(
 					transform: (
-						translation: (-20, 218, 0),
-						rotation: (0, 0, -0.1000015, 0.9949873),
+						translation: (-13.75, 221.75, 0),
+						rotation: (0, 0, -0.041037302, 0.9991576),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [2]
 				(
 					transform: (
-						translation: (-25, 215, 0),
-						rotation: (0, 0, -0.12745176, 0.9918448),
+						translation: (-15.625, 220.625, 0),
+						rotation: (0, 0, -0.039109245, 0.9992349),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [3]
 				(
 					transform: (
-						translation: (-44, 251, 0),
-						rotation: (0, 0, -0.15480474, 0.9879451),
+						translation: (-17.5, 219.5, 0),
+						rotation: (0, 0, -0.037181042, 0.9993085),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [4]
 				(
 					transform: (
-						translation: (-63, 287, 0),
-						rotation: (0, 0, -0.18203953, 0.9832912),
+						translation: (-19.375, 218.375, 0),
+						rotation: (0, 0, -0.035252698, 0.99937844),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [5]
 				(
 					transform: (
-						translation: (-82, 323, 0),
-						rotation: (0, 0, -0.20913535, 0.9778867),
+						translation: (-21.25, 217.25, 0),
+						rotation: (0, 0, -0.033324223, 0.9994446),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [6]
 				(
 					transform: (
-						translation: (-101, 359, 0),
-						rotation: (0, 0, -0.23607153, 0.97173566),
+						translation: (-23.125, 216.125, 0),
+						rotation: (0, 0, -0.03139562, 0.999507),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [7]
 				(
 					transform: (
-						translation: (-89.92307, 337.76923, 0),
-						rotation: (0, 0, -0.27930602, 0.96020216),
+						translation: (-25, 215, 0),
+						rotation: (0, 0, -0.02946691, 0.9995658),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [8]
 				(
 					transform: (
-						translation: (-78.84615, 316.53845, 0),
-						rotation: (0, 0, -0.32198134, 0.946746),
+						translation: (-20.505053, 217.80809, 0),
+						rotation: (0, 0, -0.027538083, 0.99962074),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [9]
 				(
 					transform: (
-						translation: (-67.769226, 295.30768, 0),
-						rotation: (0, 0, -0.3640119, 0.9313943),
+						translation: (-16.010101, 220.61617, 0),
+						rotation: (0, 0, -0.025609156, 0.99967206),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [10]
 				(
 					transform: (
-						translation: (-56.69231, 274.07693, 0),
-						rotation: (0, 0, -0.40531364, 0.9141777),
+						translation: (-11.515151, 223.42424, 0),
+						rotation: (0, 0, -0.023680134, 0.99971956),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [11]
 				(
 					transform: (
-						translation: (-45.61538, 252.84615, 0),
-						rotation: (0, 0, -0.44580388, 0.8951307),
+						translation: (-7.020203, 226.23233, 0),
+						rotation: (0, 0, -0.021751022, 0.9997634),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [12]
 				(
 					transform: (
-						translation: (-34.538464, 231.6154, 0),
-						rotation: (0, 0, -0.48540145, 0.87429136),
+						translation: (-2.5252523, 229.0404, 0),
+						rotation: (0, 0, -0.019821828, 0.99980354),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [13]
 				(
 					transform: (
-						translation: (-23.461536, 210.3846, 0),
-						rotation: (0, 0, -0.52402717, 0.85170156),
+						translation: (1.969697, 231.84848, 0),
+						rotation: (0, 0, -0.017892564, 0.9998399),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [14]
 				(
 					transform: (
-						translation: (-12.384613, 189.15384, 0),
-						rotation: (0, 0, -0.56160367, 0.8274064),
+						translation: (6.4646454, 234.65656, 0),
+						rotation: (0, 0, -0.01596323, 0.99987257),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [15]
 				(
 					transform: (
-						translation: (-1.3076897, 167.92307, 0),
-						rotation: (0, 0, -0.59805566, 0.8014546),
+						translation: (10.959595, 237.46465, 0),
+						rotation: (0, 0, -0.014033839, 0.99990153),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [16]
 				(
 					transform: (
-						translation: (9.769232, 146.69229, 0),
-						rotation: (0, 0, -0.6333102, 0.77389807),
+						translation: (15.454544, 240.27272, 0),
+						rotation: (0, 0, -0.012104396, 0.99992675),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [17]
 				(
 					transform: (
-						translation: (20.846157, 125.46153, 0),
-						rotation: (0, 0, -0.6672967, 0.744792),
+						translation: (13.496502, 239.02098, 0),
+						rotation: (0, 0, -0.014627505, 0.999893),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [18]
 				(
 					transform: (
-						translation: (31.923077, 104.230774, 0),
-						rotation: (0, 0, -0.6999472, 0.71419466),
+						translation: (11.538461, 237.76923, 0),
+						rotation: (0, 0, -0.017150521, 0.9998529),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [19]
 				(
 					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (9.580419, 236.51749, 0),
+						rotation: (0, 0, -0.01967343, 0.99980646),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [20]
 				(
 					transform: (
-						translation: (42.333332, 87.666664, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (7.6223764, 235.26573, 0),
+						rotation: (0, 0, -0.022196209, 0.99975365),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [21]
 				(
 					transform: (
-						translation: (41.666664, 92.333336, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (5.6643343, 234.01398, 0),
+						rotation: (0, 0, -0.024718849, 0.99969447),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [22]
 				(
 					transform: (
-						translation: (41, 97, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (3.7062936, 232.76224, 0),
+						rotation: (0, 0, -0.027241334, 0.9996289),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [23]
 				(
 					transform: (
-						translation: (41.5, 93.5, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (1.74825, 231.51048, 0),
+						rotation: (0, 0, -0.029763645, 0.99955696),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [24]
 				(
 					transform: (
-						translation: (42, 90, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (-0.20979118, 230.25874, 0),
+						rotation: (0, 0, -0.03228576, 0.9994787),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [25]
 				(
 					transform: (
-						translation: (42.5, 86.5, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (-2.1678329, 229.00699, 0),
+						rotation: (0, 0, -0.034807675, 0.999394),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [26]
 				(
 					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (-4.125875, 227.75525, 0),
+						rotation: (0, 0, -0.037329365, 0.99930304),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [27]
 				(
 					transform: (
-						translation: (43, 84, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (-6.083916, 226.5035, 0),
+						rotation: (0, 0, -0.039850827, 0.99920565),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [28]
 				(
 					transform: (
-						translation: (43, 85, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (-8.041958, 225.25174, 0),
+						rotation: (0, 0, -0.04237202, 0.9991019),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [29]
 				(
 					transform: (
-						translation: (43, 84, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
+						translation: (-10, 224, 0),
+						rotation: (0, 0, -0.044892956, 0.9989918),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 2)),
 				),// [30]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [31]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [32]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [33]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [34]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [35]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [36]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [37]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [38]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [39]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [40]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [41]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [42]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [43]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [44]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [45]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [46]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [47]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [48]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [49]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [50]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [51]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [52]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [53]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [54]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [55]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [56]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [57]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [58]
-				(
-					transform: (
-						translation: (43, 83, 0),
-						rotation: (0, 0, -0.7311961, 0.68216735),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 2)),
-				),// [59]
 			],
-		),// [1]
+		),// [3]
 		(
 			part_info: (
 				id: 4,
@@ -576,478 +645,246 @@
 				),// [0]
 				(
 					transform: (
-						translation: (-3.1463125, 47.07688, 1),
-						rotation: (0, 0, 0.13618281, 0.99068373),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.12691472, 0.9919136),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [1]
 				(
 					transform: (
-						translation: (-2.2926252, 47.153767, 1),
-						rotation: (0, 0, 0.15098669, 0.9885358),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.13247697, 0.9911861),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [2]
 				(
 					transform: (
-						translation: (-1.4389374, 47.230644, 1),
-						rotation: (0, 0, 0.16575678, 0.98616666),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.13803504, 0.9904274),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [3]
 				(
 					transform: (
-						translation: (-0.58525, 47.307526, 1),
-						rotation: (0, 0, 0.10136495, 0.9948493),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.14358878, 0.98963743),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [4]
 				(
 					transform: (
-						translation: (0.2684374, 47.384407, 1),
-						rotation: (0, 0, 0.03654518, 0.999332),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.14913799, 0.9888164),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [5]
 				(
 					transform: (
-						translation: (1.1221248, 47.461292, 1),
-						rotation: (0, 0, -0.028428862, 0.9995958),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.1546825, 0.9879642),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [6]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, -0.093282886, 0.9956396),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.16022216, 0.987081),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [7]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, -0.07916831, 0.9968613),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.16575678, 0.98616666),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [8]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, -0.06503785, 0.9978828),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.16374478, 0.9865027),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [9]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, -0.050894324, 0.998704),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.1617321, 0.9868347),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [10]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, -0.036740594, 0.99932486),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.15971877, 0.98716253),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [11]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, -0.022579482, 0.9997451),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.15770476, 0.9874863),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [12]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, -0.008413846, 0.9999646),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.15569009, 0.98780596),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [13]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.0057534864, 0.99998343),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.15367478, 0.9881215),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [14]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.01991966, 0.9998016),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.15165883, 0.9884329),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [15]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.03408184, 0.99941903),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.14964223, 0.9887402),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [16]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.048237167, 0.9988359),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.14762504, 0.9890434),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [17]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.062382825, 0.9980523),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.1456072, 0.98934245),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [18]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.07651595, 0.99706835),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.14358878, 0.98963743),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [19]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.14156975, 0.9899283),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [20]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.11990859, 0.9927849),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.13955013, 0.990215),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [21]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.14907955, 0.9888252),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.13752994, 0.9904976),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [22]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.17812131, 0.98400855),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.13550918, 0.99077606),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [23]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.15635309, 0.98770124),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.13348785, 0.9910504),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [24]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.13450865, 0.99091244),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.13146597, 0.99132067),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [25]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.112598635, 0.99364054),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.12944353, 0.9915868),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [26]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.12742054, 0.99184877),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [27]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.098758526, 0.9951114),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.12539704, 0.9921066),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [28]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.10687675, 0.9942723),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.123373024, 0.99236035),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [29]
 				(
 					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.098758526, 0.9951114),
+						translation: (-4, 47, 1),
+						rotation: (0, 0, 0.121348485, 0.99261),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 1)),
 				),// [30]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [31]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [32]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [33]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [34]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [35]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [36]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [37]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [38]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [39]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [40]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [41]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [42]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [43]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [44]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [45]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [46]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [47]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [48]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [49]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [50]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [51]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [52]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [53]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [54]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [55]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [56]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [57]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [58]
-				(
-					transform: (
-						translation: (1.9758122, 47.538174, 1),
-						rotation: (0, 0, 0.09063373, 0.9958843),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 1)),
-				),// [59]
 			],
-		),// [2]
+		),// [4]
 		(
 			part_info: (
 				id: 5,
@@ -1066,7 +903,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.08839117, 0.9960858),
+						rotation: (0, 0, -0.08138435, 0.99668276),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1074,7 +911,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.09959286, 0.99502826),
+						rotation: (0, 0, -0.08558895, 0.99633056),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1082,7 +919,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.11078192, 0.99384475),
+						rotation: (0, 0, -0.08979202, 0.99596053),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1090,7 +927,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.12257146, 0.9924597),
+						rotation: (0, 0, -0.09399351, 0.9955728),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1098,7 +935,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.13434371, 0.9909348),
+						rotation: (0, 0, -0.0981933, 0.9951674),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1106,7 +943,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.14609705, 0.98927027),
+						rotation: (0, 0, -0.102391355, 0.9947442),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1114,7 +951,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.15782979, 0.98746634),
+						rotation: (0, 0, -0.10658758, 0.99430335),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1122,7 +959,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.15376547, 0.9881074),
+						rotation: (0, 0, -0.11078192, 0.99384475),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1130,7 +967,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.14969854, 0.9887317),
+						rotation: (0, 0, -0.10436784, 0.9945388),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1138,7 +975,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.14562908, 0.98933923),
+						rotation: (0, 0, -0.09794941, 0.9951914),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1146,7 +983,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.14155716, 0.9899301),
+						rotation: (0, 0, -0.09152687, 0.9958026),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1154,7 +991,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.13748282, 0.99050415),
+						rotation: (0, 0, -0.08510056, 0.99637234),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1162,7 +999,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.13340618, 0.99106145),
+						rotation: (0, 0, -0.0786707, 0.9969007),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1170,7 +1007,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.12932727, 0.99160194),
+						rotation: (0, 0, -0.072237566, 0.99738747),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1178,7 +1015,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.12524617, 0.9921257),
+						rotation: (0, 0, -0.06580142, 0.9978327),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1186,7 +1023,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.12116295, 0.9926326),
+						rotation: (0, 0, -0.059362534, 0.9982365),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1194,7 +1031,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.117077686, 0.99312276),
+						rotation: (0, 0, -0.052921183, 0.9985987),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1202,7 +1039,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.11299043, 0.9935961),
+						rotation: (0, 0, -0.054788403, 0.99849796),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1210,7 +1047,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10890127, 0.9940526),
+						rotation: (0, 0, -0.05665544, 0.9983938),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1218,7 +1055,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
+						rotation: (0, 0, -0.058522273, 0.9982861),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1226,7 +1063,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.05924124, 0.9982437),
+						rotation: (0, 0, -0.060388904, 0.9981749),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1234,7 +1071,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.01354838, 0.9999082),
+						rotation: (0, 0, -0.062255323, 0.9980602),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1242,7 +1079,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, 0.0321728, 0.99948233),
+						rotation: (0, 0, -0.06412153, 0.9979421),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1250,7 +1087,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.0021170096, 0.99999774),
+						rotation: (0, 0, -0.065987505, 0.99782044),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1258,7 +1095,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.03640433, 0.99933714),
+						rotation: (0, 0, -0.06785325, 0.9976953),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1266,7 +1103,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.070648834, 0.99750125),
+						rotation: (0, 0, -0.06971877, 0.9975667),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1274,7 +1111,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
+						rotation: (0, 0, -0.07158402, 0.99743456),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1282,7 +1119,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.062108476, 0.9980694),
+						rotation: (0, 0, -0.073449045, 0.99729896),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1290,7 +1127,7 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.019292649, 0.99981385),
+						rotation: (0, 0, -0.0753138, 0.9971599),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
@@ -1298,245 +1135,13 @@
 				(
 					transform: (
 						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.062108476, 0.9980694),
+						rotation: (0, 0, -0.0771783, 0.9970173),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 0)),
 				),// [30]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [31]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [32]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [33]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [34]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [35]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [36]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [37]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [38]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [39]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [40]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [41]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [42]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [43]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [44]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [45]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [46]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [47]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [48]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [49]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [50]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [51]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [52]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [53]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [54]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [55]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [56]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [57]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [58]
-				(
-					transform: (
-						translation: (12.666668, 165, 1),
-						rotation: (0, 0, -0.10481025, 0.99449223),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 0)),
-				),// [59]
 			],
-		),// [3]
+		),// [5]
 		(
 			part_info: (
 				id: 6,
@@ -1555,7 +1160,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.019851768, 0.99980295),
+						rotation: (0, 0, 0.00226931, 0.99999744),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1563,7 +1168,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.039695714, 0.9992118),
+						rotation: (0, 0, 0.0045386082, 0.9999897),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1571,7 +1176,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.059524015, 0.9982269),
+						rotation: (0, 0, 0.0068078833, 0.9999768),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1579,7 +1184,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.07932885, 0.9968485),
+						rotation: (0, 0, 0.009077122, 0.9999588),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1587,7 +1192,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.09910243, 0.99507725),
+						rotation: (0, 0, 0.011346316, 0.9999356),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1595,7 +1200,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.068316355, 0.99766374),
+						rotation: (0, 0, 0.013615451, 0.9999073),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1603,7 +1208,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03746507, 0.9992979),
+						rotation: (0, 0, 0.015884513, 0.9998738),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1611,7 +1216,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.0065780226, 0.99997836),
+						rotation: (0, 0, 0.018153498, 0.9998352),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1619,7 +1224,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, 0.020422386, 0.99979144),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1627,7 +1232,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, 0.02269117, 0.9997425),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1635,7 +1240,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, 0.014353821, 0.999897),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1643,7 +1248,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, 0.0060154735, 0.9999819),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1651,7 +1256,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.002323296, 0.9999973),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1659,7 +1264,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.010661898, 0.99994314),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1667,7 +1272,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.018999763, 0.9998195),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1675,7 +1280,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.027336307, 0.9996263),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1683,7 +1288,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.035670944, 0.9993636),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1691,7 +1296,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.04400311, 0.99903136),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1699,7 +1304,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.052332208, 0.99862975),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1707,7 +1312,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.047578506, 0.9988675),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1715,7 +1320,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.042823732, 0.9990826),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1723,7 +1328,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.024315298, 0.99970436),
+						rotation: (0, 0, -0.03806798, 0.99927515),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1731,7 +1336,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, -0.004880143, 0.9999881),
+						rotation: (0, 0, -0.033311367, 0.999445),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1739,7 +1344,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.014556854, 0.999894),
+						rotation: (0, 0, -0.028554002, 0.99959224),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1747,7 +1352,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
+						rotation: (0, 0, -0.023795992, 0.9997168),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1755,7 +1360,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
+						rotation: (0, 0, -0.019037442, 0.99981874),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1763,7 +1368,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
+						rotation: (0, 0, -0.014278457, 0.9998981),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1771,7 +1376,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
+						rotation: (0, 0, -0.009519152, 0.9999547),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1779,7 +1384,7 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
+						rotation: (0, 0, -0.004759628, 0.9999887),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
@@ -1787,245 +1392,13 @@
 				(
 					transform: (
 						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
+						rotation: (0, 0, 0, 1),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 9)),
 				),// [30]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [31]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [32]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [33]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [34]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [35]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [36]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [37]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [38]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [39]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [40]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [41]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [42]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [43]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [44]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [45]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [46]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [47]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [48]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [49]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [50]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [51]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [52]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [53]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [54]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [55]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [56]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [57]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [58]
-				(
-					transform: (
-						translation: (-5.666668, 147, -11),
-						rotation: (0, 0, 0.03398835, 0.99942225),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 9)),
-				),// [59]
 			],
-		),// [4]
+		),// [6]
 		(
 			part_info: (
 				id: 7,
@@ -2044,7 +1417,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.51692814, 0.8560288),
+						rotation: (0, 0, -0.49946174, 0.8663359),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2052,7 +1425,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.5444292, 0.8388068),
+						rotation: (0, 0, -0.5099667, 0.86019415),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2060,7 +1433,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.571357, 0.8207016),
+						rotation: (0, 0, -0.5203961, 0.853925),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2068,7 +1441,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.5402794, 0.84148574),
+						rotation: (0, 0, -0.53074855, 0.84752935),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2076,7 +1449,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.50844646, 0.8610936),
+						rotation: (0, 0, -0.5410223, 0.84100825),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2084,7 +1457,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.4759029, 0.8794978),
+						rotation: (0, 0, -0.551216, 0.83436257),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2092,7 +1465,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.4426941, 0.8966727),
+						rotation: (0, 0, -0.5613281, 0.8275933),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2100,7 +1473,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.40995735, 0.91210467),
+						rotation: (0, 0, -0.571357, 0.8207016),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2108,7 +1481,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.37668368, 0.92634195),
+						rotation: (0, 0, -0.5677199, 0.8232218),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2116,7 +1489,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.34291655, 0.93936586),
+						rotation: (0, 0, -0.56407154, 0.8257259),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2124,7 +1497,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.3087003, 0.95115936),
+						rotation: (0, 0, -0.5604122, 0.8282138),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2132,7 +1505,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.27407965, 0.961707),
+						rotation: (0, 0, -0.5567419, 0.83068556),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2140,7 +1513,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.23910008, 0.97099495),
+						rotation: (0, 0, -0.5530607, 0.83314097),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2148,7 +1521,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.20380725, 0.97901106),
+						rotation: (0, 0, -0.5493687, 0.8355801),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2156,7 +1529,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.1682475, 0.9857448),
+						rotation: (0, 0, -0.5456658, 0.83800286),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2164,7 +1537,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.13246739, 0.9911874),
+						rotation: (0, 0, -0.5419523, 0.8404092),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2172,7 +1545,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.09651374, 0.99533165),
+						rotation: (0, 0, -0.5382283, 0.8427991),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2180,7 +1553,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.060433682, 0.9981722),
+						rotation: (0, 0, -0.5344936, 0.84517246),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2188,7 +1561,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.024274472, 0.9997053),
+						rotation: (0, 0, -0.53074855, 0.84752935),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2196,7 +1569,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
+						rotation: (0, 0, -0.52699304, 0.8498696),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2204,7 +1577,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.016858352, 0.9998579),
+						rotation: (0, 0, -0.5232272, 0.85219324),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2212,7 +1585,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.045619283, 0.9989589),
+						rotation: (0, 0, -0.5194512, 0.8545001),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2220,7 +1593,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.074342445, 0.9972328),
+						rotation: (0, 0, -0.51566494, 0.8567903),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2228,7 +1601,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.052804545, 0.9986049),
+						rotation: (0, 0, -0.51186866, 0.85906374),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2236,7 +1609,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.03124205, 0.99951184),
+						rotation: (0, 0, -0.5080623, 0.8613203),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2244,7 +1617,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.009665007, 0.99995327),
+						rotation: (0, 0, -0.504246, 0.8635601),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2252,7 +1625,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
+						rotation: (0, 0, -0.5004198, 0.86578286),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2260,7 +1633,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.00069107517, 0.99999976),
+						rotation: (0, 0, -0.49658385, 0.86798877),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2268,7 +1641,7 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, -0.010534476, 0.9999445),
+						rotation: (0, 0, -0.49273816, 0.8701776),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
@@ -2276,245 +1649,13 @@
 				(
 					transform: (
 						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.00069107517, 0.99999976),
+						rotation: (0, 0, -0.48888284, 0.87234944),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 8)),
 				),// [30]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [31]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [32]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [33]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [34]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [35]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [36]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [37]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [38]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [39]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [40]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [41]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [42]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [43]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [44]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [45]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [46]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [47]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [48]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [49]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [50]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [51]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [52]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [53]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [54]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [55]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [56]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [57]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [58]
-				(
-					transform: (
-						translation: (-28.99597, 101.9103, -9),
-						rotation: (0, 0, 0.011916539, 0.999929),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 8)),
-				),// [59]
 			],
-		),// [5]
+		),// [7]
 		(
 			part_info: (
 				id: 8,
@@ -2533,7 +1674,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.11936515, 0.9928504),
+						rotation: (0, 0, -0.1334892, 0.99105024),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2541,7 +1682,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.096717514, 0.99531186),
+						rotation: (0, 0, -0.12501785, 0.9921545),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2549,7 +1690,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.07401968, 0.99725676),
+						rotation: (0, 0, -0.116537355, 0.9931863),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2557,7 +1698,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.059246287, 0.9982434),
+						rotation: (0, 0, -0.10804835, 0.99414563),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2565,7 +1706,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.044459913, 0.99901116),
+						rotation: (0, 0, -0.099551454, 0.9950324),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2573,7 +1714,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.02966379, 0.99955994),
+						rotation: (0, 0, -0.091047294, 0.99584657),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2581,7 +1722,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.0148611665, 0.99988955),
+						rotation: (0, 0, -0.0825365, 0.99658805),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2589,7 +1730,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.07972921, 0.9968166),
+						rotation: (0, 0, -0.07401968, 0.99725676),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2597,7 +1738,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.14426102, 0.9895397),
+						rotation: (0, 0, -0.07711736, 0.99702203),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2605,7 +1746,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.20818442, 0.9780896),
+						rotation: (0, 0, -0.0802143, 0.99677765),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2613,7 +1754,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27122986, 0.9625146),
+						rotation: (0, 0, -0.08331047, 0.9965236),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2621,7 +1762,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.2725743, 0.9621347),
+						rotation: (0, 0, -0.086405836, 0.99626005),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2629,7 +1770,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27391818, 0.961753),
+						rotation: (0, 0, -0.08950036, 0.9959868),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2637,7 +1778,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27526155, 0.9613694),
+						rotation: (0, 0, -0.09259403, 0.99570394),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2645,7 +1786,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27660438, 0.9609839),
+						rotation: (0, 0, -0.0956868, 0.9954115),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2653,7 +1794,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27794668, 0.9605965),
+						rotation: (0, 0, -0.098778635, 0.99510944),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2661,7 +1802,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27928844, 0.9602072),
+						rotation: (0, 0, -0.10186954, 0.99479777),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2669,7 +1810,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.2806296, 0.95981616),
+						rotation: (0, 0, -0.104959436, 0.9944765),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2677,7 +1818,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.2819703, 0.9594231),
+						rotation: (0, 0, -0.10804835, 0.99414563),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2685,7 +1826,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.2833104, 0.95902824),
+						rotation: (0, 0, -0.1111362, 0.99380517),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2693,7 +1834,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.28464994, 0.9586315),
+						rotation: (0, 0, -0.11422297, 0.9934551),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2701,7 +1842,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.28598896, 0.9582329),
+						rotation: (0, 0, -0.11730866, 0.9930955),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2709,7 +1850,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.2873274, 0.95783246),
+						rotation: (0, 0, -0.12039322, 0.99272627),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2717,7 +1858,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.28557882, 0.95835525),
+						rotation: (0, 0, -0.123476595, 0.9923475),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2725,7 +1866,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.28382933, 0.9588748),
+						rotation: (0, 0, -0.12655878, 0.9919591),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2733,7 +1874,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.28207883, 0.95939124),
+						rotation: (0, 0, -0.12963977, 0.9915612),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2741,7 +1882,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.28032744, 0.95990443),
+						rotation: (0, 0, -0.1327195, 0.99115366),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2749,7 +1890,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.2785751, 0.96041447),
+						rotation: (0, 0, -0.13579792, 0.99073654),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2757,7 +1898,7 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
+						rotation: (0, 0, -0.13887507, 0.9903099),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
@@ -2765,245 +1906,13 @@
 				(
 					transform: (
 						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
+						rotation: (0, 0, -0.14195085, 0.9898737),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 7)),
 				),// [30]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [31]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [32]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [33]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [34]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [35]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [36]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [37]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [38]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [39]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [40]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [41]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [42]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [43]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [44]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [45]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [46]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [47]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [48]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [49]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [50]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [51]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [52]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [53]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [54]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [55]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [56]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [57]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [58]
-				(
-					transform: (
-						translation: (25, -76, -10),
-						rotation: (0, 0, -0.27682185, 0.9609213),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 7)),
-				),// [59]
 			],
-		),// [6]
+		),// [8]
 		(
 			part_info: (
 				id: 9,
@@ -3021,478 +1930,246 @@
 				),// [0]
 				(
 					transform: (
-						translation: (51.579075, 104.205414, 6),
-						rotation: (0, 0, 0.2837899, 0.9588865),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.25940883, 0.9657676),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [1]
 				(
 					transform: (
-						translation: (50.15815, 104.41082, 6),
-						rotation: (0, 0, 0.3224144, 0.94659865),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.2740585, 0.961713),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [2]
 				(
 					transform: (
-						translation: (48.73722, 104.61623, 6),
-						rotation: (0, 0, 0.36050916, 0.93275565),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.28864482, 0.95743626),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [3]
 				(
 					transform: (
-						translation: (47.316296, 104.82164, 6),
-						rotation: (0, 0, 0.30602652, 0.95202297),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.30316442, 0.95293826),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [4]
 				(
 					transform: (
-						translation: (45.89537, 105.027054, 6),
-						rotation: (0, 0, 0.25052193, 0.9681109),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.31761402, 0.9482201),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [5]
 				(
 					transform: (
-						translation: (44.47444, 105.23245, 6),
-						rotation: (0, 0, 0.19418068, 0.9809658),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.33199018, 0.94328284),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [6]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, 0.13719097, 0.9905446),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.34628966, 0.93812764),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [7]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, 0.108601, 0.99408543),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.36050916, 0.93275565),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [8]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, 0.0799209, 0.9968012),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.3553479, 0.9347341),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [9]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, 0.051174477, 0.9986897),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.35017577, 0.936684),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [10]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, 0.022385586, 0.9997494),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.344993, 0.93860525),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [11]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.006421894, 0.9999794),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.33979964, 0.9404979),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [12]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.035224028, 0.99937946),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.3345959, 0.9423617),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [13]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.063996956, 0.9979501),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.3293819, 0.94419676),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [14]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.09271675, 0.99569255),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.32415792, 0.94600296),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [15]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.121359594, 0.9926086),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.318924, 0.9477803),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [16]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.14990173, 0.9887009),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.31368032, 0.94952863),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [17]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.17831944, 0.98397267),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.30842713, 0.951248),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [18]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.20658919, 0.97842777),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.30316442, 0.95293826),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [19]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.29789248, 0.95459944),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [20]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.26718402, 0.9636455),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.29261148, 0.9562314),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [21]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.2993795, 0.9541341),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.28732148, 0.9578342),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [22]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.33123752, 0.9435474),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.2820227, 0.95940775),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [23]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.30737704, 0.9515878),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.27671534, 0.9609519),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [24]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.28332168, 0.95902497),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.2713995, 0.9624668),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [25]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.2590867, 0.96585405),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.2660754, 0.96395224),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [26]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.26074314, 0.9654082),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [27]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.25540295, 0.9668347),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [28]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.25005493, 0.9682317),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [29]
 				(
 					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
+						translation: (53, 104, 6),
+						rotation: (0, 0, 0.24469927, 0.969599),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 6)),
 				),// [30]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [31]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [32]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [33]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [34]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [35]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [36]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [37]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [38]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [39]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [40]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [41]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [42]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [43]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [44]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [45]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [46]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [47]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [48]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [49]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [50]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [51]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [52]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [53]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [54]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [55]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [56]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [57]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [58]
-				(
-					transform: (
-						translation: (43.053516, 105.43787, 6),
-						rotation: (0, 0, -0.23468746, 0.9720709),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 6)),
-				),// [59]
 			],
-		),// [7]
+		),// [9]
 		(
 			part_info: (
 				id: 10,
@@ -3511,7 +2188,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.58378786, 0.8119062),
+						rotation: (0, 0, -0.5518628, 0.83393496),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3519,7 +2196,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.6330217, 0.77413404),
+						rotation: (0, 0, -0.57112056, 0.8208662),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3527,7 +2204,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.67981803, 0.73338085),
+						rotation: (0, 0, -0.59006906, 0.8073528),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3535,7 +2212,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.6421702, 0.7665621),
+						rotation: (0, 0, -0.6086979, 0.79340214),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3543,7 +2220,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.6029053, 0.7978128),
+						rotation: (0, 0, -0.62699705, 0.7790216),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3551,7 +2228,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.5621219, 0.8270544),
+						rotation: (0, 0, -0.6449565, 0.7642192),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3559,7 +2236,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.519923, 0.8542131),
+						rotation: (0, 0, -0.6625668, 0.7490029),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3567,7 +2244,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.47641465, 0.8792207),
+						rotation: (0, 0, -0.67981803, 0.73338085),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3575,7 +2252,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.43170664, 0.9020141),
+						rotation: (0, 0, -0.6735869, 0.739108),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3583,7 +2260,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.38591132, 0.9225359),
+						rotation: (0, 0, -0.6673076, 0.7447822),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3591,7 +2268,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.3391442, 0.9407344),
+						rotation: (0, 0, -0.6609805, 0.7504031),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3599,7 +2276,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.29152298, 0.95656383),
+						rotation: (0, 0, -0.654606, 0.75597024),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3607,7 +2284,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.24316764, 0.9699843),
+						rotation: (0, 0, -0.6481846, 0.76148325),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3615,7 +2292,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.19419987, 0.980962),
+						rotation: (0, 0, -0.6417169, 0.7669416),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3623,7 +2300,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.14474308, 0.9894693),
+						rotation: (0, 0, -0.6352031, 0.7723451),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3631,7 +2308,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.09492176, 0.9954847),
+						rotation: (0, 0, -0.6286439, 0.77769333),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3639,7 +2316,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, -0.04486139, 0.9989932),
+						rotation: (0, 0, -0.6220396, 0.78298575),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3647,7 +2324,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.005311941, 0.9999859),
+						rotation: (0, 0, -0.6153908, 0.7882222),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3655,7 +2332,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.05547191, 0.99846023),
+						rotation: (0, 0, -0.6086979, 0.79340214),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3663,7 +2340,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.6019613, 0.7985252),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3671,7 +2348,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.5951817, 0.80359113),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3679,7 +2356,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.5883595, 0.8085995),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3687,7 +2364,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.5814951, 0.8135499),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3695,7 +2372,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.574589, 0.8184421),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3703,7 +2380,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.5676419, 0.82327557),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3711,7 +2388,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.5606539, 0.8280502),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3719,7 +2396,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.553626, 0.83276546),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3727,7 +2404,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.54655826, 0.8374211),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3735,7 +2412,7 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.53945154, 0.84201664),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
@@ -3743,245 +2420,13 @@
 				(
 					transform: (
 						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
+						rotation: (0, 0, -0.532306, 0.846552),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 10)),
 				),// [30]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [31]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [32]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [33]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [34]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [35]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [36]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [37]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [38]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [39]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [40]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [41]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [42]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [43]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [44]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [45]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [46]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [47]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [48]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [49]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [50]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [51]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [52]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [53]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [54]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [55]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [56]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [57]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [58]
-				(
-					transform: (
-						translation: (27, -76, 5),
-						rotation: (0, 0, 0.105492175, 0.9944201),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 10)),
-				),// [59]
 			],
-		),// [8]
+		),// [10]
 		(
 			part_info: (
 				id: 11,
@@ -3999,478 +2444,246 @@
 				),// [0]
 				(
 					transform: (
-						translation: (39.509148, -9.936514, -3),
-						rotation: (0, 0, 0.1517868, 0.9884133),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.1370006, 0.99057096),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [1]
 				(
 					transform: (
-						translation: (38.786488, -9.375713, -3),
-						rotation: (0, 0, 0.17537288, 0.9845021),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.14587621, 0.9893029),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [2]
 				(
 					transform: (
-						translation: (38.063828, -8.814912, -3),
-						rotation: (0, 0, 0.1988587, 0.98002815),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.1547401, 0.9879552),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [3]
 				(
 					transform: (
-						translation: (37.341167, -8.254112, -3),
-						rotation: (0, 0, 0.18826124, 0.98211896),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.16359153, 0.98652816),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [4]
 				(
 					transform: (
-						translation: (36.618507, -7.6933107, -3),
-						rotation: (0, 0, 0.17764185, 0.9840952),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.17242983, 0.9850218),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [5]
 				(
 					transform: (
-						translation: (35.89585, -7.13251, -3),
-						rotation: (0, 0, 0.16700174, 0.9859566),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.18125427, 0.9834363),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [6]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, 0.1563421, 0.98770297),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.1900641, 0.9817717),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [7]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, 0.13594559, 0.9907163),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.1988587, 0.98002815),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [8]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, 0.115491256, 0.9933085),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.18172882, 0.98334867),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [9]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, 0.09498783, 0.99547845),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.16454363, 0.9863698),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [10]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, 0.07444404, 0.99722517),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.14730832, 0.9890906),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [11]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, 0.05386859, 0.99854803),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.13002819, 0.9915103),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [12]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, 0.033270262, 0.9994464),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.11270844, 0.9936281),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [13]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, 0.012657758, 0.9999199),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.09535439, 0.9954434),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [14]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.007960101, 0.9999683),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.0779713, 0.99695563),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [15]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.02857458, 0.99959165),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.060564492, 0.9981643),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [16]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.049176913, 0.9987901),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.04313923, 0.9990691),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [17]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.06975835, 0.9975639),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.0496948, 0.99876446),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [18]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.09031013, 0.9959137),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.056248218, 0.99841684),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [19]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.06279922, 0.9980262),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [20]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.14417383, 0.9895524),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.06934752, 0.99759257),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [21]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.17736118, 0.9841458),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.07589283, 0.99711597),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [22]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.21034795, 0.97762656),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.08243487, 0.99659646),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [23]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.18562812, 0.98262006),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.088973366, 0.996034),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [24]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.16079022, 0.9869886),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.095508024, 0.9954287),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [25]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.13585007, 0.9907294),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.10203857, 0.9947804),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [26]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.10856472, 0.99408937),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [27]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.12228707, 0.99249476),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.11508618, 0.9933555),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [28]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.13373436, 0.9910172),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.121602714, 0.99257886),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [29]
 				(
 					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.12228707, 0.99249476),
+						translation: (40.231804, -10.497314, -3),
+						rotation: (0, 0, 0.128114, 0.9917594),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 12)),
 				),// [30]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [31]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [32]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [33]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [34]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [35]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [36]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [37]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [38]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [39]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [40]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [41]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [42]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [43]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [44]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [45]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [46]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [47]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [48]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [49]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [50]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [51]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [52]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [53]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [54]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [55]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [56]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [57]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [58]
-				(
-					transform: (
-						translation: (35.17319, -6.5717096, -3),
-						rotation: (0, 0, -0.110823505, 0.9938401),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 12)),
-				),// [59]
 			],
-		),// [9]
+		),// [11]
 		(
 			part_info: (
 				id: 12,
@@ -4489,7 +2702,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.19575818, 0.9806522),
+						rotation: (0, 0, 0.21395814, 0.9768428),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4497,7 +2710,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.16650009, 0.9860414),
+						rotation: (0, 0, 0.20304665, 0.9791691),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4505,7 +2718,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13709463, 0.99055797),
+						rotation: (0, 0, 0.19210987, 0.9813734),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4513,7 +2726,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13658075, 0.99062896),
+						rotation: (0, 0, 0.18114915, 0.98345566),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4521,7 +2734,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13606684, 0.99069965),
+						rotation: (0, 0, 0.17016596, 0.9854154),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4529,7 +2742,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1355529, 0.9907701),
+						rotation: (0, 0, 0.15916154, 0.98725253),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4537,7 +2750,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13503893, 0.9908403),
+						rotation: (0, 0, 0.14813729, 0.9889668),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4545,7 +2758,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1345249, 0.99091023),
+						rotation: (0, 0, 0.13709463, 0.99055797),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4553,7 +2766,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13401085, 0.99097985),
+						rotation: (0, 0, 0.14305511, 0.98971474),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4561,7 +2774,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13349675, 0.99104923),
+						rotation: (0, 0, 0.14901042, 0.98883563),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4569,7 +2782,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13298263, 0.9911184),
+						rotation: (0, 0, 0.15496032, 0.9879207),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4577,7 +2790,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13246846, 0.9911872),
+						rotation: (0, 0, 0.1609046, 0.98696995),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4585,7 +2798,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13195425, 0.9912558),
+						rotation: (0, 0, 0.16684304, 0.9859835),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4593,7 +2806,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13144003, 0.9913241),
+						rotation: (0, 0, 0.17277545, 0.9849612),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4601,7 +2814,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13092576, 0.9913922),
+						rotation: (0, 0, 0.17870161, 0.9839033),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4609,7 +2822,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.13041145, 0.99145997),
+						rotation: (0, 0, 0.18462129, 0.9828097),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4617,7 +2830,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1298971, 0.9915275),
+						rotation: (0, 0, 0.19053425, 0.9816806),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4625,7 +2838,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.12938274, 0.99159473),
+						rotation: (0, 0, 0.19318226, 0.9811629),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4633,7 +2846,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.12886831, 0.9916617),
+						rotation: (0, 0, 0.19582884, 0.9806381),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4641,7 +2854,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
+						rotation: (0, 0, 0.19847402, 0.9801062),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4649,7 +2862,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.12002698, 0.9927706),
+						rotation: (0, 0, 0.20111772, 0.97956705),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4657,7 +2870,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.11169165, 0.9937429),
+						rotation: (0, 0, 0.20375998, 0.9790209),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4665,7 +2878,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.10334845, 0.99464524),
+						rotation: (0, 0, 0.20640075, 0.9784675),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4673,7 +2886,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.109606564, 0.99397504),
+						rotation: (0, 0, 0.20904003, 0.97790706),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4681,7 +2894,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.115860336, 0.9932655),
+						rotation: (0, 0, 0.21167776, 0.9773395),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4689,7 +2902,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.12210953, 0.99251664),
+						rotation: (0, 0, 0.21431397, 0.9767648),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4697,7 +2910,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
+						rotation: (0, 0, 0.21694861, 0.976183),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4705,7 +2918,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.12603846, 0.9920254),
+						rotation: (0, 0, 0.2195817, 0.9755941),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4713,7 +2926,7 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.12372234, 0.9923169),
+						rotation: (0, 0, 0.22221316, 0.9749981),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
@@ -4721,245 +2934,13 @@
 				(
 					transform: (
 						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.12603846, 0.9920254),
+						rotation: (0, 0, 0.22484301, 0.974395),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 5)),
 				),// [30]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [31]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [32]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [33]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [34]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [35]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [36]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [37]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [38]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [39]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [40]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [41]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [42]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [43]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [44]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [45]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [46]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [47]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [48]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [49]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [50]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [51]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [52]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [53]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [54]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [55]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [56]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [57]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [58]
-				(
-					transform: (
-						translation: (23.666656, -92.66667, -4),
-						rotation: (0, 0, 0.1283539, 0.9917284),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 5)),
-				),// [59]
 			],
-		),// [10]
+		),// [12]
 		(
 			part_info: (
 				id: 13,
@@ -4978,7 +2959,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.2873082, 0.9578382),
+						rotation: (0, 0, -0.26332277, 0.9647078),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -4986,7 +2967,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.32530668, 0.94560856),
+						rotation: (0, 0, -0.27773464, 0.96065784),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -4994,7 +2975,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.36278677, 0.9318722),
+						rotation: (0, 0, -0.29208428, 0.9563926),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5002,7 +2983,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.27678597, 0.9609316),
+						rotation: (0, 0, -0.3063684, 0.951913),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5010,7 +2991,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.18850422, 0.98207235),
+						rotation: (0, 0, -0.32058397, 0.9472201),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5018,7 +2999,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.09866913, 0.9951203),
+						rotation: (0, 0, -0.33472764, 0.9423149),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5026,7 +3007,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.008020936, 0.9999678),
+						rotation: (0, 0, -0.34879628, 0.9371986),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5034,7 +3015,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.008631269, 0.99996275),
+						rotation: (0, 0, -0.36278677, 0.9318722),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5042,7 +3023,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.0092416, 0.9999573),
+						rotation: (0, 0, -0.3488258, 0.93718755),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5050,7 +3031,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.009851927, 0.9999515),
+						rotation: (0, 0, -0.33478704, 0.9422938),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5058,7 +3039,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01046225, 0.9999453),
+						rotation: (0, 0, -0.3206735, 0.9471898),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5066,7 +3047,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.0110725695, 0.9999387),
+						rotation: (0, 0, -0.30648848, 0.9518744),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5074,7 +3055,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.011682886, 0.99993175),
+						rotation: (0, 0, -0.292235, 0.9563466),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5082,7 +3063,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.012293197, 0.9999244),
+						rotation: (0, 0, -0.2779163, 0.96060526),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5090,7 +3071,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.012903502, 0.99991673),
+						rotation: (0, 0, -0.2635356, 0.9646497),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5098,7 +3079,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.013513805, 0.9999087),
+						rotation: (0, 0, -0.24909608, 0.9684788),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5106,7 +3087,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.014124103, 0.9999002),
+						rotation: (0, 0, -0.23460099, 0.97209173),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5114,7 +3095,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.014734392, 0.99989146),
+						rotation: (0, 0, -0.23569906, 0.9718261),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5122,7 +3103,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.015344679, 0.9998823),
+						rotation: (0, 0, -0.2367968, 0.9715592),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5130,7 +3111,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
+						rotation: (0, 0, -0.23789427, 0.97129107),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5138,7 +3119,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.028032688, 0.999607),
+						rotation: (0, 0, -0.23899141, 0.97102165),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5146,7 +3127,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.04010633, 0.9991954),
+						rotation: (0, 0, -0.24008825, 0.97075105),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5154,7 +3135,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.052174114, 0.998638),
+						rotation: (0, 0, -0.24118482, 0.9704792),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5162,7 +3143,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.04312389, 0.99906975),
+						rotation: (0, 0, -0.24228103, 0.97020614),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5170,7 +3151,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.034070134, 0.99941945),
+						rotation: (0, 0, -0.24337696, 0.9699318),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5178,7 +3159,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.025013572, 0.99968714),
+						rotation: (0, 0, -0.24447258, 0.9696562),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5186,7 +3167,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
+						rotation: (0, 0, -0.24556787, 0.9693794),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5194,7 +3175,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.018701145, 0.9998251),
+						rotation: (0, 0, -0.24666287, 0.96910137),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5202,7 +3183,7 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.02144719, 0.99977),
+						rotation: (0, 0, -0.24775752, 0.96882206),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
@@ -5210,245 +3191,13 @@
 				(
 					transform: (
 						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.018701145, 0.9998251),
+						rotation: (0, 0, -0.2488519, 0.96854156),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 3)),
 				),// [30]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [31]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [32]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [33]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [34]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [35]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [36]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [37]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [38]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [39]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [40]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [41]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [42]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [43]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [44]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [45]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [46]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [47]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [48]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [49]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [50]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [51]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [52]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [53]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [54]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [55]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [56]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [57]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [58]
-				(
-					transform: (
-						translation: (-27.101524, -11.830658, -6),
-						rotation: (0, 0, -0.01595496, 0.9998727),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 3)),
-				),// [59]
 			],
-		),// [11]
+		),// [13]
 		(
 			part_info: (
 				id: 14,
@@ -5466,478 +3215,246 @@
 				),// [0]
 				(
 					transform: (
-						translation: (6.480698, -92.0429, -7),
-						rotation: (0, 0, 0.35514048, 0.93481296),
+						translation: (6.678668, -92.29345, -7),
+						rotation: (0, 0, 0.31042188, 0.9505989),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [1]
 				(
 					transform: (
-						translation: (6.628064, -92.419136, -7),
-						rotation: (0, 0, 0.42498788, 0.90519905),
+						translation: (7.024005, -92.92023, -7),
+						rotation: (0, 0, 0.3373433, 0.9413817),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [2]
 				(
 					transform: (
-						translation: (6.7754297, -92.79536, -7),
-						rotation: (0, 0, 0.49238917, 0.87037516),
+						translation: (7.369341, -93.54701, -7),
+						rotation: (0, 0, 0.3639916, 0.9314022),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [3]
 				(
 					transform: (
-						translation: (6.922796, -93.171585, -7),
-						rotation: (0, 0, 0.45004666, 0.893005),
+						translation: (7.7146773, -94.1738, -7),
+						rotation: (0, 0, 0.39034513, 0.9206686),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [4]
 				(
 					transform: (
-						translation: (7.070162, -93.54782, -7),
-						rotation: (0, 0, 0.40666676, 0.91357654),
+						translation: (8.060014, -94.80057, -7),
+						rotation: (0, 0, 0.41638264, 0.90918946),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [5]
 				(
 					transform: (
-						translation: (7.217528, -93.92405, -7),
-						rotation: (0, 0, 0.36234948, 0.9320423),
+						translation: (8.40535, -95.42735, -7),
+						rotation: (0, 0, 0.44208294, 0.89697415),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [6]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.317197, 0.94835967),
+						translation: (8.750686, -96.05414, -7),
+						rotation: (0, 0, 0.4674253, 0.88403255),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [7]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.31657222, 0.9485684),
+						translation: (9.096023, -96.680916, -7),
+						rotation: (0, 0, 0.49238917, 0.87037516),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [8]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.3159473, 0.9487767),
+						translation: (9.441359, -97.30769, -7),
+						rotation: (0, 0, 0.45755407, 0.8891818),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [9]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.31532222, 0.9489847),
+						translation: (9.7866955, -97.93448, -7),
+						rotation: (0, 0, 0.422002, 0.90659493),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [10]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.31469706, 0.94919217),
+						translation: (10.132031, -98.56125, -7),
+						rotation: (0, 0, 0.38578847, 0.9225873),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [11]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.31407169, 0.9493993),
+						translation: (10.477367, -99.188034, -7),
+						rotation: (0, 0, 0.34897044, 0.9371337),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [12]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.31344622, 0.94960594),
+						translation: (10.822703, -99.81481, -7),
+						rotation: (0, 0, 0.31160545, 0.9502116),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [13]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.31282058, 0.94981223),
+						translation: (11.16804, -100.4416, -7),
+						rotation: (0, 0, 0.27375212, 0.9618003),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [14]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.31219485, 0.9500181),
+						translation: (11.513377, -101.06838, -7),
+						rotation: (0, 0, 0.23546982, 0.9718817),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [15]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.31156898, 0.95022357),
+						translation: (11.858713, -101.69516, -7),
+						rotation: (0, 0, 0.19681846, 0.98043996),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [16]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.31094295, 0.9504286),
+						translation: (12.204049, -102.32194, -7),
+						rotation: (0, 0, 0.15785868, 0.9874617),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [17]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.3103168, 0.95063317),
+						translation: (11.752456, -101.502304, -7),
+						rotation: (0, 0, 0.1676235, 0.9858511),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [18]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.3096905, 0.95083743),
+						translation: (11.300861, -100.68266, -7),
+						rotation: (0, 0, 0.1773719, 0.9841439),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [19]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
+						translation: (10.849269, -99.86303, -7),
+						rotation: (0, 0, 0.18710296, 0.98234034),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [20]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.29433677, 0.95570177),
+						translation: (10.397675, -99.043396, -7),
+						rotation: (0, 0, 0.19681567, 0.9804405),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [21]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.27953926, 0.96013427),
+						translation: (9.946081, -98.223755, -7),
+						rotation: (0, 0, 0.2065091, 0.9784447),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [22]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.26467502, 0.96433765),
+						translation: (9.494488, -97.40413, -7),
+						rotation: (0, 0, 0.21618232, 0.976353),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [23]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.27582932, 0.9612066),
+						translation: (9.042893, -96.58449, -7),
+						rotation: (0, 0, 0.22583437, 0.97416574),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [24]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.28694656, 0.9579466),
+						translation: (8.5913, -95.76485, -7),
+						rotation: (0, 0, 0.23546427, 0.971883),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [25]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.2980253, 0.95455796),
+						translation: (8.139707, -94.94521, -7),
+						rotation: (0, 0, 0.24507111, 0.96950513),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [26]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
+						translation: (7.6881123, -94.12558, -7),
+						rotation: (0, 0, 0.25465396, 0.96703225),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [27]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30624354, 0.9519532),
+						translation: (7.2365193, -93.30595, -7),
+						rotation: (0, 0, 0.2642119, 0.96446466),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [28]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.3034203, 0.95285684),
+						translation: (6.784926, -92.486305, -7),
+						rotation: (0, 0, 0.2737439, 0.9618026),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [29]
 				(
 					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30624354, 0.9519532),
+						translation: (6.333332, -91.66667, -7),
+						rotation: (0, 0, 0.2832491, 0.95904636),
 						scale: (1, 1, 1),
 					),
 					cell: Some((0, 4)),
 				),// [30]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [31]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [32]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [33]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [34]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [35]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [36]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [37]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [38]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [39]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [40]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [41]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [42]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [43]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [44]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [45]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [46]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [47]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [48]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [49]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [50]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [51]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [52]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [53]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [54]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [55]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [56]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [57]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [58]
-				(
-					transform: (
-						translation: (7.3648934, -94.30028, -7),
-						rotation: (0, 0, 0.30906412, 0.9510412),
-						scale: (1, 1, 1),
-					),
-					cell: Some((0, 4)),
-				),// [59]
 			],
-		),// [12]
+		),// [14]
 		(
 			part_info: (
 				id: 15,
@@ -5956,536 +3473,275 @@
 				),// [0]
 				(
 					transform: (
-						translation: (33.466667, 10.233343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (1.9079721, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [1]
 				(
 					transform: (
-						translation: (37.26667, 10.133343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (2.0406635, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [2]
 				(
 					transform: (
-						translation: (41.06667, 10.033344, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (2.1733546, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [3]
 				(
 					transform: (
-						translation: (44.86667, 9.933344, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (2.306046, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [4]
 				(
 					transform: (
-						translation: (48.666668, 9.8333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (2.4387372, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [5]
 				(
 					transform: (
-						translation: (52.466667, 9.733343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (2.5714285, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [6]
 				(
 					transform: (
-						translation: (56.266666, 9.633343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (2.7041197, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [7]
 				(
 					transform: (
-						translation: (60.066673, 9.533344, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (2.8602705, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [8]
 				(
 					transform: (
-						translation: (63.86667, 9.433344, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (3.0164216, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [9]
 				(
 					transform: (
-						translation: (67.66667, 9.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (3.1725726, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [10]
 				(
 					transform: (
-						translation: (71.466675, 9.233343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (3.3287237, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [11]
 				(
 					transform: (
-						translation: (75.26667, 9.133343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (3.4848745, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [12]
 				(
 					transform: (
-						translation: (79.066666, 9.033343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (3.6410255, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [13]
 				(
 					transform: (
-						translation: (82.86667, 8.933344, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (3.7971766, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [14]
 				(
 					transform: (
-						translation: (86.666664, 8.8333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (3.9533274, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [15]
 				(
 					transform: (
-						translation: (90.466675, 8.733343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.1094785, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [16]
 				(
 					transform: (
-						translation: (94.26667, 8.633344, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.2656293, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [17]
 				(
 					transform: (
-						translation: (98.066666, 8.533343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.4217806, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [18]
 				(
 					transform: (
-						translation: (101.86668, 8.433343, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.5779314, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [19]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [20]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.5917597, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [21]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.4494376, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [22]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.3071156, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [23]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.4138575, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [24]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.520599, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [25]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.6273403, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [26]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [27]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.655431, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [28]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.576779, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [29]
 				(
 					transform: (
-						translation: (105.66667, 8.3333435, -12),
+						translation: (29.666668, 10.3333435, -12),
 						rotation: (0, 0, 0, 1),
-						scale: (4.655431, 1.9084964, 1),
+						scale: (1.7752808, 1.9084964, 1),
 					),
 					cell: Some((0, 11)),
 					color: ((1, 1, 1, 0.5)),
 				),// [30]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [31]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [32]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [33]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [34]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [35]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [36]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [37]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [38]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [39]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [40]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [41]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [42]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [43]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [44]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [45]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [46]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [47]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [48]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [49]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [50]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [51]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [52]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [53]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [54]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [55]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [56]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [57]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [58]
-				(
-					transform: (
-						translation: (105.66667, 8.3333435, -12),
-						rotation: (0, 0, 0, 1),
-						scale: (4.734082, 1.9084964, 1),
-					),
-					cell: Some((0, 11)),
-					color: ((1, 1, 1, 0.5)),
-				),// [59]
 			],
-		),// [13]
+		),// [15]
 	],
 )
