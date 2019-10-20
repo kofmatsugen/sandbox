@@ -25,7 +25,7 @@ use amethyst::{
 use amethyst_playfab::bundle::PlayFabSystemBundle;
 use amethyst_sprite_studio::{bundle::SpriteStudioBundleBuilder, renderer::RenderSpriteAnimation};
 use debug_system::{EntityCountSystem, PositionDrawSystem};
-use fight_game::system::{CollideSystem, MoveSystem};
+use fight_game::system::{CollideSystem, ExtrudeSystem, MoveSystem};
 
 fn main() -> amethyst::Result<()> {
     let logger_config = LoggerConfig::default();
@@ -52,6 +52,12 @@ fn main() -> amethyst::Result<()> {
         )
         .with(EntityCountSystem::new(), "", &[])
         .with(PositionDrawSystem::new(), "", &[])
+        .with_barrier()
+        .with(
+            ExtrudeSystem::new(),
+            "extrude_system",
+            &["move_system", "collide_system"],
+        )
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
                 .with_plugin(RenderSpriteAnimation::<String, UserData>::default())

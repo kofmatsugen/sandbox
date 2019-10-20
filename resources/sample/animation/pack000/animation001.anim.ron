@@ -21,17 +21,29 @@
 			),
 			key_frames: [
 				(
+					user: Some((
+						move_direction: (0, 0),
+						user_param: Some((
+							collision_type: Some(Extrusion),
+						)),
+					)),
 					transform: (
-						translation: (0, 250, 0),
+						translation: (0, 300, 0),
 						rotation: (0, 0, 0, 1),
-						scale: (300, 500, 1),
+						scale: (200, 600, 1),
 					),
 				),// [0]
 				(
+					user: Some((
+						move_direction: (0, 0),
+						user_param: Some((
+							collision_type: Some(Extrusion),
+						)),
+					)),
 					transform: (
-						translation: (0, 250, 0),
+						translation: (0, 300, 0),
 						rotation: (0, 0, 0, 1),
-						scale: (300, 500, 1),
+						scale: (200, 600, 1),
 					),
 				),// [1]
 			],
