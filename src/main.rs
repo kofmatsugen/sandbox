@@ -25,7 +25,7 @@ use amethyst::{
 use amethyst_playfab::bundle::PlayFabSystemBundle;
 use amethyst_sprite_studio::{bundle::SpriteStudioBundleBuilder, renderer::RenderSpriteAnimation};
 use debug_system::{EntityCountSystem, PositionDrawSystem};
-use fight_game::system::{CollideSystem, ExtrudeSystem, MoveSystem};
+use fight_game::system::MoveSystem;
 
 fn main() -> amethyst::Result<()> {
     let logger_config = LoggerConfig::default();
@@ -45,26 +45,16 @@ fn main() -> amethyst::Result<()> {
             UserData,
         >())?
         .with(MoveSystem::<String>::new(), "move_system", &[])
-        .with(
-            CollideSystem::<String>::new(),
-            "collide_system",
-            &["move_system"],
-        )
         .with(EntityCountSystem::new(), "", &[])
         .with(PositionDrawSystem::new(), "", &[])
         .with_barrier()
-        .with(
-            ExtrudeSystem::new(),
-            "extrude_system",
-            &["move_system", "collide_system"],
-        )
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
                 .with_plugin(RenderSpriteAnimation::<String, UserData>::default())
                 .with_plugin(RenderUi::default())
                 .with_plugin(RenderDebugLines::default())
                 .with_plugin(
-                    RenderToWindow::from_config_path(display_config_path)
+                    RenderToWindow::from_config_path(display_config_path)?
                         .with_clear([0.34, 0.36, 0.52, 1.0]),
                 ),
         )?
