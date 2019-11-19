@@ -26,7 +26,7 @@ where
     }
 
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
-        if let Some(response) = self.api_caller.and_then(|e| {
+        if let Some(_) = self.api_caller.and_then(|e| {
             data.world
                 .exec(|mut api: WriteStorage<PlayFabApi<LoginReqest, _>>| {
                     api.get_mut(e).and_then(|api| match api.take_response() {
@@ -35,7 +35,6 @@ where
                     })
                 })
         }) {
-            log::info!("{:?}", response);
             if let Some(api_caller) = self.api_caller.take() {
                 let _ = data.world.delete_entity(api_caller);
             }
