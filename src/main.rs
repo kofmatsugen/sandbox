@@ -19,18 +19,33 @@ use amethyst::{
         RenderingBundle,
     },
     ui::{RenderUi, UiBundle},
-    utils::application_root_dir,
+    utils::{application_root_dir, fps_counter::FpsCounterBundle},
     LoggerConfig,
 };
+use amethyst_collision::bundle::CollisionSystemBundle;
 use amethyst_playfab::bundle::PlayFabSystemBundle;
 use amethyst_sprite_studio::{bundle::SpriteStudioBundleBuilder, renderer::RenderSpriteAnimation};
-use debug_system::{EntityCountSystem, PositionDrawSystem};
-use fight_game::system::MoveSystem;
+use debug_system::DebugSystemBundle;
+use fight_game::{
+    components::Collisions,
+    paramater::{Aabb, CollisionParamater},
+    system::{MoveSystem, RegisterColliderSystem},
+};
 
 fn main() -> amethyst::Result<()> {
     let logger_config = LoggerConfig::default();
     amethyst::Logger::from_config(logger_config)
         .level_for("debug_collision", amethyst::LogLevelFilter::Debug)
+        .level_for(
+            "amethyst_collision::system::detect_contact",
+            amethyst::LogLevelFilter::Info,
+        )
+        .level_for("fight_game", amethyst::LogLevelFilter::Error)
+        .level_for(
+            "fight_game::components::collision",
+            amethyst::LogLevelFilter::Info,
+        )
+        .level_for("sync_position_to_world", amethyst::LogLevelFilter::Error)
         .start();
     let app_root = application_root_dir()?;
 
@@ -45,8 +60,15 @@ fn main() -> amethyst::Result<()> {
             UserData,
         >())?
         .with(MoveSystem::<String>::new(), "move_system", &[])
-        .with(EntityCountSystem::new(), "", &[])
-        .with(PositionDrawSystem::new(), "", &[])
+        .with_bundle(CollisionSystemBundle::<
+            Collisions<Aabb, ()>,
+            CollisionParamater,
+        >::new())?
+        .with(
+            RegisterColliderSystem::<String, Aabb, ()>::new(),
+            "register_collider",
+            &[],
+        )
         .with_barrier()
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
@@ -58,7 +80,9 @@ fn main() -> amethyst::Result<()> {
                         .with_clear([0.34, 0.36, 0.52, 1.0]),
                 ),
         )?
-        .with_bundle(PlayFabSystemBundle::<PlayFab>::new())?;
+        .with_bundle(FpsCounterBundle::default())?
+        .with_bundle(PlayFabSystemBundle::<PlayFab>::new())?
+        .with_bundle(DebugSystemBundle::new())?;
 
     let mut game = Application::new(resources_dir, PlayFabCheck::<MyState>::default(), game_data)?;
     game.run();

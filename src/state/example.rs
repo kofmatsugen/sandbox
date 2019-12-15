@@ -66,6 +66,22 @@ impl MyState {
                     },
                 );
             }
+            VirtualKeyCode::Left => {
+                world.exec(|mut transforms: WriteStorage<Transform>| {
+                    for (_, transform) in (&self.target_entity, &mut transforms).join().take(1) {
+                        transform.append_translation_xyz(-1., 0., 0.);
+                        log::info!("to: {:?}", transform.translation());
+                    }
+                });
+            }
+            VirtualKeyCode::Right => {
+                world.exec(|mut transforms: WriteStorage<Transform>| {
+                    for (_, transform) in (&self.target_entity, &mut transforms).join().take(1) {
+                        transform.append_translation_xyz(1., 0., 0.);
+                        log::info!("to: {:?}", transform.translation());
+                    }
+                });
+            }
             _ => {}
         }
     }
