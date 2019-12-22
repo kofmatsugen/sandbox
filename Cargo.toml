@@ -14,3 +14,4 @@ debug_system={path="../debug_system/"}
 fight_game={path = "../fight_game/"}
 log = "*"
 glob="*"
+dunce="*"

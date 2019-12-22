@@ -20,6 +20,8 @@ use amethyst_sprite_studio::{
     resource::AnimationStore,
 };
 
+const DEFAULT_SPEED: f32 = 0.5;
+
 #[derive(Default)]
 pub struct MyState {
     progress_counter: ProgressCounter,
@@ -61,7 +63,7 @@ impl MyState {
                             };
                             key.set_key(new_key);
                             time.set_time(0.0);
-                            time.set_speed(1.);
+                            time.set_speed(DEFAULT_SPEED);
                         }
                     },
                 );
@@ -233,7 +235,7 @@ where
     let mut anim_key = PlayAnimationKey::<String>::new();
     anim_key.set_key((file_name.into(), pack_id, anim_id));
     let mut anim_time = AnimationTime::new();
-    anim_time.set_speed(1.);
+    anim_time.set_speed(DEFAULT_SPEED);
     let mut transform = Transform::default();
     transform.set_scale([scale_x, scale_y, 1.0].into());
     transform.set_translation_x(pos_x);

@@ -24,7 +24,7 @@ use amethyst::{
 };
 use amethyst_collision::bundle::CollisionSystemBundle;
 use amethyst_playfab::bundle::PlayFabSystemBundle;
-use amethyst_sprite_studio::{bundle::SpriteStudioBundleBuilder, renderer::RenderSpriteAnimation};
+use amethyst_sprite_studio::{bundle::SpriteStudioBundle, renderer::RenderSpriteAnimation};
 use debug_system::DebugSystemBundle;
 use fight_game::{
     bundle::FightGameBundle,
@@ -50,19 +50,17 @@ fn main() -> amethyst::Result<()> {
             "fight_game::components::collision",
             amethyst::LogLevelFilter::Error,
         )
+        .level_for("gfx_backend_vulkan", amethyst::LogLevelFilter::Warn)
         .start();
     let app_root = application_root_dir()?;
-
+    log::info!("{:?}", app_root);
     let resources_dir = app_root.join("resources");
     let display_config_path = resources_dir.join("display_config.ron");
 
     let game_data = GameDataBuilder::default()
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<StringBindings>::new())?
-        .with_bundle(SpriteStudioBundleBuilder::with_debug_collision::<
-            String,
-            UserData,
-        >())?
+        .with_bundle(SpriteStudioBundle::<String, UserData>::new())?
         .with_bundle(FightGameBundle::<String, Aabb, ()>::new())?
         .with_bundle(CollisionSystemBundle::<
             Collisions<Aabb, ()>,
