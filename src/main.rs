@@ -46,6 +46,10 @@ fn main() -> amethyst::Result<()> {
             amethyst::LogLevelFilter::Info,
         )
         .level_for("sync_position_to_world", amethyst::LogLevelFilter::Error)
+        .level_for(
+            "fight_game::components::collision",
+            amethyst::LogLevelFilter::Error,
+        )
         .start();
     let app_root = application_root_dir()?;
 

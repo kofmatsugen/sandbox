@@ -166,7 +166,7 @@ impl SimpleState for MyState {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 self.target_entity
-                    .add(create_unit(data.world, "sample", 0, 1, (-200., -200.), (-0.5, 0.5)).id());
+                    .add(create_unit(data.world, "sample", 0, 7, (-200., -200.), (-0.5, 0.5)).id());
                 self.target_entity
                     .add(create_unit(data.world, "sample", 0, 0, (200., -200.), (0.45, 0.45)).id());
 
