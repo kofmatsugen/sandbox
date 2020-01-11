@@ -12,6 +12,7 @@ amethyst-collision={path="../amethyst-collision/"}
 playfab-api={path="../playfab-api/"}
 debug_system={path="../debug_system/"}
 fight_game={path = "../fight_game/"}
+lazy_static="*"
 log = "*"
 glob="*"
 dunce="*"

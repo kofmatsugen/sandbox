@@ -1,10 +1,15 @@
 mod components;
+mod id;
 mod playfab;
 mod resources;
 mod state;
 mod types;
 
 use crate::{
+    id::{
+        file::FileId,
+        pack::{AnimationKey, PackKey},
+    },
     playfab::config::PlayFab,
     state::{example::MyState, playfab_check::PlayFabCheck},
     types::*,
@@ -60,19 +65,24 @@ fn main() -> amethyst::Result<()> {
     let game_data = GameDataBuilder::default()
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<StringBindings>::new())?
-        .with_bundle(SpriteStudioBundle::<String, UserData>::new())?
-        .with_bundle(FightGameBundle::<String, Aabb, ()>::new())?
+        .with_bundle(SpriteStudioBundle::<UserData>::new())?
+        .with_bundle(FightGameBundle::<FileId, PackKey, AnimationKey, Aabb, ()>::new())?
         .with_bundle(CollisionSystemBundle::<
             Collisions<Aabb, ()>,
             CollisionParamater,
-        >::new())?
+        >::new(true))?
         .with_bundle(FpsCounterBundle::default())?
         .with_bundle(PlayFabSystemBundle::<PlayFab>::new())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
-                .with_plugin(RenderSpriteAnimation::<String, UserData>::default())
+                .with_plugin(RenderSpriteAnimation::<
+                    FileId,
+                    PackKey,
+                    AnimationKey,
+                    UserData,
+                >::default())
                 .with_plugin(RenderUi::default())
                 .with_plugin(RenderDebugLines::default())
                 .with_plugin(

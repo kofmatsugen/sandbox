@@ -1,26 +1,27 @@
-use crate::types::*;
+use crate::{
+    id::{
+        file::FileId,
+        pack::{AnimationKey, PackKey},
+    },
+    types::*,
+};
 use amethyst::{
-    assets::{AssetStorage, Loader, ProgressCounter, RonFormat},
+    assets::ProgressCounter,
     core::transform::Transform,
-    ecs::{BitSet, Entity, Join, Read, ReadExpect, Write, WriteStorage},
+    ecs::{BitSet, Entity, Join, WorldExt as _, WriteStorage},
     input::{get_key, VirtualKeyCode},
     prelude::*,
-    renderer::{
-        camera::Camera,
-        formats::texture::ImageFormat,
-        sprite::{SpriteSheet, SpriteSheetFormat},
-        ActiveCamera, Texture,
-    },
+    renderer::{camera::Camera, ActiveCamera},
     shred::World,
     window::ScreenDimensions,
     winit::ElementState,
 };
 use amethyst_sprite_studio::{
     components::{AnimationTime, PlayAnimationKey},
-    resource::AnimationStore,
+    resource::WorldExt,
 };
 
-const DEFAULT_SPEED: f32 = 0.5;
+const DEFAULT_SPEED: f32 = 1.;
 
 #[derive(Default)]
 pub struct MyState {
@@ -52,20 +53,10 @@ impl MyState {
             }
             VirtualKeyCode::Space => {
                 world.exec(
-                    |(mut key, mut time): (
-                        WriteStorage<PlayAnimationKey<String>>,
+                    |(_key, _time): (
+                        WriteStorage<PlayAnimationKey<FileId, PackKey, AnimationKey>>,
                         WriteStorage<AnimationTime>,
-                    )| {
-                        for (_, key, time) in (&self.target_entity, &mut key, &mut time).join() {
-                            let new_key = match key.key() {
-                                Some((name, pack_id, id)) => (name.clone(), pack_id, (id + 1) % 3),
-                                None => ("sample".into(), 0, 0usize),
-                            };
-                            key.set_key(new_key);
-                            time.set_time(0.0);
-                            time.set_speed(DEFAULT_SPEED);
-                        }
-                    },
+                    )| {},
                 );
             }
             VirtualKeyCode::Left => {
@@ -84,93 +75,37 @@ impl MyState {
                     }
                 });
             }
+            VirtualKeyCode::Escape => {
+                world.exec(|entities: amethyst::ecs::Entities| {
+                    for (_, e) in (&self.target_entity, &*entities).join() {
+                        let _ = entities.delete(e);
+                    }
+                });
+            }
             _ => {}
         }
     }
 
-    fn load_animation(
-        &mut self,
-        world: &mut World,
-        pack_name: &str,
-        sprite_num: usize,
-        anim_nums: Vec<usize>,
-    ) {
-        let animation = world.exec(
-            |(loader, storage): (ReadExpect<Loader>, Read<AssetStorage<Animation>>)| {
-                let mut pack = vec![];
-                for (pack_idx, anim_num) in anim_nums.into_iter().enumerate() {
-                    let mut animation = vec![];
-                    for i in 0..anim_num {
-                        let handle = loader.load(
-                            format!(
-                                "{}/animation/pack{:03}/animation{:03}.anim.ron",
-                                pack_name, pack_idx, i
-                            ),
-                            RonFormat,
-                            &mut self.progress_counter,
-                            &storage,
-                        );
-                        animation.push(handle);
-                    }
-                    pack.push(animation);
-                }
-                pack
-            },
-        );
-
-        let sprite_sheet = world.exec(
-            |(loader, tex_storage, sprite_storage): (
-                ReadExpect<Loader>,
-                Read<AssetStorage<Texture>>,
-                Read<AssetStorage<SpriteSheet>>,
-            )| {
-                let mut sprite_sheets = vec![];
-                for i in 0..sprite_num {
-                    let texture = loader.load(
-                        format!("{}/image/sprite{:03}.png", pack_name, i),
-                        ImageFormat::default(),
-                        &mut self.progress_counter,
-                        &tex_storage,
-                    );
-                    let sheet = loader.load(
-                        format!("{}/sheet/sprite{:03}.sheet.ron", pack_name, i),
-                        SpriteSheetFormat(texture),
-                        &mut self.progress_counter,
-                        &sprite_storage,
-                    );
-                    sprite_sheets.push(sheet);
-                }
-                sprite_sheets
-            },
-        );
-
-        world.exec(|mut anim_data: Write<AnimationStore<String, UserData>>| {
-            for anim in animation {
-                anim_data.insert_animation(pack_name, anim);
-            }
-            for sheet in sprite_sheet {
-                anim_data.insert_sprite_sheet(pack_name, sheet);
-            }
-        });
+    fn load_animation<W: WorldExt>(&mut self, world: &mut W) {
+        world.load_animation_files::<FileId, UserData>(FileId::Sample, &mut self.progress_counter);
     }
 }
 
 impl SimpleState for MyState {
-    fn on_start(&mut self, mut data: StateData<'_, GameData<'_, '_>>) {
+    fn on_start(&mut self, data: StateData<'_, GameData<'_, '_>>) {
+        let StateData { mut world, .. } = data;
         self.setuped = false;
 
-        self.load_animation(&mut data.world, "sample", 1, vec![13]);
+        self.load_animation(&mut world);
 
-        initialise_camera(&mut data.world);
+        initialise_camera(&mut world);
     }
 
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
                 self.target_entity
-                    .add(create_unit(data.world, "sample", 0, 7, (-200., -200.), (-0.5, 0.5)).id());
-                self.target_entity
-                    .add(create_unit(data.world, "sample", 0, 0, (200., -200.), (0.45, 0.45)).id());
+                    .add(create_unit(data.world, (-200., -200.), (-0.5, 0.5)).id());
 
                 log::info!("complete!");
                 self.setuped = true;
@@ -218,22 +153,15 @@ fn initialise_camera(world: &mut World) {
     });
 }
 
-fn create_unit<S, V2>(
-    world: &mut World,
-    file_name: S,
-    pack_id: usize,
-    anim_id: usize,
-    position: V2,
-    scale: V2,
-) -> Entity
+fn create_unit<V2>(world: &mut World, position: V2, scale: V2) -> Entity
 where
-    S: Into<String>,
     V2: Into<Option<(f32, f32)>>,
 {
     let (pos_x, pos_y) = position.into().unwrap_or((0., 0.));
     let (scale_x, scale_y) = scale.into().unwrap_or((1., 1.));
-    let mut anim_key = PlayAnimationKey::<String>::new();
-    anim_key.set_key((file_name.into(), pack_id, anim_id));
+    let mut anim_key = PlayAnimationKey::<FileId, PackKey, AnimationKey>::new(FileId::Sample);
+    anim_key.set_pack(PackKey::Base);
+    anim_key.set_animation(AnimationKey::Stance);
     let mut anim_time = AnimationTime::new();
     anim_time.set_speed(DEFAULT_SPEED);
     let mut transform = Transform::default();

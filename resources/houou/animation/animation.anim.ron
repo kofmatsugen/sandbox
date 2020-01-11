@@ -1,0 +1,4650 @@
+(
+	packs: {
+		"houou": (
+			parts: [
+				(
+					name: "root",
+					parent_id: None,
+					refference_animation_name: None,
+					part_type: Null,
+					bounds: None,
+				),// [0]
+				(
+					name: "colliders",
+					parent_id: Some(0),
+					refference_animation_name: None,
+					part_type: Null,
+					bounds: None,
+				),// [1]
+				(
+					name: "damaged",
+					parent_id: Some(1),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: Some(Aabb),
+				),// [2]
+				(
+					name: "body",
+					parent_id: Some(0),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: None,
+				),// [3]
+				(
+					name: "hand_forward",
+					parent_id: Some(3),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: None,
+				),// [4]
+				(
+					name: "attack",
+					parent_id: Some(4),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: Some(Aabb),
+				),// [5]
+				(
+					name: "hand_backward",
+					parent_id: Some(3),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: None,
+				),// [6]
+				(
+					name: "knee_forward",
+					parent_id: Some(3),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: None,
+				),// [7]
+				(
+					name: "leg_forward",
+					parent_id: Some(7),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: None,
+				),// [8]
+				(
+					name: "knee_backward",
+					parent_id: Some(3),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: None,
+				),// [9]
+				(
+					name: "leg_backward",
+					parent_id: Some(9),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: None,
+				),// [10]
+				(
+					name: "head_base",
+					parent_id: Some(3),
+					refference_animation_name: None,
+					part_type: Null,
+					bounds: None,
+				),// [11]
+				(
+					name: "head_damage",
+					parent_id: Some(11),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: None,
+				),// [12]
+				(
+					name: "head",
+					parent_id: Some(11),
+					refference_animation_name: None,
+					part_type: Normal,
+					bounds: None,
+				),// [13]
+			],
+			animations: {
+				"color_test": (
+					fps: 60,
+					total_frame: 60,
+					parts_timelines: [
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [0]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 59,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 59,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [1]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 35,
+									),// [0]
+									(
+										frame: 59,
+										interpolation: Linear,
+										value: 35,
+									),// [1]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 30,
+									),// [0]
+								],
+							),
+							scale_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 70,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [2]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 0,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -2,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 48,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: (1, 0, 0, 1),
+									),// [0]
+									(
+										frame: 59,
+										interpolation: Linear,
+										value: (0, 0, 0, 1),
+									),// [1]
+								],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [3]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 10,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [4]
+						(
+							hide: (
+								key_frames: [],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [],
+							),
+							pos_y: (
+								key_frames: [],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [5]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -2,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [6]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -22,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [7]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 15,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 12,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -20,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [8]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -22,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [9]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 15,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -6,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -20,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [10]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [11]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: true,
+									),// [0]
+									(
+										frame: 50,
+										interpolation: Step,
+										value: false,
+									),// [1]
+									(
+										frame: 59,
+										interpolation: Step,
+										value: true,
+									),// [2]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 3,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [12]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+									(
+										frame: 50,
+										interpolation: Step,
+										value: true,
+									),// [1]
+									(
+										frame: 59,
+										interpolation: Step,
+										value: false,
+									),// [2]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 11,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [13]
+					],
+				),
+				"neutral": (
+					fps: 60,
+					total_frame: 60,
+					parts_timelines: [
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [0]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 59,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 59,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [1]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 35,
+									),// [0]
+									(
+										frame: 59,
+										interpolation: Linear,
+										value: 35,
+									),// [1]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 30,
+									),// [0]
+								],
+							),
+							scale_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 70,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [2]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 0,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -2,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 48,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [3]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 10,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [4]
+						(
+							hide: (
+								key_frames: [],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [],
+							),
+							pos_y: (
+								key_frames: [],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [5]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -2,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [6]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -22,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [7]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 15,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 12,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -20,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [8]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -22,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [9]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 15,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -6,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -20,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [10]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [11]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: true,
+									),// [0]
+									(
+										frame: 50,
+										interpolation: Step,
+										value: false,
+									),// [1]
+									(
+										frame: 59,
+										interpolation: Step,
+										value: true,
+									),// [2]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 3,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [12]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+									(
+										frame: 50,
+										interpolation: Step,
+										value: true,
+									),// [1]
+									(
+										frame: 59,
+										interpolation: Step,
+										value: false,
+									),// [2]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 11,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [13]
+					],
+				),
+				"run": (
+					fps: 60,
+					total_frame: 14,
+					parts_timelines: [
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [0]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [1]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 35,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 30,
+									),// [0]
+								],
+							),
+							scale_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 70,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [2]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 0,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -2,
+									),// [0]
+									(
+										frame: 6,
+										interpolation: Linear,
+										value: -2,
+									),// [1]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 48,
+									),// [0]
+									(
+										frame: 6,
+										interpolation: Linear,
+										value: 48,
+									),// [1]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [3]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 10,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [4]
+						(
+							hide: (
+								key_frames: [],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [],
+							),
+							pos_y: (
+								key_frames: [],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [5]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -2,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [6]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 12,
+									),// [1]
+									(
+										frame: 7,
+										interpolation: Linear,
+										value: 0,
+									),// [2]
+									(
+										frame: 13,
+										interpolation: Linear,
+										value: -6,
+									),// [3]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -22,
+									),// [0]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: -22,
+									),// [1]
+									(
+										frame: 7,
+										interpolation: Linear,
+										value: -22,
+									),// [2]
+									(
+										frame: 13,
+										interpolation: Linear,
+										value: -22,
+									),// [3]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [7]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 15,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 12,
+									),// [0]
+									(
+										frame: 7,
+										interpolation: Linear,
+										value: 6,
+									),// [1]
+									(
+										frame: 13,
+										interpolation: Linear,
+										value: -8,
+									),// [2]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -20,
+									),// [0]
+									(
+										frame: 7,
+										interpolation: Linear,
+										value: -20,
+									),// [1]
+									(
+										frame: 13,
+										interpolation: Linear,
+										value: -20,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [8]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+									(
+										frame: 7,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+									(
+										frame: 10,
+										interpolation: Linear,
+										value: 12,
+									),// [2]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -22,
+									),// [0]
+									(
+										frame: 7,
+										interpolation: Linear,
+										value: -22,
+									),// [1]
+									(
+										frame: 10,
+										interpolation: Linear,
+										value: -22,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [9]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 15,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -6,
+									),// [0]
+									(
+										frame: 10,
+										interpolation: Linear,
+										value: 6,
+									),// [1]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -20,
+									),// [0]
+									(
+										frame: 2,
+										interpolation: Linear,
+										value: -17,
+									),// [1]
+									(
+										frame: 10,
+										interpolation: Linear,
+										value: -20,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [10]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [11]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: true,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 3,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [12]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 11,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [13]
+					],
+				),
+				"upper": (
+					fps: 60,
+					total_frame: 12,
+					parts_timelines: [
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [0]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [1]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 35,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 30,
+									),// [0]
+								],
+							),
+							scale_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 70,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [2]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Step,
+										value: false,
+									),// [1]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 0,
+										),
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 0,
+										),
+									),// [1]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -2,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 10,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 10,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: -2,
+									),// [3]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 48,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 48,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 48,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: 48,
+									),// [3]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [3]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [1]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 40,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 40,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: 20,
+									),// [3]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 10,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 4,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 4,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: 10,
+									),// [3]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: -5,
+									),// [1]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [4]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: true,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Step,
+										value: false,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Step,
+										value: true,
+									),// [2]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 0,
+									),// [2]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 0,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							scale_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 0,
+									),// [2]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [5]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -2,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [6]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Step,
+										value: false,
+									),// [1]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [1]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 28,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 28,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: 20,
+									),// [3]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -22,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -22,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: -22,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: -22,
+									),// [3]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: -4,
+									),// [1]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [7]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Step,
+										value: false,
+									),// [1]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 15,
+										),
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 15,
+										),
+									),// [1]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 12,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 2,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: 2,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: 12,
+									),// [3]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -20,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -20,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: -20,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: -20,
+									),// [3]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: -5,
+									),// [1]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [8]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Step,
+										value: false,
+									),// [1]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 13,
+										),
+									),// [1]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -12,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: -12,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: -4,
+									),// [3]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -22,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -22,
+									),// [1]
+									(
+										frame: 4,
+										interpolation: Linear,
+										value: -22,
+									),// [2]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: -22,
+									),// [3]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+									(
+										frame: 11,
+										interpolation: Linear,
+										value: -4,
+									),// [1]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [9]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 15,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -6,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -20,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [10]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 20,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [11]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: true,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 3,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [12]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 11,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [],
+							),
+							scale_y: (
+								key_frames: [],
+							),
+							rotated: (
+								key_frames: [],
+							),
+							flip_v: (
+								key_frames: [],
+							),
+							flip_h: (
+								key_frames: [],
+							),
+							alpha: (
+								key_frames: [],
+							),
+							color: (
+								key_frames: [],
+							),
+							user: (
+								key_frames: [],
+							),
+							instance: (
+								key_frames: [],
+							),
+						),// [13]
+					],
+				),
+			},
+		),
+	},
+)
