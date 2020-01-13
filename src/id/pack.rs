@@ -7,7 +7,6 @@ impl ToString for PackKey {
     fn to_string(&self) -> String {
         match self {
             PackKey::Base => "sample",
-            _ => unimplemented!(""),
         }
         .to_string()
     }
@@ -46,7 +45,6 @@ impl ToString for AnimationKey {
             AnimationKey::Punch2 => "0010_punch2",
             AnimationKey::Sitdown => "0011_sitdown",
             AnimationKey::Standup => "0012_standup",
-            _ => unimplemented!(""),
         }
         .to_string()
     }

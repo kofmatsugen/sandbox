@@ -130,45 +130,6 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
 						(
 							hide: (
@@ -330,9 +291,6 @@
 									),// [30]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
 							pos_x: (
 								key_frames: [
 									(
@@ -650,9 +608,6 @@
 										value: 300,
 									),// [30]
 								],
-							),
-							pos_z: (
-								key_frames: [],
 							),
 							scale_x: (
 								key_frames: [
@@ -1131,18 +1086,6 @@
 									),// [30]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
 							user: (
 								key_frames: [
 									(
@@ -1363,55 +1306,9 @@
 										),
 									),// [30]
 								],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -1491,12 +1388,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -1515,24 +1406,6 @@
 										value: -5.1460834,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -1584,12 +1457,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -1608,24 +1475,6 @@
 										value: 13.939868,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -1677,12 +1526,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -1706,24 +1549,6 @@
 										value: -8.852785,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -1775,12 +1600,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -1804,24 +1623,6 @@
 										value: 0,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -1873,12 +1674,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -1897,24 +1692,6 @@
 										value: -58.53436,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -1966,12 +1743,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -1990,24 +1761,6 @@
 										value: -16.321499,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -2059,12 +1812,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -2083,24 +1830,6 @@
 										value: 28.328125,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -2152,12 +1881,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -2176,24 +1899,6 @@
 										value: -64.32279,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -2245,12 +1950,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -2274,24 +1973,6 @@
 										value: 14.721242,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -2343,12 +2024,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -2372,24 +2047,6 @@
 										value: 25.987293,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -2441,12 +2098,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -2470,24 +2121,6 @@
 										value: -28.819168,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -2559,12 +2192,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -2588,24 +2215,6 @@
 										value: 32.908436,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -2684,12 +2293,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -2698,15 +2301,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -2725,45 +2319,6 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
 						(
 							hide: (
@@ -2780,9 +2335,6 @@
 									),// [1]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
 							pos_x: (
 								key_frames: [
 									(
@@ -2810,9 +2362,6 @@
 										value: 300,
 									),// [1]
 								],
-							),
-							pos_z: (
-								key_frames: [],
 							),
 							scale_x: (
 								key_frames: [
@@ -2842,21 +2391,6 @@
 									),// [1]
 								],
 							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
 							user: (
 								key_frames: [
 									(
@@ -2874,55 +2408,9 @@
 										),
 									),// [1]
 								],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -2972,12 +2460,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -2986,24 +2468,6 @@
 										value: -28.08289,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -3055,12 +2519,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3069,24 +2527,6 @@
 										value: 24.212938,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -3138,12 +2578,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3152,24 +2586,6 @@
 										value: 7.9385605,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -3221,12 +2637,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3235,24 +2645,6 @@
 										value: 0,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -3304,12 +2696,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3318,24 +2704,6 @@
 										value: -58.53436,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -3387,12 +2755,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3401,24 +2763,6 @@
 										value: -16.321499,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -3470,12 +2814,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3484,24 +2822,6 @@
 										value: 28.328125,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -3553,12 +2873,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3567,24 +2881,6 @@
 										value: -64.32279,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -3636,12 +2932,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3650,24 +2940,6 @@
 										value: 14.20111,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -3719,12 +2991,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3733,24 +2999,6 @@
 										value: 97.4656,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -3802,12 +3050,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3816,24 +3058,6 @@
 										value: -61.641033,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -3885,12 +3109,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -3899,24 +3117,6 @@
 										value: 126.82406,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -3995,12 +3195,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -4009,15 +3203,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -4231,45 +3416,6 @@
 									),// [39]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
 						(
 							hide: (
@@ -4476,9 +3622,6 @@
 									),// [39]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
 							pos_x: (
 								key_frames: [
 									(
@@ -4886,9 +4029,6 @@
 										value: 300,
 									),// [39]
 								],
-							),
-							pos_z: (
-								key_frames: [],
 							),
 							scale_x: (
 								key_frames: [
@@ -5298,21 +4438,6 @@
 									),// [39]
 								],
 							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
 							user: (
 								key_frames: [
 									(
@@ -5596,55 +4721,9 @@
 										),
 									),// [39]
 								],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -5734,12 +4813,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -5748,24 +4821,6 @@
 										value: 0,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -5817,12 +4872,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -5831,24 +4880,6 @@
 										value: 0,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -5900,12 +4931,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -5914,24 +4939,6 @@
 										value: 0,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -5983,12 +4990,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -6017,24 +5018,6 @@
 										value: 0,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -6086,12 +5069,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -6110,24 +5087,6 @@
 										value: -45.9808,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -6179,12 +5138,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -6203,24 +5156,6 @@
 										value: -1.1319977,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -6309,24 +5244,6 @@
 									),// [2]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [9]
 						(
 							hide: (
@@ -6377,12 +5294,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -6401,24 +5312,6 @@
 										value: -1.1621215,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -6490,12 +5383,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -6519,24 +5406,6 @@
 										value: -54.21808,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -6588,12 +5457,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -6627,24 +5490,6 @@
 										value: 36.381958,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -6716,12 +5561,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -6745,24 +5584,6 @@
 										value: 37.429398,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -6814,12 +5635,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -6853,24 +5668,6 @@
 										value: 20.906265,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -6949,12 +5746,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -6963,15 +5754,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -7085,45 +5867,6 @@
 									),// [19]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
 						(
 							hide: (
@@ -7230,9 +5973,6 @@
 									),// [19]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
 							pos_x: (
 								key_frames: [
 									(
@@ -7440,9 +6180,6 @@
 										value: 300,
 									),// [19]
 								],
-							),
-							pos_z: (
-								key_frames: [],
 							),
 							scale_x: (
 								key_frames: [
@@ -7652,21 +6389,6 @@
 									),// [19]
 								],
 							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
 							user: (
 								key_frames: [
 									(
@@ -7810,55 +6532,9 @@
 										),
 									),// [19]
 								],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -7948,12 +6624,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -7972,24 +6642,6 @@
 										value: 17.354767,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -8041,12 +6693,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -8055,24 +6701,6 @@
 										value: 0,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -8124,12 +6752,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -8148,24 +6770,6 @@
 										value: -11.858842,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -8217,12 +6821,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -8241,24 +6839,6 @@
 										value: 8.232355,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -8310,12 +6890,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -8334,24 +6908,6 @@
 										value: -40.348927,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -8403,12 +6959,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -8427,24 +6977,6 @@
 										value: -34.723717,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -8533,24 +7065,6 @@
 									),// [2]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [9]
 						(
 							hide: (
@@ -8601,12 +7115,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -8625,24 +7133,6 @@
 										value: -50.57844,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -8714,12 +7204,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -8753,24 +7237,6 @@
 										value: -72.998566,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -8822,12 +7288,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -8861,24 +7321,6 @@
 										value: 49.921955,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -8950,12 +7392,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -8989,24 +7425,6 @@
 										value: 26.495644,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -9108,12 +7526,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -9152,24 +7564,6 @@
 										value: 23.443108,
 									),// [6]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -9303,12 +7697,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -9317,15 +7705,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -9344,134 +7723,9 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [1]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -9536,12 +7790,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -9555,24 +7803,6 @@
 										value: -0.8474376,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -9634,12 +7864,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -9658,24 +7882,6 @@
 										value: 25.405243,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -9727,12 +7933,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -9751,24 +7951,6 @@
 										value: -5.677313,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -9820,12 +8002,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -9844,24 +8020,6 @@
 										value: -2.3913147,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -9913,12 +8071,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -9937,24 +8089,6 @@
 										value: -111.573906,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -10006,12 +8140,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -10030,24 +8158,6 @@
 										value: -54.105053,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -10109,12 +8219,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -10138,24 +8242,6 @@
 										value: -98.59838,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -10207,12 +8293,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -10226,24 +8306,6 @@
 										value: -85.65885,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -10305,12 +8367,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -10329,24 +8385,6 @@
 										value: 17.989285,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -10398,12 +8436,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -10417,24 +8449,6 @@
 										value: 15.75952,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -10486,12 +8500,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -10510,24 +8518,6 @@
 										value: -48.53836,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -10579,12 +8569,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -10603,24 +8587,6 @@
 										value: 71.3035,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -10699,12 +8665,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -10713,15 +8673,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -10740,134 +8691,9 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [1]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -10937,12 +8763,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -10961,24 +8781,6 @@
 										value: -11.716931,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -11050,12 +8852,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -11079,24 +8875,6 @@
 										value: 34.26599,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -11148,12 +8926,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -11187,24 +8959,6 @@
 										value: 6.9204965,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -11256,12 +9010,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -11300,24 +9048,6 @@
 										value: -5.376838,
 									),// [6]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -11369,12 +9099,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -11403,24 +9127,6 @@
 										value: -58.53436,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -11472,12 +9178,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -11506,24 +9206,6 @@
 										value: -16.321499,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -11595,12 +9277,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -11629,24 +9305,6 @@
 										value: -56.976643,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -11698,12 +9356,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -11727,24 +9379,6 @@
 										value: -10.914437,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -11862,24 +9496,6 @@
 										value: 6.634801,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -12028,24 +9644,6 @@
 									),// [5]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [12]
 						(
 							hide: (
@@ -12096,12 +9694,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -12120,24 +9712,6 @@
 										value: -70.161545,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -12209,12 +9783,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -12233,24 +9801,6 @@
 										value: 173.80072,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -12339,12 +9889,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -12353,15 +9897,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -12380,134 +9915,9 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [1]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -12617,12 +10027,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -12641,24 +10045,6 @@
 										value: -93.97352,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -12720,12 +10106,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -12769,24 +10149,6 @@
 										value: 10.400132,
 									),// [7]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -12838,12 +10200,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -12887,24 +10243,6 @@
 										value: -12.03247,
 									),// [7]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -12956,12 +10294,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -12990,24 +10322,6 @@
 										value: 3.8955283,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -13059,12 +10373,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -13108,24 +10416,6 @@
 										value: 1.3655671,
 									),// [7]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -13177,12 +10467,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -13216,24 +10500,6 @@
 										value: -32.141228,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -13295,12 +10561,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -13334,24 +10594,6 @@
 										value: -27.1464,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -13403,12 +10645,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -13427,24 +10663,6 @@
 										value: 12.111048,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -13506,12 +10724,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -13555,24 +10767,6 @@
 										value: -12.725578,
 									),// [7]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -13624,12 +10818,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -13668,24 +10856,6 @@
 										value: 14.74896,
 									),// [6]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -13737,12 +10907,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -13786,24 +10950,6 @@
 										value: -1.8283813,
 									),// [7]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -13865,12 +11011,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -13914,24 +11054,6 @@
 										value: 36.005676,
 									),// [7]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -14050,12 +11172,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -14064,15 +11180,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -14090,45 +11197,6 @@
 										value: false,
 									),// [0]
 								],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [0]
 						(
@@ -14186,9 +11254,6 @@
 									),// [9]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
 							pos_x: (
 								key_frames: [
 									(
@@ -14296,9 +11361,6 @@
 										value: 300,
 									),// [9]
 								],
-							),
-							pos_z: (
-								key_frames: [],
 							),
 							scale_x: (
 								key_frames: [
@@ -14462,18 +11524,6 @@
 									),// [9]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
 							user: (
 								key_frames: [
 									(
@@ -14547,9 +11597,6 @@
 										),
 									),// [9]
 								],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [1]
 						(
@@ -14572,9 +11619,6 @@
 									),// [2]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
 							pos_x: (
 								key_frames: [
 									(
@@ -14613,9 +11657,6 @@
 									),// [2]
 								],
 							),
-							pos_z: (
-								key_frames: [],
-							),
 							scale_x: (
 								key_frames: [
 									(
@@ -14653,18 +11694,6 @@
 										value: 80,
 									),// [2]
 								],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
 							),
 							color: (
 								key_frames: [
@@ -14709,9 +11738,6 @@
 										),
 									),// [2]
 								],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [2]
 						(
@@ -14783,12 +11809,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -14807,24 +11827,6 @@
 										value: -5.1460834,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -14896,12 +11898,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -14920,24 +11916,6 @@
 										value: 13.939868,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -14989,12 +11967,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15013,24 +11985,6 @@
 										value: -8.852785,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -15082,12 +12036,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15116,24 +12064,6 @@
 										value: 0,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -15194,9 +12124,6 @@
 									),// [0]
 								],
 							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15215,24 +12142,6 @@
 										value: -58.53436,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -15284,12 +12193,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15308,24 +12211,6 @@
 										value: -16.321499,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -15377,12 +12262,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15401,24 +12280,6 @@
 										value: 28.328125,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -15470,12 +12331,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15494,24 +12349,6 @@
 										value: -64.32279,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -15563,12 +12400,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15577,24 +12408,6 @@
 										value: 14.721242,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -15646,12 +12459,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15660,24 +12467,6 @@
 										value: 25.987293,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -15729,12 +12518,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15763,24 +12546,6 @@
 										value: -28.819168,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -15832,12 +12597,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -15866,24 +12625,6 @@
 										value: 32.908436,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -15962,12 +12703,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -15976,15 +12711,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -16003,134 +12729,9 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [1]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -16240,12 +12841,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -16279,24 +12874,6 @@
 										value: -5.1460834,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -16368,12 +12945,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -16407,24 +12978,6 @@
 										value: 13.939868,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -16476,12 +13029,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -16515,24 +13062,6 @@
 										value: -8.852785,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -16584,12 +13113,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -16618,24 +13141,6 @@
 										value: 0,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -16764,9 +13269,6 @@
 									),// [5]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
 							flip_h: (
 								key_frames: [
 									(
@@ -16775,18 +13277,6 @@
 										value: false,
 									),// [0]
 								],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -16838,12 +13328,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -16867,24 +13351,6 @@
 										value: -16.321499,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -16936,12 +13402,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -16975,24 +13435,6 @@
 										value: 28.328125,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -17044,12 +13486,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -17078,24 +13514,6 @@
 										value: -64.32279,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -17167,12 +13585,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -17196,24 +13608,6 @@
 										value: 14.721242,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -17265,12 +13659,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -17299,24 +13687,6 @@
 										value: 25.987293,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -17398,12 +13768,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -17437,24 +13801,6 @@
 										value: -28.819168,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -17578,24 +13924,6 @@
 									),// [6]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [14]
 						(
 							hide: (
@@ -17703,12 +14031,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -17717,15 +14039,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -17744,134 +14057,9 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [1]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -17951,12 +14139,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -17980,24 +14162,6 @@
 										value: -5.1460834,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -18069,12 +14233,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -18098,24 +14256,6 @@
 										value: 13.939868,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -18167,12 +14307,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -18196,24 +14330,6 @@
 										value: -8.852785,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -18265,12 +14381,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -18299,24 +14409,6 @@
 										value: 0,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -18368,12 +14460,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -18402,24 +14488,6 @@
 										value: -58.53436,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -18471,12 +14539,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -18500,24 +14562,6 @@
 										value: -16.321499,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -18569,12 +14613,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -18598,24 +14636,6 @@
 										value: 28.328125,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -18667,12 +14687,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -18696,24 +14710,6 @@
 										value: -64.32279,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -18785,12 +14781,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -18814,24 +14804,6 @@
 										value: 14.721242,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -18883,12 +14855,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -18907,24 +14873,6 @@
 										value: 25.987293,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -18976,12 +14924,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -19000,24 +14942,6 @@
 										value: -28.819168,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -19089,12 +15013,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -19118,24 +15036,6 @@
 										value: 32.908436,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -19244,12 +15144,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -19258,15 +15152,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -19285,45 +15170,6 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
 						(
 							hide: (
@@ -19335,12 +15181,6 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
 							pos_y: (
 								key_frames: [
 									(
@@ -19349,9 +15189,6 @@
 										value: 300,
 									),// [0]
 								],
-							),
-							pos_z: (
-								key_frames: [],
 							),
 							scale_x: (
 								key_frames: [
@@ -19371,27 +15208,6 @@
 									),// [0]
 								],
 							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [1]
 						(
 							hide: (
@@ -19407,9 +15223,6 @@
 										value: true,
 									),// [1]
 								],
-							),
-							cell: (
-								key_frames: [],
 							),
 							pos_x: (
 								key_frames: [
@@ -19429,9 +15242,6 @@
 									),// [0]
 								],
 							),
-							pos_z: (
-								key_frames: [],
-							),
 							scale_x: (
 								key_frames: [
 									(
@@ -19449,27 +15259,6 @@
 										value: 60,
 									),// [0]
 								],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [2]
 						(
@@ -19591,12 +15380,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -19625,24 +15408,6 @@
 										value: -5.1460834,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -19714,12 +15479,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -19743,24 +15502,6 @@
 										value: 13.939868,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -19812,12 +15553,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -19851,24 +15586,6 @@
 										value: -8.852785,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -19920,12 +15637,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -19954,24 +15665,6 @@
 										value: 0,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -20023,12 +15716,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -20062,24 +15749,6 @@
 										value: -58.53436,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -20131,12 +15800,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -20170,24 +15833,6 @@
 										value: -16.321499,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -20239,12 +15884,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -20273,24 +15912,6 @@
 										value: 28.328125,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -20342,12 +15963,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -20376,24 +15991,6 @@
 										value: -64.32279,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -20465,12 +16062,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -20494,24 +16085,6 @@
 										value: 14.721242,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -20563,12 +16136,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -20592,24 +16159,6 @@
 										value: 25.987293,
 									),// [3]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -20661,12 +16210,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -20700,24 +16243,6 @@
 										value: -28.819168,
 									),// [5]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -20769,12 +16294,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -20803,24 +16322,6 @@
 										value: 32.908436,
 									),// [4]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -20929,12 +16430,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -20943,15 +16438,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -20970,134 +16456,9 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [1]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -21167,12 +16528,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21186,24 +16541,6 @@
 										value: -28.08289,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -21265,12 +16602,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21284,24 +16615,6 @@
 										value: 24.212938,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -21353,12 +16666,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21372,24 +16679,6 @@
 										value: 7.9385605,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -21441,12 +16730,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21455,24 +16738,6 @@
 										value: 0,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -21524,12 +16789,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21538,24 +16797,6 @@
 										value: -58.53436,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -21607,12 +16848,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21621,24 +16856,6 @@
 										value: -16.321499,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -21690,12 +16907,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21704,24 +16915,6 @@
 										value: 28.328125,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -21773,12 +16966,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21787,24 +16974,6 @@
 										value: -64.32279,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -21866,12 +17035,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21885,24 +17048,6 @@
 										value: 14.20111,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -21964,12 +17109,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -21988,24 +17127,6 @@
 										value: 97.4656,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -22057,12 +17178,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -22076,24 +17191,6 @@
 										value: -61.641033,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -22155,12 +17252,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -22179,24 +17270,6 @@
 										value: 126.82406,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -22275,12 +17348,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -22289,15 +17356,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
@@ -22316,134 +17374,9 @@
 									),// [0]
 								],
 							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
 						),// [0]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [1]
-						(
-							hide: (
-								key_frames: [],
-							),
-							cell: (
-								key_frames: [],
-							),
-							pos_x: (
-								key_frames: [],
-							),
-							pos_y: (
-								key_frames: [],
-							),
-							pos_z: (
-								key_frames: [],
-							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
-							rotated: (
-								key_frames: [],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
-							),
-						),// [2]
+						(),// [1]
+						(),// [2]
 						(
 							hide: (
 								key_frames: [
@@ -22513,12 +17446,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -22532,24 +17459,6 @@
 										value: -5.1460834,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [3]
 						(
@@ -22611,12 +17520,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -22630,24 +17533,6 @@
 										value: 13.939868,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [4]
 						(
@@ -22699,12 +17584,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -22718,24 +17597,6 @@
 										value: -8.852785,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [5]
 						(
@@ -22787,12 +17648,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -22801,24 +17656,6 @@
 										value: 0,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [6]
 						(
@@ -22870,12 +17707,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -22884,24 +17715,6 @@
 										value: -58.53436,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [7]
 						(
@@ -22953,12 +17766,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -22967,24 +17774,6 @@
 										value: -16.321499,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [8]
 						(
@@ -23036,12 +17825,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -23050,24 +17833,6 @@
 										value: 28.328125,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [9]
 						(
@@ -23119,12 +17884,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -23133,24 +17892,6 @@
 										value: -64.32279,
 									),// [0]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [10]
 						(
@@ -23212,12 +17953,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -23231,24 +17966,6 @@
 										value: 14.721242,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [11]
 						(
@@ -23310,12 +18027,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -23334,24 +18045,6 @@
 										value: 25.987293,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [12]
 						(
@@ -23403,12 +18096,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -23422,24 +18109,6 @@
 										value: -28.819168,
 									),// [1]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [13]
 						(
@@ -23501,12 +18170,6 @@
 									),// [0]
 								],
 							),
-							scale_x: (
-								key_frames: [],
-							),
-							scale_y: (
-								key_frames: [],
-							),
 							rotated: (
 								key_frames: [
 									(
@@ -23525,24 +18188,6 @@
 										value: 32.908436,
 									),// [2]
 								],
-							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
-							alpha: (
-								key_frames: [],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [14]
 						(
@@ -23621,12 +18266,6 @@
 									),// [0]
 								],
 							),
-							flip_v: (
-								key_frames: [],
-							),
-							flip_h: (
-								key_frames: [],
-							),
 							alpha: (
 								key_frames: [
 									(
@@ -23635,15 +18274,6 @@
 										value: 0.5,
 									),// [0]
 								],
-							),
-							color: (
-								key_frames: [],
-							),
-							user: (
-								key_frames: [],
-							),
-							instance: (
-								key_frames: [],
 							),
 						),// [15]
 					],
