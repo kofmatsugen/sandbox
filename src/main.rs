@@ -1,6 +1,5 @@
 mod components;
 mod id;
-mod playfab;
 mod resources;
 mod state;
 mod types;
@@ -10,8 +9,7 @@ use crate::{
         file::FileId,
         pack::{AnimationKey, PackKey},
     },
-    playfab::config::PlayFab,
-    state::{example::MyState, playfab_check::PlayFabCheck},
+    state::example::MyState,
     types::*,
 };
 use amethyst::{
@@ -28,7 +26,6 @@ use amethyst::{
     LoggerConfig,
 };
 use amethyst_collision::bundle::CollisionSystemBundle;
-use amethyst_playfab::bundle::PlayFabSystemBundle;
 use amethyst_sprite_studio::{bundle::SpriteStudioBundle, renderer::RenderSpriteAnimation};
 use debug_system::DebugSystemBundle;
 use fight_game::{
@@ -72,7 +69,6 @@ fn main() -> amethyst::Result<()> {
             CollisionParamater,
         >::new(true))?
         .with_bundle(FpsCounterBundle::default())?
-        .with_bundle(PlayFabSystemBundle::<PlayFab>::new())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
         .with_bundle(
@@ -91,7 +87,7 @@ fn main() -> amethyst::Result<()> {
                 ),
         )?;
 
-    let mut game = Application::new(resources_dir, PlayFabCheck::<MyState>::default(), game_data)?;
+    let mut game = Application::new(resources_dir, MyState::default(), game_data)?;
     game.run();
 
     Ok(())
