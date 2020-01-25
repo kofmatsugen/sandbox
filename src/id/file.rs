@@ -11,7 +11,7 @@ lazy_static::lazy_static! {
 }
 
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash, Debug, Clone, Copy)]
-pub(crate) enum FileId {
+pub enum FileId {
     SpriteStudioSplash,
     Sample,
 }

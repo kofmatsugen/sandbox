@@ -1,5 +1,5 @@
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash, Debug, Clone, Copy)]
-pub(crate) enum PackKey {
+pub enum PackKey {
     Base,
 }
 
@@ -12,8 +12,9 @@ impl ToString for PackKey {
     }
 }
 
+#[allow(dead_code)]
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash, Debug, Clone, Copy)]
-pub(crate) enum AnimationKey {
+pub enum AnimationKey {
     Stance,
     Sit,
     Walk,

@@ -93,6 +93,7 @@ impl MyState {
 
 impl SimpleState for MyState {
     fn on_start(&mut self, data: StateData<'_, GameData<'_, '_>>) {
+        log::info!("start simple state");
         let StateData { mut world, .. } = data;
         self.setuped = false;
 

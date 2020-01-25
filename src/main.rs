@@ -35,9 +35,14 @@ use fight_game::{
 };
 
 fn main() -> amethyst::Result<()> {
-    let logger_config = LoggerConfig::default();
+    let logger_config = LoggerConfig {
+        level_filter: amethyst::LogLevelFilter::Info,
+        log_file: Some("log/log.txt".into()),
+        ..Default::default()
+    };
     amethyst::Logger::from_config(logger_config)
-        .level_for("debug_collision", amethyst::LogLevelFilter::Debug)
+        .level_for("debug_collision", amethyst::LogLevelFilter::Info)
+        .level_for("resource::animation", amethyst::LogLevelFilter::Trace)
         .level_for(
             "amethyst_collision::system::detect_contact",
             amethyst::LogLevelFilter::Info,
@@ -62,7 +67,9 @@ fn main() -> amethyst::Result<()> {
     let game_data = GameDataBuilder::default()
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<StringBindings>::new())?
-        .with_bundle(SpriteStudioBundle::<UserData>::new())?
+        .with_bundle(SpriteStudioBundle::<
+            types::translate_animation::FightTranslation,
+        >::new())?
         .with_bundle(FightGameBundle::<FileId, PackKey, AnimationKey, Aabb, ()>::new())?
         .with_bundle(CollisionSystemBundle::<
             Collisions<Aabb, ()>,
