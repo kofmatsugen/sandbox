@@ -1,7 +1,7 @@
-use crate::id::{file, pack};
 use crate::types::UserData;
 use amethyst::ecs::Entity;
 use amethyst_sprite_studio::traits::translate_animation::TranslateAnimation;
+use fight_game::id::{file, pack};
 
 pub struct FightTranslation;
 

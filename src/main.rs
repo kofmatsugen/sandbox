@@ -1,17 +1,9 @@
 mod components;
-mod id;
 mod resources;
 mod state;
 mod types;
 
-use crate::{
-    id::{
-        file::FileId,
-        pack::{AnimationKey, PackKey},
-    },
-    state::example::MyState,
-    types::*,
-};
+use crate::{state::example::MyState, types::*};
 use amethyst::{
     core::transform::TransformBundle,
     input::StringBindings,
@@ -31,6 +23,10 @@ use debug_system::DebugSystemBundle;
 use fight_game::{
     bundle::FightGameBundle,
     components::Collisions,
+    id::{
+        file::FileId,
+        pack::{AnimationKey, PackKey},
+    },
     paramater::{Aabb, CollisionParamater},
 };
 

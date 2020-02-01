@@ -1,6 +1,6 @@
 (
 	packs: {
-		"sample": (
+		Base: (
 			parts: [
 				(
 					name: "root",
@@ -116,7 +116,7 @@
 				),// [15]
 			],
 			animations: {
-				"0000_stance": (
+				Stance: (
 					fps: 60,
 					total_frame: 31,
 					parts_timelines: [
@@ -2305,7 +2305,7 @@
 						),// [15]
 					],
 				),
-				"0001_sit": (
+				Sit: (
 					fps: 60,
 					total_frame: 2,
 					parts_timelines: [
@@ -3207,7 +3207,7 @@
 						),// [15]
 					],
 				),
-				"0002_walk": (
+				Walk: (
 					fps: 60,
 					total_frame: 40,
 					parts_timelines: [
@@ -5758,7 +5758,7 @@
 						),// [15]
 					],
 				),
-				"0003_run": (
+				Run: (
 					fps: 60,
 					total_frame: 20,
 					parts_timelines: [
@@ -7709,7 +7709,7 @@
 						),// [15]
 					],
 				),
-				"0004_defense": (
+				Defence: (
 					fps: 60,
 					total_frame: 21,
 					parts_timelines: [
@@ -8677,1231 +8677,7 @@
 						),// [15]
 					],
 				),
-				"0005_dead2": (
-					fps: 60,
-					total_frame: 60,
-					parts_timelines: [
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-						),// [0]
-						(),// [1]
-						(),// [2]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 2,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -10,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 11,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -5,
-									),// [2]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 224,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 235,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 65,
-									),// [2]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 0,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -5.1460834,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: -17.851625,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -11.716931,
-									),// [2]
-								],
-							),
-						),// [3]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 1,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -4,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 1.9758122,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 7.95163,
-									),// [2]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 47,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 47.538174,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 48.076355,
-									),// [2]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -1,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 13.939868,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 32.755283,
-									),// [1]
-									(
-										frame: 8,
-										interpolation: Linear,
-										value: 19.413132,
-									),// [2]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 34.26599,
-									),// [3]
-								],
-							),
-						),// [4]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 0,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 12.666668,
-									),// [0]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 165,
-									),// [0]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -1,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -8.852785,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 6.907469,
-									),// [1]
-									(
-										frame: 8,
-										interpolation: Linear,
-										value: -16.188744,
-									),// [2]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 6.9204965,
-									),// [3]
-									(
-										frame: 20,
-										interpolation: Linear,
-										value: -3.6033494,
-									),// [4]
-									(
-										frame: 25,
-										interpolation: Linear,
-										value: 6.9204965,
-									),// [5]
-								],
-							),
-						),// [5]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 9,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -5.666668,
-									),// [0]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 147,
-									),// [0]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 11,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 0,
-									),// [0]
-									(
-										frame: 5,
-										interpolation: Linear,
-										value: 5.183841,
-									),// [1]
-									(
-										frame: 15,
-										interpolation: Linear,
-										value: 7.8337936,
-									),// [2]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 0,
-									),// [3]
-									(
-										frame: 20,
-										interpolation: Linear,
-										value: 6.653722,
-									),// [4]
-									(
-										frame: 22,
-										interpolation: Linear,
-										value: -5.161406,
-									),// [5]
-									(
-										frame: 25,
-										interpolation: Linear,
-										value: -5.376838,
-									),// [6]
-								],
-							),
-						),// [6]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 8,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -28.99597,
-									),// [0]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 101.9103,
-									),// [0]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 9,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -58.53436,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: -52.551804,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -58.53436,
-									),// [2]
-									(
-										frame: 20,
-										interpolation: Linear,
-										value: -64.36153,
-									),// [3]
-									(
-										frame: 25,
-										interpolation: Linear,
-										value: -58.53436,
-									),// [4]
-								],
-							),
-						),// [7]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 7,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 25,
-									),// [0]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -76,
-									),// [0]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 10,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -16.321499,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: -1.7030269,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -16.321499,
-									),// [2]
-									(
-										frame: 20,
-										interpolation: Linear,
-										value: -13.814354,
-									),// [3]
-									(
-										frame: 25,
-										interpolation: Linear,
-										value: -16.321499,
-									),// [4]
-								],
-							),
-						),// [8]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 6,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 53,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 43.053516,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 53,
-									),// [2]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 104,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 105.43787,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 104,
-									),// [2]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -6,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 28.328125,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 15.770664,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -56.976643,
-									),// [2]
-									(
-										frame: 20,
-										interpolation: Linear,
-										value: -60.36902,
-									),// [3]
-									(
-										frame: 25,
-										interpolation: Linear,
-										value: -56.976643,
-									),// [4]
-								],
-							),
-						),// [9]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 10,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 27,
-									),// [0]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -76,
-									),// [0]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -5,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -64.32279,
-									),// [0]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -10.914437,
-									),// [1]
-									(
-										frame: 20,
-										interpolation: Linear,
-										value: -17.657259,
-									),// [2]
-									(
-										frame: 25,
-										interpolation: Linear,
-										value: -10.914437,
-									),// [3]
-								],
-							),
-						),// [10]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 12,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 40.231804,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 35.17319,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 40.231804,
-									),// [2]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -10.497314,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: -6.5717096,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -10.497314,
-									),// [2]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 3,
-									),// [0]
-								],
-							),
-							scale_x: (
-								key_frames: [
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 1,
-									),// [0]
-								],
-							),
-							scale_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 1,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 1,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 0.24411327,
-									),// [2]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 14.721242,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 17.989285,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 6.634801,
-									),// [2]
-								],
-							),
-						),// [11]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 5,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 23.666656,
-									),// [0]
-									(
-										frame: 12,
-										interpolation: Linear,
-										value: 23.575949,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 22.874834,
-									),// [2]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -92.66667,
-									),// [0]
-									(
-										frame: 12,
-										interpolation: Linear,
-										value: -87.70434,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -59.799675,
-									),// [2]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 4,
-									),// [0]
-								],
-							),
-							scale_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 1,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 1,
-									),// [1]
-									(
-										frame: 8,
-										interpolation: Linear,
-										value: 1.3203187,
-									),// [2]
-									(
-										frame: 12,
-										interpolation: Linear,
-										value: 1.6397337,
-									),// [3]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 3.0875292,
-									),// [4]
-								],
-							),
-							scale_y: (
-								key_frames: [
-									(
-										frame: 8,
-										interpolation: Step,
-										value: 1,
-									),// [0]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 1,
-									),// [1]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 25.987293,
-									),// [0]
-									(
-										frame: 12,
-										interpolation: Linear,
-										value: 76.208374,
-									),// [1]
-									(
-										frame: 14,
-										interpolation: Linear,
-										value: 85.33553,
-									),// [2]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 86.47969,
-									),// [3]
-									(
-										frame: 20,
-										interpolation: Linear,
-										value: 87.361916,
-									),// [4]
-									(
-										frame: 25,
-										interpolation: Linear,
-										value: 79.33526,
-									),// [5]
-								],
-							),
-						),// [12]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 3,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -27.101524,
-									),// [0]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -11.830658,
-									),// [0]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 6,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -28.819168,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: -0.9191413,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -70.161545,
-									),// [2]
-								],
-							),
-						),// [13]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 4,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 6.333332,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 7.3648934,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 6.333332,
-									),// [2]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: -91.66667,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: -94.30028,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: -91.66667,
-									),// [2]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 7,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 32.908436,
-									),// [0]
-									(
-										frame: 3,
-										interpolation: Linear,
-										value: 36.98699,
-									),// [1]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 173.80072,
-									),// [2]
-								],
-							),
-						),// [14]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							cell: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											map_id: 0,
-											cell_id: 11,
-										),
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 29.666668,
-									),// [0]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 15.666668,
-									),// [1]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 10.3333435,
-									),// [0]
-								],
-							),
-							pos_z: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 12,
-									),// [0]
-								],
-							),
-							scale_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 1.7752808,
-									),// [0]
-									(
-										frame: 18,
-										interpolation: Linear,
-										value: 1.3520598,
-									),// [1]
-								],
-							),
-							scale_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 1.9084964,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 0,
-									),// [0]
-								],
-							),
-							alpha: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 0.5,
-									),// [0]
-								],
-							),
-						),// [15]
-					],
-				),
-				"0006_dead1": (
+				Dead2: (
 					fps: 60,
 					total_frame: 60,
 					parts_timelines: [
@@ -11184,7 +9960,1231 @@
 						),// [15]
 					],
 				),
-				"0007_kick1": (
+				Dead1: (
+					fps: 60,
+					total_frame: 60,
+					parts_timelines: [
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+						),// [0]
+						(),// [1]
+						(),// [2]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 2,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -10,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 11,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -5,
+									),// [2]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 224,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 235,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 65,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5.1460834,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -17.851625,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -11.716931,
+									),// [2]
+								],
+							),
+						),// [3]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 1,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -4,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 1.9758122,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 7.95163,
+									),// [2]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 47,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 47.538174,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 48.076355,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 13.939868,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 32.755283,
+									),// [1]
+									(
+										frame: 8,
+										interpolation: Linear,
+										value: 19.413132,
+									),// [2]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 34.26599,
+									),// [3]
+								],
+							),
+						),// [4]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 0,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 12.666668,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 165,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -1,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -8.852785,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 6.907469,
+									),// [1]
+									(
+										frame: 8,
+										interpolation: Linear,
+										value: -16.188744,
+									),// [2]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 6.9204965,
+									),// [3]
+									(
+										frame: 20,
+										interpolation: Linear,
+										value: -3.6033494,
+									),// [4]
+									(
+										frame: 25,
+										interpolation: Linear,
+										value: 6.9204965,
+									),// [5]
+								],
+							),
+						),// [5]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 9,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5.666668,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 147,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 11,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 5,
+										interpolation: Linear,
+										value: 5.183841,
+									),// [1]
+									(
+										frame: 15,
+										interpolation: Linear,
+										value: 7.8337936,
+									),// [2]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 0,
+									),// [3]
+									(
+										frame: 20,
+										interpolation: Linear,
+										value: 6.653722,
+									),// [4]
+									(
+										frame: 22,
+										interpolation: Linear,
+										value: -5.161406,
+									),// [5]
+									(
+										frame: 25,
+										interpolation: Linear,
+										value: -5.376838,
+									),// [6]
+								],
+							),
+						),// [6]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 8,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -28.99597,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 101.9103,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 9,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -58.53436,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -52.551804,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -58.53436,
+									),// [2]
+									(
+										frame: 20,
+										interpolation: Linear,
+										value: -64.36153,
+									),// [3]
+									(
+										frame: 25,
+										interpolation: Linear,
+										value: -58.53436,
+									),// [4]
+								],
+							),
+						),// [7]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 7,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 25,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -76,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 10,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -16.321499,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -1.7030269,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -16.321499,
+									),// [2]
+									(
+										frame: 20,
+										interpolation: Linear,
+										value: -13.814354,
+									),// [3]
+									(
+										frame: 25,
+										interpolation: Linear,
+										value: -16.321499,
+									),// [4]
+								],
+							),
+						),// [8]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 6,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 53,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 43.053516,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 53,
+									),// [2]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 104,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 105.43787,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 104,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -6,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 28.328125,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 15.770664,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -56.976643,
+									),// [2]
+									(
+										frame: 20,
+										interpolation: Linear,
+										value: -60.36902,
+									),// [3]
+									(
+										frame: 25,
+										interpolation: Linear,
+										value: -56.976643,
+									),// [4]
+								],
+							),
+						),// [9]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 10,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 27,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -76,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -5,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -64.32279,
+									),// [0]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -10.914437,
+									),// [1]
+									(
+										frame: 20,
+										interpolation: Linear,
+										value: -17.657259,
+									),// [2]
+									(
+										frame: 25,
+										interpolation: Linear,
+										value: -10.914437,
+									),// [3]
+								],
+							),
+						),// [10]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 12,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 40.231804,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 35.17319,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 40.231804,
+									),// [2]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -10.497314,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -6.5717096,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -10.497314,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 3,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 1,
+									),// [0]
+								],
+							),
+							scale_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 1,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 1,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 0.24411327,
+									),// [2]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 14.721242,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 17.989285,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 6.634801,
+									),// [2]
+								],
+							),
+						),// [11]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 5,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 23.666656,
+									),// [0]
+									(
+										frame: 12,
+										interpolation: Linear,
+										value: 23.575949,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 22.874834,
+									),// [2]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -92.66667,
+									),// [0]
+									(
+										frame: 12,
+										interpolation: Linear,
+										value: -87.70434,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -59.799675,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 4,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 1,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 1,
+									),// [1]
+									(
+										frame: 8,
+										interpolation: Linear,
+										value: 1.3203187,
+									),// [2]
+									(
+										frame: 12,
+										interpolation: Linear,
+										value: 1.6397337,
+									),// [3]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 3.0875292,
+									),// [4]
+								],
+							),
+							scale_y: (
+								key_frames: [
+									(
+										frame: 8,
+										interpolation: Step,
+										value: 1,
+									),// [0]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 1,
+									),// [1]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 25.987293,
+									),// [0]
+									(
+										frame: 12,
+										interpolation: Linear,
+										value: 76.208374,
+									),// [1]
+									(
+										frame: 14,
+										interpolation: Linear,
+										value: 85.33553,
+									),// [2]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 86.47969,
+									),// [3]
+									(
+										frame: 20,
+										interpolation: Linear,
+										value: 87.361916,
+									),// [4]
+									(
+										frame: 25,
+										interpolation: Linear,
+										value: 79.33526,
+									),// [5]
+								],
+							),
+						),// [12]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 3,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -27.101524,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -11.830658,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 6,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -28.819168,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -0.9191413,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -70.161545,
+									),// [2]
+								],
+							),
+						),// [13]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 4,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 6.333332,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 7.3648934,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 6.333332,
+									),// [2]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: -91.66667,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: -94.30028,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: -91.66667,
+									),// [2]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 7,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 32.908436,
+									),// [0]
+									(
+										frame: 3,
+										interpolation: Linear,
+										value: 36.98699,
+									),// [1]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 173.80072,
+									),// [2]
+								],
+							),
+						),// [14]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							cell: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											map_id: 0,
+											cell_id: 11,
+										),
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 29.666668,
+									),// [0]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 15.666668,
+									),// [1]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 10.3333435,
+									),// [0]
+								],
+							),
+							pos_z: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 12,
+									),// [0]
+								],
+							),
+							scale_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 1.7752808,
+									),// [0]
+									(
+										frame: 18,
+										interpolation: Linear,
+										value: 1.3520598,
+									),// [1]
+								],
+							),
+							scale_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 1.9084964,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							alpha: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0.5,
+									),// [0]
+								],
+							),
+						),// [15]
+					],
+				),
+				Kick1: (
 					fps: 60,
 					total_frame: 10,
 					parts_timelines: [
@@ -12715,7 +12715,7 @@
 						),// [15]
 					],
 				),
-				"0008_kick2": (
+				Kick2: (
 					fps: 60,
 					total_frame: 21,
 					parts_timelines: [
@@ -14043,7 +14043,7 @@
 						),// [15]
 					],
 				),
-				"0009_punch1": (
+				Punch1: (
 					fps: 60,
 					total_frame: 10,
 					parts_timelines: [
@@ -15156,7 +15156,7 @@
 						),// [15]
 					],
 				),
-				"0010_punch2": (
+				Punch2: (
 					fps: 60,
 					total_frame: 21,
 					parts_timelines: [
@@ -16442,7 +16442,7 @@
 						),// [15]
 					],
 				),
-				"0011_sitdown": (
+				Sitdown: (
 					fps: 60,
 					total_frame: 10,
 					parts_timelines: [
@@ -17360,7 +17360,7 @@
 						),// [15]
 					],
 				),
-				"0012_standup": (
+				Standup: (
 					fps: 60,
 					total_frame: 10,
 					parts_timelines: [
