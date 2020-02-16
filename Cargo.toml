@@ -5,13 +5,15 @@ authors = []
 edition = "2018"
 
 [dependencies]
-amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulkan"] }
+amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulkan", "sdl_controller"] }
 amethyst-sprite-studio={path="../amethyst-sprite-studio/"}
 amethyst-collision={path="../amethyst-collision/"}
 debug_system={path="../debug_system/"}
-fight_game={path = "../fight_game/"}
+fight_game={path = "../fight_game/", features=["debug"]}
+input-handle={path="../input-handle/"}
 lazy_static="*"
 log = "*"
 glob="*"
 dunce="*"
 serde={version="*", features=["derive"]}
+anyhow="*"

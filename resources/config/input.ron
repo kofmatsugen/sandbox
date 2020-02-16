@@ -1,0 +1,14 @@
+(
+    axes: {
+        Up(P1): Emulated(pos: Controller(0, DPadUp), neg:Controller(0, DPadDown)),
+        Up(P2): Emulated(pos: Key(Up), neg: Key(Down)),
+        Right(P1): Emulated(pos: Controller(0, DPadRight), neg: Controller(0, DPadLeft)),
+        Right(P2): Emulated(pos: Key(Right), neg: Key(Left)),
+    },
+    actions: {
+        A(P1): [[Controller(0, X)]],
+        B(P1): [[Controller(0, A)]],
+        C(P1): [[Controller(0, Y)]],
+        D(P1): [[Controller(0, B)]],
+    },
+)

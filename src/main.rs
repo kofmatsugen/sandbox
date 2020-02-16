@@ -6,7 +6,7 @@ mod types;
 use crate::{state::example::MyState, types::*};
 use amethyst::{
     core::transform::TransformBundle,
-    input::StringBindings,
+    input::InputBundle,
     prelude::*,
     renderer::{
         plugins::{RenderDebugLines, RenderToWindow},
@@ -27,8 +27,10 @@ use fight_game::{
         file::FileId,
         pack::{AnimationKey, PackKey},
     },
+    input::FightInput,
     paramater::{Aabb, CollisionParamater},
 };
+use input_handle::traits::InputParser;
 
 fn main() -> amethyst::Result<()> {
     let logger_config = LoggerConfig {
@@ -44,6 +46,7 @@ fn main() -> amethyst::Result<()> {
             amethyst::LogLevelFilter::Info,
         )
         .level_for("fight_game", amethyst::LogLevelFilter::Error)
+        .level_for("fight_game::input", amethyst::LogLevelFilter::Info)
         .level_for(
             "fight_game::components::collision",
             amethyst::LogLevelFilter::Info,
@@ -59,10 +62,16 @@ fn main() -> amethyst::Result<()> {
     log::info!("{:?}", app_root);
     let resources_dir = app_root.join("resources");
     let display_config_path = resources_dir.join("display_config.ron");
+    let input_config_path = resources_dir.join("config").join("input.ron");
 
     let game_data = GameDataBuilder::default()
+        .with_bundle(
+            InputBundle::<<FightInput as InputParser>::BindingTypes>::new()
+                .with_bindings_from_file(input_config_path)
+                .unwrap(),
+        )?
         .with_bundle(TransformBundle::new())?
-        .with_bundle(UiBundle::<StringBindings>::new())?
+        .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(SpriteStudioBundle::<
             types::translate_animation::FightTranslation,
         >::new())?
