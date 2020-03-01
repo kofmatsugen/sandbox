@@ -20,7 +20,6 @@ use fight_game::{
         pack::{AnimationKey, PackKey},
     },
     load::CommandLoad,
-    resource::command::CommandListHandle,
 };
 
 const DEFAULT_SPEED: f32 = 1.;
@@ -30,7 +29,6 @@ pub struct MyState {
     progress_counter: ProgressCounter,
     target_entity: BitSet,
     setuped: bool,
-    command: Option<CommandListHandle>,
 }
 
 impl MyState {
@@ -97,7 +95,7 @@ impl MyState {
     }
 
     fn load_command<W: CommandLoad>(&mut self, world: &mut W) {
-        self.command = Some(world.load_command("command", "basic", &mut self.progress_counter));
+        world.load_command("command", "basic", &mut self.progress_counter);
     }
 }
 
@@ -122,13 +120,6 @@ impl SimpleState for MyState {
                 log::info!("complete!");
                 self.setuped = true;
             }
-        } else {
-            log::trace!(
-                "loading... {}, {}, {:?}",
-                self.progress_counter.num_loading(),
-                self.progress_counter.num_assets(),
-                self.command,
-            );
         }
         Trans::None
     }

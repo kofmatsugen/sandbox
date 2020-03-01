@@ -5,6 +5,7 @@ mod types;
 
 use crate::{state::example::MyState, types::*};
 use amethyst::{
+    assets::{HotReloadBundle, HotReloadStrategy},
     core::transform::TransformBundle,
     input::InputBundle,
     prelude::*,
@@ -66,6 +67,7 @@ fn main() -> amethyst::Result<()> {
     let input_config_path = resources_dir.join("config").join("input.ron");
 
     let game_data = GameDataBuilder::default()
+        .with_bundle(HotReloadBundle::new(HotReloadStrategy::every(10)))?
         .with_bundle(
             InputBundle::<<FightInput as InputParser>::BindingTypes>::new()
                 .with_bindings_from_file(input_config_path)
