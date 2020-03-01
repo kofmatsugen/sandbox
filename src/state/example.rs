@@ -12,7 +12,7 @@ use amethyst::{
 };
 use amethyst_sprite_studio::{
     components::{AnimationTime, PlayAnimationKey},
-    resource::AnimationLoad,
+    load::AnimationLoad,
 };
 use fight_game::{
     id::{
