@@ -2,7 +2,7 @@ use crate::types::*;
 use amethyst::{
     assets::ProgressCounter,
     core::transform::Transform,
-    ecs::{BitSet, Entity, Join, WorldExt as _, WriteStorage},
+    ecs::{BitSet, Entity, Join, WorldExt, WriteStorage},
     input::{get_key, VirtualKeyCode},
     prelude::*,
     renderer::{camera::Camera, ActiveCamera},
@@ -12,11 +12,15 @@ use amethyst::{
 };
 use amethyst_sprite_studio::{
     components::{AnimationTime, PlayAnimationKey},
-    resource::WorldExt,
+    resource::AnimationLoad,
 };
-use fight_game::id::{
-    file::FileId,
-    pack::{AnimationKey, PackKey},
+use fight_game::{
+    id::{
+        file::FileId,
+        pack::{AnimationKey, PackKey},
+    },
+    load::CommandLoad,
+    resource::command::CommandListHandle,
 };
 
 const DEFAULT_SPEED: f32 = 1.;
@@ -26,6 +30,7 @@ pub struct MyState {
     progress_counter: ProgressCounter,
     target_entity: BitSet,
     setuped: bool,
+    command: Option<CommandListHandle>,
 }
 
 impl MyState {
@@ -84,11 +89,15 @@ impl MyState {
         }
     }
 
-    fn load_animation<W: WorldExt>(&mut self, world: &mut W) {
+    fn load_animation<W: AnimationLoad>(&mut self, world: &mut W) {
         world.load_animation_files::<FileId, UserData, PackKey, AnimationKey>(
             FileId::Sample,
             &mut self.progress_counter,
         );
+    }
+
+    fn load_command<W: CommandLoad>(&mut self, world: &mut W) {
+        self.command = Some(world.load_command("command", "basic", &mut self.progress_counter));
     }
 }
 
@@ -99,6 +108,7 @@ impl SimpleState for MyState {
         self.setuped = false;
 
         self.load_animation(&mut world);
+        self.load_command(&mut world);
 
         initialise_camera(&mut world);
     }
@@ -112,6 +122,13 @@ impl SimpleState for MyState {
                 log::info!("complete!");
                 self.setuped = true;
             }
+        } else {
+            log::trace!(
+                "loading... {}, {}, {:?}",
+                self.progress_counter.num_loading(),
+                self.progress_counter.num_assets(),
+                self.command,
+            );
         }
         Trans::None
     }

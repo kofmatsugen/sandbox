@@ -46,6 +46,7 @@ fn main() -> amethyst::Result<()> {
             amethyst::LogLevelFilter::Info,
         )
         .level_for("fight_game", amethyst::LogLevelFilter::Error)
+        .level_for("fight_game::load", amethyst::LogLevelFilter::Info)
         .level_for("fight_game::input", amethyst::LogLevelFilter::Info)
         .level_for(
             "fight_game::components::collision",
