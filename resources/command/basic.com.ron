@@ -1,12 +1,12 @@
 (
 	commands: {
-		A: "pA[1]",
-		B: "pB[1]",
-		C: "pC[1]",
-		D: "pD[1]",
-		Walk: "p6",
-		Dash: "p6>p6",
-		VerticalJump: "p8",
-		BackJump: "p7",
+		A: ["pA[1]", "rA[1]"],
+		B: ["pB[1]"],
+		C: ["pC[1]"],
+		D: ["pD[1]"],
+		Walk: ["p6"],
+		Dash: ["p6>p6"],
+		VerticalJump: ["p8"],
+		BackJump: ["p7"],
 	},
 )
