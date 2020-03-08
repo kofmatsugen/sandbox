@@ -7,6 +7,7 @@ use amethyst::{
     prelude::*,
     renderer::{camera::Camera, ActiveCamera},
     shred::World,
+    ui::UiCreator,
     window::ScreenDimensions,
     winit::ElementState,
 };
@@ -107,6 +108,10 @@ impl SimpleState for MyState {
 
         self.load_animation(&mut world);
         self.load_command(&mut world);
+
+        world.exec(|mut creator: UiCreator| {
+            creator.create("debug/ui/debug_ui.ron", &mut self.progress_counter);
+        });
 
         initialise_camera(&mut world);
     }

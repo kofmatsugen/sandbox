@@ -1,0 +1,33 @@
+#![enable(implicit_some)]
+Container(
+    transform: (
+        id: "debug_root",
+        anchor: TopLeft,
+        pivot: TopLeft,
+        stretch: XY( x_margin: 0., y_margin: 0., keep_aspect_ratio: false),
+        x: 0.,
+        y: 0.,
+        z: 0.,
+        mouse_reactive: true,
+        hidden: false,
+        opaque: true,
+    ),
+    children: [
+        Label(
+            transform: (
+                id: "debug_entities_count",
+                anchor: TopLeft,
+                pivot: TopLeft,
+                x: 20,
+                height: 16.,
+                width: 100.,
+            ),
+            text: (
+                text: "",
+                font_size: 16.,
+                color: (0., 0., 0., 1.),
+                align: TopLeft,
+            )
+        )
+    ],
+)
