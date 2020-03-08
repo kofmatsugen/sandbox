@@ -17,3 +17,10 @@ glob= "0.3.0"
 dunce= "1.0.0"
 serde={ version = "1.0.104", features = ["derive"] }
 anyhow= "1.0.26"
+
+# optional dependencies
+toml= {version="0.5.6", optional = true}
+
+[features]
+default=["debug"]
+debug=["toml"]

@@ -16,7 +16,6 @@ use amethyst::{
     },
     ui::{RenderUi, UiBundle},
     utils::{application_root_dir, fps_counter::FpsCounterBundle},
-    LoggerConfig,
 };
 use amethyst_collision::bundle::CollisionSystemBundle;
 use amethyst_sprite_studio::{bundle::SpriteStudioBundle, renderer::RenderSpriteAnimation};
@@ -34,34 +33,10 @@ use fight_game::{
 use input_handle::traits::InputParser;
 
 fn main() -> amethyst::Result<()> {
-    let logger_config = LoggerConfig {
-        level_filter: amethyst::LogLevelFilter::Info,
-        log_file: Some("log/log.txt".into()),
-        ..Default::default()
-    };
-    amethyst::Logger::from_config(logger_config)
-        .level_for("debug_collision", amethyst::LogLevelFilter::Info)
-        .level_for("resource::animation", amethyst::LogLevelFilter::Trace)
-        .level_for(
-            "amethyst_collision::system::detect_contact",
-            amethyst::LogLevelFilter::Info,
-        )
-        .level_for("fight_game", amethyst::LogLevelFilter::Error)
-        .level_for("fight_game::load", amethyst::LogLevelFilter::Info)
-        .level_for("fight_game::input", amethyst::LogLevelFilter::Info)
-        .level_for(
-            "fight_game::components::collision",
-            amethyst::LogLevelFilter::Info,
-        )
-        .level_for("sync_position_to_world", amethyst::LogLevelFilter::Error)
-        .level_for(
-            "fight_game::components::collision",
-            amethyst::LogLevelFilter::Error,
-        )
-        .level_for("gfx_backend_vulkan", amethyst::LogLevelFilter::Warn)
-        .start();
     let app_root = application_root_dir()?;
-    log::info!("{:?}", app_root);
+    #[cfg(feature = "debug")]
+    logger(&app_root).unwrap();
+
     let resources_dir = app_root.join("resources");
     let display_config_path = resources_dir.join("display_config.ron");
     let input_config_path = resources_dir.join("config").join("input.ron");
@@ -104,6 +79,20 @@ fn main() -> amethyst::Result<()> {
 
     let mut game = Application::new(resources_dir, MyState::default(), game_data)?;
     game.run();
+
+    Ok(())
+}
+
+#[cfg(feature = "debug")]
+fn logger(root: &std::path::PathBuf) -> anyhow::Result<()> {
+    use std::io::Read;
+    let toml_file = root.join("debug").join("logger.toml");
+    let mut string = String::new();
+    let mut f = std::fs::File::open(toml_file)?;
+    f.read_to_string(&mut string)?;
+    let logger_config = toml::from_str(&string)?;
+
+    amethyst::Logger::from_config(logger_config).start();
 
     Ok(())
 }

@@ -1,0 +1,16 @@
+stdout="Colored"
+level_filter="Info"
+log_file="log/log.txt"
+
+module_levels = [
+    ["debug_collision","Info"],
+    ["resource::animation" ,"Trace"],
+    ["amethyst_collision::system::detect_contact" ,"Info"],
+    ["fight_game" ,"Error"],
+    ["fight_game::load" ,"Info"],
+    ["fight_game::input" ,"Info"],
+    ["fight_game::components::collision" ,"Info"],
+    ["sync_position_to_world" ,"Error"],
+    ["fight_game::components::collision" ,"Error"],
+    ["gfx_backend_vulkan" ,"Warn"],
+]
