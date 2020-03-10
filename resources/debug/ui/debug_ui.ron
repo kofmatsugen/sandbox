@@ -99,22 +99,5 @@ Container(
                 line_mode: Wrap,
             )
         ),
-        Label(
-            transform: (
-                id: "debug_event_P2",
-                anchor: TopLeft,
-                pivot: TopLeft,
-                x: 20.,
-                y: -20.,
-                height: 16.,
-                width: 100.,
-            ),
-            text: (
-                text: "",
-                font_size: 16.,
-                color: (0., 0., 0., 1.),
-                align: TopLeft,
-            )
-        )
     ],
 )
