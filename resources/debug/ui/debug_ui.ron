@@ -46,6 +46,7 @@ Container(
                 align: TopLeft,
             )
         ),
+        //--------------------------Player1 Debug------------------------------
         Label(
             transform: (
                 id: "debug_event_P1",
@@ -99,5 +100,6 @@ Container(
                 line_mode: Wrap,
             )
         ),
+        //--------------------------Player1 Debug------------------------------
     ],
 )

@@ -9,18 +9,16 @@ amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulka
 amethyst-sprite-studio={path="../amethyst-sprite-studio/"}
 amethyst-collision={path="../amethyst-collision/"}
 debug_system={path="../debug_system/"}
-fight_game={path = "../fight_game/", features=["debug"]}
+fight_game={path = "../fight_game/"}
 input-handle={path="../input-handle/"}
 lazy_static= "1.4.0"
 log = "0.4.8"
-glob= "0.3.0"
-dunce= "1.0.0"
 serde={ version = "1.0.104", features = ["derive"] }
 anyhow= "1.0.26"
 
 # optional dependencies
-toml= {version="0.5.6", optional = true}
+toml= { version = "0.5.6", optional = true }
 
 [features]
 default=["debug"]
-debug=["toml"]
+debug=["toml", "fight_game/debug"]
