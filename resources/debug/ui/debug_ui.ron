@@ -15,6 +15,44 @@ Container(
     children: [
         Label(
             transform: (
+                id: "debug_command_list",
+                anchor: TopLeft,
+                pivot: TopLeft,
+                x: 20,
+                y: -60,
+                height: 200.,
+                width: 200.,
+                stretch: Y(y_margin: 10.),
+            ),
+            text: (
+                text: "",
+                font_size: 16.,
+                color: (0., 0., 0., 1.),
+                align: TopLeft,
+                line_mode: Wrap,
+            )
+        ),
+        Label(
+            transform: (
+                id: "debug_detect_commands",
+                anchor: TopLeft,
+                pivot: TopLeft,
+                x: 20,
+                y: -60,
+                height: 200.,
+                width: 100.,
+                stretch: Y(y_margin: 10.),
+            ),
+            text: (
+                text: "",
+                font_size: 16.,
+                color: (0., 0., 0., 1.),
+                align: TopLeft,
+                line_mode: Wrap,
+            )
+        ),
+        Label(
+            transform: (
                 id: "debug_entities_count",
                 anchor: TopLeft,
                 pivot: TopLeft,

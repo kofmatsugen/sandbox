@@ -1,6 +1,5 @@
 (
 	commands: {
-		Neutral: ["n5"],
 		A: ["pA[1]", "rA[1]"],
 		B: ["pB[1]",  "rB[1]"],
 		C: ["pC[1]", "rC[1]"],
