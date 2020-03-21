@@ -1,9 +1,6 @@
-mod components;
-mod resources;
 mod state;
-mod types;
 
-use crate::{state::example::MyState, types::*};
+use crate::state::example::MyState;
 use amethyst::{
     assets::{HotReloadBundle, HotReloadStrategy},
     core::transform::TransformBundle,
@@ -28,7 +25,7 @@ use fight_game::{
         pack::{AnimationKey, PackKey},
     },
     input::FightInput,
-    paramater::{Aabb, CollisionParamater},
+    paramater::{Aabb, CollisionParamater, FightTranslation},
 };
 use input_handle::traits::InputParser;
 
@@ -50,9 +47,7 @@ fn main() -> amethyst::Result<()> {
         )?
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
-        .with_bundle(SpriteStudioBundle::<
-            types::translate_animation::FightTranslation,
-        >::new())?
+        .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
         .with_bundle(FightGameBundle::<FileId, PackKey, AnimationKey, Aabb, ()>::new())?
         .with_bundle(CollisionSystemBundle::<
             Collisions<Aabb, ()>,
@@ -63,12 +58,7 @@ fn main() -> amethyst::Result<()> {
         .with_barrier()
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
-                .with_plugin(RenderSpriteAnimation::<
-                    FileId,
-                    PackKey,
-                    AnimationKey,
-                    UserData,
-                >::default())
+                .with_plugin(RenderSpriteAnimation::<FightTranslation>::default())
                 .with_plugin(RenderUi::default())
                 .with_plugin(RenderDebugLines::default())
                 .with_plugin(

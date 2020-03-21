@@ -1,4 +1,3 @@
-use crate::types::*;
 use amethyst::{
     assets::ProgressCounter,
     core::transform::Transform,
@@ -22,6 +21,7 @@ use fight_game::{
         pack::{AnimationKey, PackKey},
     },
     load::CommandLoad,
+    paramater::AnimationParam,
 };
 
 const DEFAULT_SPEED: f32 = 1.;
@@ -90,7 +90,7 @@ impl MyState {
     }
 
     fn load_animation<W: AnimationLoad>(&mut self, world: &mut W) {
-        world.load_animation_files::<FileId, UserData, PackKey, AnimationKey>(
+        world.load_animation_files::<FileId, AnimationParam, PackKey, AnimationKey>(
             FileId::Sample,
             &mut self.progress_counter,
         );
