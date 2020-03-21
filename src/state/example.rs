@@ -15,7 +15,7 @@ use amethyst_sprite_studio::{
     load::AnimationLoad,
 };
 use fight_game::{
-    components::{Direction, PlayerTag},
+    components::{ActiveCommand, Direction, PlayerTag},
     id::{
         file::FileId,
         pack::{AnimationKey, PackKey},
@@ -192,5 +192,6 @@ where
         .with(anim_time)
         .with(Direction::Right)
         .with(PlayerTag::P1)
+        .with(ActiveCommand::new())
         .build()
 }
