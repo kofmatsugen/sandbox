@@ -1,14 +1,12 @@
 use amethyst::{
     assets::ProgressCounter,
     core::transform::Transform,
-    ecs::{BitSet, Entity, Join, WorldExt, WriteStorage},
-    input::{get_key, VirtualKeyCode},
+    ecs::{BitSet, Entity, WorldExt},
     prelude::*,
     renderer::{camera::Camera, ActiveCamera},
     shred::World,
     ui::UiCreator,
     window::ScreenDimensions,
-    winit::ElementState,
 };
 use amethyst_sprite_studio::{
     components::{AnimationTime, PlayAnimationKey},
@@ -21,7 +19,7 @@ use fight_game::{
         pack::{AnimationKey, PackKey},
     },
     load::CommandLoad,
-    paramater::AnimationParam,
+    paramater::FightTranslation,
 };
 
 const DEFAULT_SPEED: f32 = 1.;
@@ -34,66 +32,8 @@ pub struct MyState {
 }
 
 impl MyState {
-    fn on_pressed_key(&mut self, world: &mut World, key: VirtualKeyCode) {
-        match key {
-            VirtualKeyCode::Up => {
-                world.exec(|mut time: WriteStorage<AnimationTime>| {
-                    for (_, time) in (&self.target_entity, &mut time).join() {
-                        time.set_speed(0.);
-                        time.add_second(1. / 60.);
-                        log::info!("time: {}", time.current_time() * 60.);
-                    }
-                });
-            }
-            VirtualKeyCode::Down => {
-                world.exec(|mut time: WriteStorage<AnimationTime>| {
-                    for (_, time) in (&self.target_entity, &mut time).join() {
-                        time.set_speed(0.);
-                        time.add_second(-1. / 60.);
-                        log::info!("time: {}", time.current_time() * 60.);
-                    }
-                });
-            }
-            VirtualKeyCode::Space => {
-                world.exec(
-                    |(_key, _time): (
-                        WriteStorage<PlayAnimationKey<FileId, PackKey, AnimationKey>>,
-                        WriteStorage<AnimationTime>,
-                    )| {},
-                );
-            }
-            VirtualKeyCode::Left => {
-                world.exec(|mut transforms: WriteStorage<Transform>| {
-                    for (_, transform) in (&self.target_entity, &mut transforms).join().take(1) {
-                        transform.append_translation_xyz(-1., 0., 0.);
-                        log::info!("to: {:?}", transform.translation());
-                    }
-                });
-            }
-            VirtualKeyCode::Right => {
-                world.exec(|mut transforms: WriteStorage<Transform>| {
-                    for (_, transform) in (&self.target_entity, &mut transforms).join().take(1) {
-                        transform.append_translation_xyz(1., 0., 0.);
-                        log::info!("to: {:?}", transform.translation());
-                    }
-                });
-            }
-            VirtualKeyCode::Escape => {
-                world.exec(|entities: amethyst::ecs::Entities| {
-                    for (_, e) in (&self.target_entity, &*entities).join() {
-                        let _ = entities.delete(e);
-                    }
-                });
-            }
-            _ => {}
-        }
-    }
-
     fn load_animation<W: AnimationLoad>(&mut self, world: &mut W) {
-        world.load_animation_files::<FileId, AnimationParam, PackKey, AnimationKey>(
-            FileId::Sample,
-            &mut self.progress_counter,
-        );
+        world.load_animation_files::<FightTranslation>(FileId::Sample, &mut self.progress_counter);
     }
 
     fn load_command<W: CommandLoad>(&mut self, world: &mut W) {
@@ -133,17 +73,8 @@ impl SimpleState for MyState {
     fn handle_event(
         &mut self,
         _data: StateData<'_, GameData<'_, '_>>,
-        event: StateEvent,
+        _event: StateEvent,
     ) -> SimpleTrans {
-        let StateData { world, .. } = _data;
-        if let StateEvent::Window(event) = &event {
-            match get_key(&event) {
-                Some((key, ElementState::Pressed)) => {
-                    self.on_pressed_key(world, key);
-                }
-                _ => {}
-            }
-        }
         Trans::None
     }
     fn on_stop(&mut self, _data: StateData<'_, GameData<'_, '_>>) {}
@@ -175,7 +106,7 @@ where
 {
     let (pos_x, pos_y) = position.into().unwrap_or((0., 0.));
     let (scale_x, scale_y) = scale.into().unwrap_or((1., 1.));
-    let mut anim_key = PlayAnimationKey::<FileId, PackKey, AnimationKey>::new(FileId::Sample);
+    let mut anim_key = PlayAnimationKey::<FightTranslation>::new(FileId::Sample);
     anim_key.set_pack(PackKey::Base);
     anim_key.set_animation(AnimationKey::Stance);
     let mut anim_time = AnimationTime::new();

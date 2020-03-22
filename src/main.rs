@@ -20,10 +20,6 @@ use debug_system::DebugSystemBundle;
 use fight_game::{
     bundle::FightGameBundle,
     components::Collisions,
-    id::{
-        file::FileId,
-        pack::{AnimationKey, PackKey},
-    },
     input::FightInput,
     paramater::{Aabb, CollisionParamater, FightTranslation},
 };
@@ -48,9 +44,9 @@ fn main() -> amethyst::Result<()> {
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
-        .with_bundle(FightGameBundle::<FileId, PackKey, AnimationKey, Aabb, ()>::new())?
+        .with_bundle(FightGameBundle::<FightTranslation, Aabb, ()>::new())?
         .with_bundle(CollisionSystemBundle::<
-            Collisions<Aabb, ()>,
+            Collisions<Aabb, _>,
             CollisionParamater,
         >::new(true))?
         .with_bundle(FpsCounterBundle::default())?
