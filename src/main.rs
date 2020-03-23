@@ -21,7 +21,7 @@ use fight_game::{
     bundle::FightGameBundle,
     components::Collisions,
     input::FightInput,
-    paramater::{Aabb, CollisionParamater, FightTranslation},
+    paramater::{Aabb, CollisionParamater, ContactParamter, FightTranslation},
 };
 use input_handle::traits::InputParser;
 
@@ -44,11 +44,11 @@ fn main() -> amethyst::Result<()> {
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
-        .with_bundle(FightGameBundle::<FightTranslation, Aabb, ()>::new())?
+        .with_bundle(FightGameBundle::<FightTranslation, Aabb, CollisionParamater>::new())?
         .with_bundle(CollisionSystemBundle::<
-            Collisions<Aabb, _>,
-            CollisionParamater,
-        >::new(true))?
+            Collisions<Aabb, CollisionParamater>,
+            ContactParamter,
+        >::new())?
         .with_bundle(FpsCounterBundle::default())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
