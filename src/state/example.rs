@@ -1,5 +1,6 @@
+use crate::prefab::character::CharacterPrefab;
 use amethyst::{
-    assets::ProgressCounter,
+    assets::{Handle, Prefab, PrefabLoader, ProgressCounter, RonFormat},
     core::transform::Transform,
     ecs::{BitSet, Entity, WorldExt},
     prelude::*,
@@ -13,7 +14,7 @@ use amethyst_sprite_studio::{
     load::AnimationLoad,
 };
 use fight_game::{
-    components::{ActiveCommand, Direction, PlayerTag},
+    components::ActiveCommand,
     id::{
         file::FileId,
         pack::{AnimationKey, PackKey},
@@ -29,6 +30,7 @@ pub struct MyState {
     progress_counter: ProgressCounter,
     target_entity: BitSet,
     setuped: bool,
+    character_prefab: Option<Handle<Prefab<CharacterPrefab>>>,
 }
 
 impl MyState {
@@ -54,14 +56,31 @@ impl SimpleState for MyState {
             creator.create("debug/ui/debug_ui.ron", &mut self.progress_counter);
         });
 
+        self.character_prefab = world
+            .exec(|loader: PrefabLoader<CharacterPrefab>| {
+                loader.load(
+                    "prefab/character/base.ron",
+                    RonFormat,
+                    &mut self.progress_counter,
+                )
+            })
+            .into();
+
         initialise_camera(&mut world);
     }
 
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
-                self.target_entity
-                    .add(create_unit(data.world, (-200., -200.), (-0.5, 0.5)).id());
+                self.target_entity.add(
+                    create_unit(
+                        data.world,
+                        (-200., -200.),
+                        (-0.5, 0.5),
+                        self.character_prefab.clone().unwrap(),
+                    )
+                    .id(),
+                );
 
                 log::info!("complete!");
                 self.setuped = true;
@@ -100,7 +119,12 @@ fn initialise_camera(world: &mut World) {
     });
 }
 
-fn create_unit<V2>(world: &mut World, position: V2, scale: V2) -> Entity
+fn create_unit<V2>(
+    world: &mut World,
+    position: V2,
+    scale: V2,
+    character_prefab: Handle<Prefab<CharacterPrefab>>,
+) -> Entity
 where
     V2: Into<Option<(f32, f32)>>,
 {
@@ -121,8 +145,7 @@ where
         .with(transform)
         .with(anim_key)
         .with(anim_time)
-        .with(Direction::Right)
-        .with(PlayerTag::P1)
         .with(ActiveCommand::new())
+        .with(character_prefab)
         .build()
 }

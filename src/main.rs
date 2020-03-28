@@ -1,8 +1,9 @@
+mod prefab;
 mod state;
 
 use crate::state::example::MyState;
 use amethyst::{
-    assets::{HotReloadBundle, HotReloadStrategy},
+    assets::{HotReloadBundle, HotReloadStrategy, PrefabLoaderSystemDesc},
     core::transform::TransformBundle,
     input::InputBundle,
     prelude::*,
@@ -24,6 +25,7 @@ use fight_game::{
     paramater::{Aabb, CollisionParamater, ContactParamter, FightTranslation},
 };
 use input_handle::traits::InputParser;
+use prefab::character::CharacterPrefab;
 
 fn main() -> amethyst::Result<()> {
     let app_root = application_root_dir()?;
@@ -35,6 +37,11 @@ fn main() -> amethyst::Result<()> {
     let input_config_path = resources_dir.join("config").join("input.ron");
 
     let game_data = GameDataBuilder::default()
+        .with_system_desc(
+            PrefabLoaderSystemDesc::<CharacterPrefab>::default(),
+            "character_prefab_loader",
+            &[],
+        )
         .with_bundle(HotReloadBundle::new(HotReloadStrategy::every(10)))?
         .with_bundle(
             InputBundle::<<FightInput as InputParser>::BindingTypes>::new()

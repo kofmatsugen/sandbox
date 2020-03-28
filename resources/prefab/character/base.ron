@@ -1,0 +1,26 @@
+#![enable(implicit_some)]
+Prefab(
+    entities: [
+        PrefabEntity(
+            // parent: None // Optional
+            data: CharacterPrefab(
+                direction: Right,
+                player_tag: P1,
+                skill_set: SkillSet(
+                    neutral: Stance,
+                    skills: {
+                        Walk: Walk,
+                        Dash: Run,
+                        Crouch: Sit,
+                        BackCrouch: Sit,
+                        FrontCrouch: Sit,
+                        A: Punch1,
+                        B: Kick1,
+                        C: Punch2,
+                        D: Kick2,
+                    },
+                ),
+            ),
+        ),
+    ],
+)

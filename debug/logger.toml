@@ -13,7 +13,6 @@ module_levels = [
 #    ["fight_game::load" ,"Info"],
 #    ["fight_game::input" ,"Info"],
     ["fight_game::system::debug::command" ,"Debug"],
-    ["fight_game::components::collision" ,"Info"],
     ["fight_game::components::collision" ,"Error"],
 
     ["sync_position_to_world" ,"Error"],
