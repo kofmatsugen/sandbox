@@ -72,15 +72,8 @@ impl SimpleState for MyState {
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
-                self.target_entity.add(
-                    create_unit(
-                        data.world,
-                        (-200., -200.),
-                        (-0.5, 0.5),
-                        self.character_prefab.clone().unwrap(),
-                    )
-                    .id(),
-                );
+                self.target_entity
+                    .add(create_unit(data.world, self.character_prefab.clone().unwrap()).id());
 
                 log::info!("complete!");
                 self.setuped = true;
@@ -119,30 +112,15 @@ fn initialise_camera(world: &mut World) {
     });
 }
 
-fn create_unit<V2>(
-    world: &mut World,
-    position: V2,
-    scale: V2,
-    character_prefab: Handle<Prefab<CharacterPrefab>>,
-) -> Entity
-where
-    V2: Into<Option<(f32, f32)>>,
-{
-    let (pos_x, pos_y) = position.into().unwrap_or((0., 0.));
-    let (scale_x, scale_y) = scale.into().unwrap_or((1., 1.));
+fn create_unit(world: &mut World, character_prefab: Handle<Prefab<CharacterPrefab>>) -> Entity {
     let mut anim_key = PlayAnimationKey::<FightTranslation>::new(FileId::Sample);
     anim_key.set_pack(PackKey::Base);
     anim_key.set_animation(AnimationKey::Stance);
     let mut anim_time = AnimationTime::new();
     anim_time.set_speed(DEFAULT_SPEED);
-    let mut transform = Transform::default();
-    transform.set_scale([scale_x, scale_y, 1.0].into());
-    transform.set_translation_x(pos_x);
-    transform.set_translation_y(pos_y);
 
     world
         .create_entity()
-        .with(transform)
         .with(anim_key)
         .with(anim_time)
         .with(ActiveCommand::new())

@@ -1,12 +1,15 @@
 #![enable(implicit_some)]
-Prefab(
+(
     entities: [
-        PrefabEntity(
-            // parent: None // Optional
-            data: CharacterPrefab(
+        (
+            data: (
+                transform: (
+                    translation: (-200., -200., 0.),
+                    scale: (-0.5, 0.5, 1.0)
+                ),
                 direction: Right,
                 player_tag: P1,
-                skill_set: SkillSet(
+                skill_set: (
                     neutral: Stance,
                     skills: {
                         Walk: Walk,
