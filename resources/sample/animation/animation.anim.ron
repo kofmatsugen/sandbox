@@ -130,6 +130,17 @@
 									),// [0]
 								],
 							),
+							user: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											cancel: [Skill],
+										),
+									),// [0]
+								],
+							)
 						),// [0]
 						(
 							hide: (

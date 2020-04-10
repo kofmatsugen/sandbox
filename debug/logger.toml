@@ -14,6 +14,7 @@ module_levels = [
 #    ["fight_game::input" ,"Info"],
     ["fight_game::system::debug::command" ,"Debug"],
     ["fight_game::components::collision" ,"Error"],
+    ["fight_game::paramater::translate_animation" ,"Debug"],
 
     ["sync_position_to_world" ,"Error"],
     ["gfx_backend_vulkan" ,"Warn"],
