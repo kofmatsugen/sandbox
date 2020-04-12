@@ -51,12 +51,12 @@ fn main() -> amethyst::Result<()> {
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
-        .with_bundle(FightGameBundle::<FightTranslation, Aabb, CollisionParamater>::new())?
         .with_bundle(CollisionSystemBundle::<
             Collisions<Aabb, CollisionParamater>,
             ContactParamter,
         >::new())?
         .with_bundle(FpsCounterBundle::default())?
+        .with_bundle(FightGameBundle::<FightTranslation, Aabb, CollisionParamater>::new())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
         .with_bundle(

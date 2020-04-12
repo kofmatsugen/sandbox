@@ -12,7 +12,8 @@ module_levels = [
     ["fight_game" ,"Error"],
 #    ["fight_game::load" ,"Info"],
 #    ["fight_game::input" ,"Info"],
-    ["fight_game::system::debug::command" ,"Debug"],
+#    ["fight_game::system::debug::command" ,"Debug"],
+    ["fight_game::system::extrude" ,"Debug"],
     ["fight_game::components::collision" ,"Error"],
     ["fight_game::paramater::translate_animation" ,"Debug"],
 

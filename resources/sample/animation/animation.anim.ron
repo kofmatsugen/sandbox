@@ -11731,21 +11731,57 @@
 										frame: 4,
 										interpolation: Step,
 										value: (
-											collision_type: Some(Blow),
+											collision_type: Some(Blow(
+												damage: 100,
+												air: (
+													x: 10,
+													y: 10,
+													frame: 10,
+												),
+												ground: (
+													x: 10,
+													y: 10,
+													frame: 10,
+												),
+											)),
 										),
 									),// [0]
 									(
 										frame: 5,
 										interpolation: Step,
 										value: (
-											collision_type: Some(Blow),
+											collision_type: Some(Blow(
+												damage: 100,
+												air: (
+													x: 10,
+													y: 10,
+													frame: 10,
+												),
+												ground: (
+													x: 10,
+													y: 10,
+													frame: 10,
+												),
+											))
 										),
 									),// [1]
 									(
 										frame: 6,
 										interpolation: Step,
 										value: (
-											collision_type: Some(Blow),
+											collision_type: Some(Blow(
+												damage: 100,
+												air: (
+													x: 10,
+													y: 10,
+													frame: 10,
+												),
+												ground: (
+													x: 10,
+													y: 10,
+													frame: 10,
+												),
+											)),
 										),
 									),// [2]
 								],

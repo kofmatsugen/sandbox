@@ -30,7 +30,7 @@ pub struct MyState {
     progress_counter: ProgressCounter,
     target_entity: BitSet,
     setuped: bool,
-    character_prefab: Option<Handle<Prefab<CharacterPrefab>>>,
+    character_prefab: Vec<Handle<Prefab<CharacterPrefab>>>,
 }
 
 impl MyState {
@@ -56,15 +56,17 @@ impl SimpleState for MyState {
             creator.create("debug/ui/debug_ui.ron", &mut self.progress_counter);
         });
 
-        self.character_prefab = world
-            .exec(|loader: PrefabLoader<CharacterPrefab>| {
-                loader.load(
-                    "prefab/character/base.ron",
-                    RonFormat,
-                    &mut self.progress_counter,
-                )
+        self.character_prefab = (0..2)
+            .map(|i| {
+                world.exec(|loader: PrefabLoader<CharacterPrefab>| {
+                    loader.load(
+                        format!("prefab/character/base_{}.ron", i),
+                        RonFormat,
+                        &mut self.progress_counter,
+                    )
+                })
             })
-            .into();
+            .collect();
 
         initialise_camera(&mut world);
     }
@@ -72,9 +74,9 @@ impl SimpleState for MyState {
     fn update(&mut self, data: &mut StateData<'_, GameData<'_, '_>>) -> SimpleTrans {
         if self.progress_counter.is_complete() {
             if self.setuped == false {
-                self.target_entity
-                    .add(create_unit(data.world, self.character_prefab.clone().unwrap()).id());
-
+                for p in self.character_prefab.iter().cloned() {
+                    self.target_entity.add(create_unit(data.world, p).id());
+                }
                 log::info!("complete!");
                 self.setuped = true;
             }
