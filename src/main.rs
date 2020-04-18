@@ -15,14 +15,13 @@ use amethyst::{
     ui::{RenderUi, UiBundle},
     utils::{application_root_dir, fps_counter::FpsCounterBundle},
 };
-use amethyst_collision::bundle::CollisionSystemBundle;
+use amethyst_aabb::bundle::AabbCollisionBundle;
 use amethyst_sprite_studio::{bundle::SpriteStudioBundle, renderer::RenderSpriteAnimation};
 use debug_system::DebugSystemBundle;
 use fight_game::{
     bundle::FightGameBundle,
-    components::Collisions,
     input::FightInput,
-    paramater::{Aabb, CollisionParamater, ContactParamter, FightTranslation},
+    paramater::{CollisionParamater, FightTranslation},
 };
 use input_handle::traits::InputParser;
 use prefab::character::CharacterPrefab;
@@ -51,12 +50,9 @@ fn main() -> amethyst::Result<()> {
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
-        .with_bundle(CollisionSystemBundle::<
-            Collisions<Aabb, CollisionParamater>,
-            ContactParamter,
-        >::new())?
+        .with_bundle(AabbCollisionBundle::<CollisionParamater>::new())?
         .with_bundle(FpsCounterBundle::default())?
-        .with_bundle(FightGameBundle::<FightTranslation, Aabb, CollisionParamater>::new())?
+        .with_bundle(FightGameBundle::<FightTranslation, CollisionParamater>::new())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
         .with_bundle(

@@ -7,7 +7,7 @@ edition = "2018"
 [dependencies]
 amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulkan", "sdl_controller", "no-slow-safety-checks"] }
 amethyst-sprite-studio={path="../amethyst-sprite-studio/"}
-amethyst-collision={path="../amethyst-collision/"}
+amethyst-aabb={path="../amethyst-aabb/"}
 debug_system={path="../debug_system/"}
 fight_game={path = "../fight_game/"}
 input-handle={path="../input-handle/"}
@@ -23,7 +23,6 @@ toml= { version = "0.5.6", optional = true }
 default=["debug", "profile"]
 profile=[
     "amethyst/profiler",
-    "amethyst-collision/profiler",
     "fight_game/profiler",
     ]
-debug=["toml", "fight_game/debug", "amethyst-collision/debug"]
+debug=["toml", "fight_game/debug", "amethyst-aabb/debug"]
