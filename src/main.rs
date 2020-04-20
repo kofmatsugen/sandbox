@@ -42,6 +42,7 @@ fn main() -> amethyst::Result<()> {
             &[],
         )
         .with_bundle(HotReloadBundle::new(HotReloadStrategy::every(10)))?
+        .with_bundle(FpsCounterBundle::default())?
         .with_bundle(
             InputBundle::<<FightInput as InputParser>::BindingTypes>::new()
                 .with_bindings_from_file(input_config_path)
@@ -50,9 +51,8 @@ fn main() -> amethyst::Result<()> {
         .with_bundle(TransformBundle::new())?
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
-        .with_bundle(AabbCollisionBundle::<CollisionParamater>::new())?
-        .with_bundle(FpsCounterBundle::default())?
         .with_bundle(FightGameBundle::<FightTranslation, CollisionParamater>::new())?
+        .with_bundle(AabbCollisionBundle::<CollisionParamater>::new())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
         .with_bundle(

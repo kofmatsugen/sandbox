@@ -1,188 +1,6 @@
 (
 	packs: {
-		"splash1024": (
-			parts: [
-				(
-					name: "root",
-					parent_id: None,
-					refference_animation_name: None,
-					part_type: Null,
-					bounds: None,
-				),// [0]
-				(
-					name: "in",
-					parent_id: Some(0),
-					refference_animation_name: Some((
-						name: "FullName",
-						pack: "splash1024_instance",
-						animation: "in",
-					)),
-					part_type: Instance,
-					bounds: None,
-				),// [1]
-				(
-					name: "out",
-					parent_id: Some(0),
-					refference_animation_name: Some((
-						name: "FullName",
-						pack: "splash1024_instance",
-						animation: "out",
-					)),
-					part_type: Instance,
-					bounds: None,
-				),// [2]
-			],
-			animations: {
-				"inout": (
-					fps: 60,
-					total_frame: 120,
-					parts_timelines: [
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-						),// [0]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: false,
-									),// [0]
-									(
-										frame: 100,
-										interpolation: Step,
-										value: true,
-									),// [1]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 0,
-									),// [0]
-									(
-										frame: 100,
-										interpolation: Linear,
-										value: 0,
-									),// [1]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 0,
-									),// [0]
-									(
-										frame: 100,
-										interpolation: Linear,
-										value: 0,
-									),// [1]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Linear,
-										value: 0,
-									),// [0]
-									(
-										frame: 100,
-										interpolation: Linear,
-										value: 0,
-									),// [1]
-								],
-							),
-							instance: (
-								key_frames: [
-									(
-										frame: 0,
-										interpolation: Step,
-										value: (
-											independent: false,
-											loop_num: Some(1),
-											start_offset: 0,
-											end_offset: 0,
-											reverse: false,
-											pingpong: false,
-											speed_rate: 1,
-										),
-									),// [0]
-								],
-							),
-						),// [1]
-						(
-							hide: (
-								key_frames: [
-									(
-										frame: 100,
-										interpolation: Step,
-										value: false,
-									),// [0]
-								],
-							),
-							pos_x: (
-								key_frames: [
-									(
-										frame: 100,
-										interpolation: Linear,
-										value: 0,
-									),// [0]
-								],
-							),
-							pos_y: (
-								key_frames: [
-									(
-										frame: 100,
-										interpolation: Linear,
-										value: 0,
-									),// [0]
-								],
-							),
-							rotated: (
-								key_frames: [
-									(
-										frame: 100,
-										interpolation: Linear,
-										value: 0,
-									),// [0]
-								],
-							),
-							instance: (
-								key_frames: [
-									(
-										frame: 100,
-										interpolation: Step,
-										value: (
-											independent: false,
-											loop_num: Some(1),
-											start_offset: 0,
-											end_offset: 0,
-											reverse: false,
-											pingpong: false,
-											speed_rate: 1,
-										),
-									),// [0]
-								],
-							),
-						),// [2]
-					],
-				),
-			},
-		),
-		"splash1024_instance": (
+		SpriteStudioSplashInstance: (
 			parts: [
 				(
 					name: "root",
@@ -235,7 +53,7 @@
 				),// [6]
 			],
 			animations: {
-				"in": (
+				SplashIn: (
 					fps: 60,
 					total_frame: 100,
 					parts_timelines: [
@@ -1207,7 +1025,7 @@
 						),// [6]
 					],
 				),
-				"out": (
+				SplashOut: (
 					fps: 60,
 					total_frame: 20,
 					parts_timelines: [
@@ -1889,6 +1707,186 @@
 								],
 							),
 						),// [6]
+					],
+				),
+			},
+		),
+		SpriteStudioSplash: (
+			parts: [
+				(
+					name: "root",
+					parent_id: None,
+					refference_animation_name: None,
+					part_type: Null,
+					bounds: None,
+				),// [0]
+				(
+					name: "in",
+					parent_id: Some(0),
+					refference_animation_name: Some(FullName(
+						pack: SpriteStudioSplashInstance,
+						animation: SplashIn,
+					)),
+					part_type: Instance,
+					bounds: None,
+				),// [1]
+				(
+					name: "out",
+					parent_id: Some(0),
+					refference_animation_name: Some(FullName(
+						pack: SpriteStudioSplashInstance,
+						animation: SplashOut,
+					)),
+					part_type: Instance,
+					bounds: None,
+				),// [2]
+			],
+			animations: {
+				SplashInOut: (
+					fps: 60,
+					total_frame: 120,
+					parts_timelines: [
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+						),// [0]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: false,
+									),// [0]
+									(
+										frame: 100,
+										interpolation: Step,
+										value: true,
+									),// [1]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 100,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 100,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+									(
+										frame: 100,
+										interpolation: Linear,
+										value: 0,
+									),// [1]
+								],
+							),
+							instance: (
+								key_frames: [
+									(
+										frame: 0,
+										interpolation: Step,
+										value: (
+											independent: false,
+											loop_num: Some(1),
+											start_offset: 0,
+											end_offset: 0,
+											reverse: false,
+											pingpong: false,
+											speed_rate: 1,
+										),
+									),// [0]
+								],
+							),
+						),// [1]
+						(
+							hide: (
+								key_frames: [
+									(
+										frame: 100,
+										interpolation: Step,
+										value: false,
+									),// [0]
+								],
+							),
+							pos_x: (
+								key_frames: [
+									(
+										frame: 100,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							pos_y: (
+								key_frames: [
+									(
+										frame: 100,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							rotated: (
+								key_frames: [
+									(
+										frame: 100,
+										interpolation: Linear,
+										value: 0,
+									),// [0]
+								],
+							),
+							instance: (
+								key_frames: [
+									(
+										frame: 100,
+										interpolation: Step,
+										value: (
+											independent: false,
+											loop_num: Some(1),
+											start_offset: 0,
+											end_offset: 0,
+											reverse: false,
+											pingpong: false,
+											speed_rate: 1,
+										),
+									),// [0]
+								],
+							),
+						),// [2]
 					],
 				),
 			},
