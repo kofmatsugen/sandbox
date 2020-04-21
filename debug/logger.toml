@@ -22,6 +22,7 @@ module_levels = [
     ["input_handle::system", "Error"],
 
 #    ["amethyst_sprite_studio::system::build_nodes", "Info"],
+    ["amethyst_sprite_studio::resource", "Debug"],
 
     #["command_parser::command", "trace"]
 ]

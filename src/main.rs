@@ -9,6 +9,7 @@ use amethyst::{
     prelude::*,
     renderer::{
         plugins::{RenderDebugLines, RenderToWindow},
+        sprite_visibility::SpriteVisibilitySortingSystem,
         types::DefaultBackend,
         RenderingBundle,
     },
@@ -16,7 +17,11 @@ use amethyst::{
     utils::{application_root_dir, fps_counter::FpsCounterBundle},
 };
 use amethyst_aabb::bundle::AabbCollisionBundle;
-use amethyst_sprite_studio::{bundle::SpriteStudioBundle, renderer::RenderSpriteAnimation};
+use amethyst_sprite_studio::{
+    bundle::SpriteStudioBundle,
+    renderer::RenderSpriteAnimation,
+    splash::{SplashState, SplashTranslation},
+};
 use debug_system::DebugSystemBundle;
 use fight_game::{
     bundle::FightGameBundle,
@@ -55,9 +60,15 @@ fn main() -> amethyst::Result<()> {
         .with_bundle(AabbCollisionBundle::<CollisionParamater>::new())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
+        .with(
+            SpriteVisibilitySortingSystem::new(),
+            "sprite_visibility_system",
+            &[],
+        )
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
                 .with_plugin(RenderSpriteAnimation::<FightTranslation>::default())
+                .with_plugin(RenderSpriteAnimation::<SplashTranslation>::default())
                 .with_plugin(RenderUi::default())
                 .with_plugin(RenderDebugLines::default())
                 .with_plugin(
@@ -66,7 +77,7 @@ fn main() -> amethyst::Result<()> {
                 ),
         )?;
 
-    let mut game = Application::new(resources_dir, MyState::default(), game_data)?;
+    let mut game = Application::new(resources_dir, SplashState::<MyState>::new(), game_data)?;
     game.run();
 
     Ok(())
