@@ -25,4 +25,9 @@ profile=[
     "amethyst/profiler",
     "fight_game/profiler",
     ]
-debug=["toml", "fight_game/debug", "amethyst-aabb/debug"]
+debug=[
+    "toml",
+    "fight_game/debug",
+    "amethyst-aabb/debug",
+    "amethyst-sprite-studio/debug"
+]
