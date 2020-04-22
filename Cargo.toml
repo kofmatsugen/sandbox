@@ -11,6 +11,7 @@ amethyst-aabb={path="../amethyst-aabb/"}
 debug_system={path="../debug_system/"}
 fight_game={path = "../fight_game/"}
 input-handle={path="../input-handle/"}
+movement-transform={path="../movement-transform/"}
 lazy_static= "1.4.0"
 log = "0.4.8"
 serde={ version = "1.0.105", features = ["derive"] }

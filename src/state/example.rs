@@ -22,6 +22,7 @@ use fight_game::{
     load::CommandLoad,
     paramater::FightTranslation,
 };
+use movement_transform::components::Movement;
 
 const DEFAULT_SPEED: f32 = 1.;
 
@@ -127,5 +128,6 @@ fn create_unit(world: &mut World, character_prefab: Handle<Prefab<CharacterPrefa
         .with(anim_time)
         .with(ActiveCommand::new())
         .with(character_prefab)
+        .with(Movement::new())
         .build()
 }

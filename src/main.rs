@@ -24,11 +24,12 @@ use amethyst_sprite_studio::{
 };
 use debug_system::DebugSystemBundle;
 use fight_game::{
-    bundle::FightGameBundle,
+    bundle::{FightParamaterBundle, FightTransformBundle},
     input::FightInput,
     paramater::{CollisionParamater, FightTranslation},
 };
 use input_handle::traits::InputParser;
+use movement_transform::system::TransformMovementSystem;
 use prefab::character::CharacterPrefab;
 
 fn main() -> amethyst::Result<()> {
@@ -53,10 +54,15 @@ fn main() -> amethyst::Result<()> {
                 .with_bindings_from_file(input_config_path)
                 .unwrap(),
         )?
+        // 前のフレームで発生した格闘ゲーム関連の判定情報，移動情報を反映
+        .with_bundle(FightTransformBundle::<FightTranslation, CollisionParamater>::new())?
+        // 前のフレームで発生した全移動情報を反映
+        .with(TransformMovementSystem::new(), "movement_transform", &[])
         .with_bundle(TransformBundle::new())?
-        .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
-        .with_bundle(FightGameBundle::<FightTranslation, CollisionParamater>::new())?
+        // 移動とアニメーションノードの作成情報を反映
+        .with_bundle(FightParamaterBundle::<FightTranslation, CollisionParamater>::new())?
+        .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(AabbCollisionBundle::<CollisionParamater>::new())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
