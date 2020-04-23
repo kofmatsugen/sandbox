@@ -7,117 +7,99 @@ List((
 			y: 20,
 			width: 319,
 			height: 331,
-			offsets: Some((6.5, -80.5)),
+			offsets: Some((3.4999998, -83.5)),
 			flip_horizontal: false,
 			flip_vertical: false,
 		),// [0]
 		(
-			x: 18,
+			x: 17,
 			y: 366,
-			width: 333,
-			height: 325,
-			offsets: Some((-11.500001, -57.5)),
+			width: 334,
+			height: 346,
+			offsets: Some((-2, -48.999996)),
 			flip_horizontal: false,
 			flip_vertical: false,
 		),// [1]
 		(
-			x: 17,
-			y: 705,
-			width: 334,
-			height: 307,
-			offsets: Some((-7.0000005, 48.5)),
+			x: 354,
+			y: 115,
+			width: 156,
+			height: 183,
+			offsets: Some((20.000002, 40.5)),
 			flip_horizontal: false,
 			flip_vertical: false,
 		),// [2]
-		(
-			x: 353,
-			y: 115,
-			width: 158,
-			height: 184,
-			offsets: Some((20, 38)),
-			flip_horizontal: false,
-			flip_vertical: false,
-		),// [3]
-		(
-			x: 366,
-			y: 321,
-			width: 164,
-			height: 222,
-			offsets: Some((15.999999, 62.000004)),
-			flip_horizontal: false,
-			flip_vertical: false,
-		),// [4]
-		(
-			x: 557,
-			y: 321,
-			width: 146,
-			height: 222,
-			offsets: Some((-16, 58.999996)),
-			flip_horizontal: false,
-			flip_vertical: false,
-		),// [5]
-		(
-			x: 366,
-			y: 558,
-			width: 177,
-			height: 188,
-			offsets: Some((-33.5, 24)),
-			flip_horizontal: false,
-			flip_vertical: false,
-		),// [6]
-		(
-			x: 737,
-			y: 556,
-			width: 122,
-			height: 211,
-			offsets: Some((-1.9999999, 66.5)),
-			flip_horizontal: false,
-			flip_vertical: false,
-		),// [7]
-		(
-			x: 366,
-			y: 758,
-			width: 177,
-			height: 189,
-			offsets: Some((-35.5, 22.5)),
-			flip_horizontal: false,
-			flip_vertical: false,
-		),// [8]
-		(
-			x: 716,
-			y: 9,
-			width: 299,
-			height: 534,
-			offsets: Some((-3.5, 144)),
-			flip_horizontal: false,
-			flip_vertical: false,
-		),// [9]
-		(
-			x: 869,
-			y: 556,
-			width: 122,
-			height: 211,
-			offsets: Some((-3.9999998, 67.5)),
-			flip_horizontal: false,
-			flip_vertical: false,
-		),// [10]
-		(
-			x: 365,
-			y: 961,
-			width: 178,
-			height: 51,
-			offsets: Some((0, 0.5)),
-			flip_horizontal: false,
-			flip_vertical: false,
-		),// [11]
 		(
 			x: 545,
 			y: 115,
 			width: 158,
 			height: 184,
-			offsets: Some((-25, 38)),
+			offsets: Some((-26, 41)),
 			flip_horizontal: false,
 			flip_vertical: false,
-		),// [12]
+		),// [3]
+		(
+			x: 716,
+			y: 9,
+			width: 299,
+			height: 455,
+			offsets: Some((-8.5, 125.50001)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [4]
+		(
+			x: 869,
+			y: 556,
+			width: 122,
+			height: 211,
+			offsets: Some((10, 68.5)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [5]
+		(
+			x: 553,
+			y: 779,
+			width: 438,
+			height: 230,
+			offsets: Some((113.99999, 61)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [6]
+		(
+			x: 369,
+			y: 9,
+			width: 318,
+			height: 95,
+			offsets: Some((33, -24.499998)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [7]
+		(
+			x: 553,
+			y: 555,
+			width: 174,
+			height: 211,
+			offsets: Some((0, -10.5)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [8]
+		(
+			x: 737,
+			y: 556,
+			width: 122,
+			height: 211,
+			offsets: Some((11, 68.5)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [9]
+		(
+			x: 365,
+			y: 961,
+			width: 178,
+			height: 51,
+			offsets: Some((5, -15.500001)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [10]
 	],
 ))

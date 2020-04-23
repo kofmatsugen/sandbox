@@ -1,0 +1,159 @@
+List((
+	texture_width: 1024,
+	texture_height: 1024,
+	sprites: [
+		(
+			x: 0,
+			y: 0,
+			width: 96,
+			height: 96,
+			offsets: Some((0, 0)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [0]
+		(
+			x: 96,
+			y: 0,
+			width: 160,
+			height: 160,
+			offsets: Some((0, 0)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [1]
+		(
+			x: 256,
+			y: 0,
+			width: 128,
+			height: 128,
+			offsets: Some((0, 0)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [2]
+		(
+			x: 0,
+			y: 192,
+			width: 128,
+			height: 96,
+			offsets: Some((-31, 23)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [3]
+		(
+			x: 0,
+			y: 96,
+			width: 96,
+			height: 96,
+			offsets: Some((5, 17)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [4]
+		(
+			x: 192,
+			y: 160,
+			width: 96,
+			height: 96,
+			offsets: Some((-10, 26)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [5]
+		(
+			x: 128,
+			y: 160,
+			width: 64,
+			height: 96,
+			offsets: Some((3, 26)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [6]
+		(
+			x: 96,
+			y: 0,
+			width: 160,
+			height: 160,
+			offsets: Some((0, 0)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [7]
+		(
+			x: 256,
+			y: 0,
+			width: 128,
+			height: 128,
+			offsets: Some((0, 0)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [8]
+		(
+			x: 0,
+			y: 192,
+			width: 128,
+			height: 96,
+			offsets: Some((-31, 23)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [9]
+		(
+			x: 0,
+			y: 96,
+			width: 96,
+			height: 96,
+			offsets: Some((5, 17)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [10]
+		(
+			x: 192,
+			y: 160,
+			width: 96,
+			height: 96,
+			offsets: Some((-10, 26)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [11]
+		(
+			x: 128,
+			y: 160,
+			width: 64,
+			height: 96,
+			offsets: Some((3, 26)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [12]
+		(
+			x: 0,
+			y: 192,
+			width: 128,
+			height: 96,
+			offsets: Some((-31, 23)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [13]
+		(
+			x: 0,
+			y: 96,
+			width: 96,
+			height: 96,
+			offsets: Some((5, 17)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [14]
+		(
+			x: 192,
+			y: 160,
+			width: 96,
+			height: 96,
+			offsets: Some((-10, 26)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [15]
+		(
+			x: 128,
+			y: 160,
+			width: 64,
+			height: 96,
+			offsets: Some((3, 26)),
+			flip_horizontal: false,
+			flip_vertical: false,
+		),// [16]
+	],
+))
