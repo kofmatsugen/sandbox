@@ -4,52 +4,37 @@
 			parts: [
 				(
 					name: "root",
-					parent_id: None,
-					refference_animation_name: None,
 					part_type: Null,
-					bounds: None,
 				),// [0]
 				(
 					name: "b4",
 					parent_id: Some(0),
-					refference_animation_name: None,
 					part_type: Normal,
-					bounds: None,
 				),// [1]
 				(
 					name: "b3",
 					parent_id: Some(0),
-					refference_animation_name: None,
 					part_type: Normal,
-					bounds: None,
 				),// [2]
 				(
 					name: "b2",
 					parent_id: Some(0),
-					refference_animation_name: None,
 					part_type: Normal,
-					bounds: None,
 				),// [3]
 				(
 					name: "b1",
 					parent_id: Some(0),
-					refference_animation_name: None,
 					part_type: Normal,
-					bounds: None,
 				),// [4]
 				(
 					name: "sslogo",
 					parent_id: Some(0),
-					refference_animation_name: None,
 					part_type: Normal,
-					bounds: None,
 				),// [5]
 				(
 					name: "wtlogo",
 					parent_id: Some(0),
-					refference_animation_name: None,
 					part_type: Normal,
-					bounds: None,
 				),// [6]
 			],
 			animations: {
@@ -1715,10 +1700,7 @@
 			parts: [
 				(
 					name: "root",
-					parent_id: None,
-					refference_animation_name: None,
 					part_type: Null,
-					bounds: None,
 				),// [0]
 				(
 					name: "in",
@@ -1728,7 +1710,6 @@
 						animation: SplashIn,
 					)),
 					part_type: Instance,
-					bounds: None,
 				),// [1]
 				(
 					name: "out",
@@ -1738,7 +1719,6 @@
 						animation: SplashOut,
 					)),
 					part_type: Instance,
-					bounds: None,
 				),// [2]
 			],
 			animations: {
