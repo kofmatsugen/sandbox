@@ -1,0 +1,143 @@
+#![enable(implicit_some)]
+Container(
+    transform: (
+        id: "debug_root",
+        anchor: TopLeft,
+        pivot: TopLeft,
+        stretch: XY( x_margin: 0., y_margin: 0., keep_aspect_ratio: false),
+        x: 0.,
+        y: 0.,
+        z: 0.,
+        mouse_reactive: true,
+        hidden: false,
+        opaque: true,
+    ),
+    children: [
+        Label(
+            transform: (
+                id: "debug_command_list",
+                anchor: TopLeft,
+                pivot: TopLeft,
+                x: 20,
+                y: -60,
+                height: 200.,
+                width: 200.,
+                stretch: Y(y_margin: 10.),
+            ),
+            text: (
+                text: "",
+                font_size: 16.,
+                color: (0., 0., 0., 1.),
+                align: TopLeft,
+                line_mode: Wrap,
+            )
+        ),
+        Label(
+            transform: (
+                id: "debug_detect_commands",
+                anchor: TopLeft,
+                pivot: TopLeft,
+                x: 20,
+                y: -60,
+                height: 200.,
+                width: 100.,
+                stretch: Y(y_margin: 10.),
+            ),
+            text: (
+                text: "",
+                font_size: 16.,
+                color: (0., 0., 0., 1.),
+                align: TopLeft,
+                line_mode: Wrap,
+            )
+        ),
+        Label(
+            transform: (
+                id: "debug_entities_count",
+                anchor: TopLeft,
+                pivot: TopLeft,
+                x: 20,
+                height: 16.,
+                width: 100.,
+            ),
+            text: (
+                text: "",
+                font_size: 16.,
+                color: (0., 0., 0., 1.),
+                align: TopLeft,
+            )
+        ),
+        Label(
+            transform: (
+                id: "debug_fps_sample",
+                anchor: TopLeft,
+                pivot: TopLeft,
+                x: 20.,
+                y: -20.,
+                height: 16.,
+                width: 100.,
+            ),
+            text: (
+                text: "",
+                font_size: 16.,
+                color: (0., 0., 0., 1.),
+                align: TopLeft,
+            )
+        ),
+        //--------------------------Player1 Debug------------------------------
+        Label(
+            transform: (
+                id: "debug_event_P1",
+                anchor: TopRight,
+                pivot: TopRight,
+                x: -30.,
+                y: -30.,
+                height: 140.,
+                width: 800.,
+                stretch: Y(y_margin: 10.),
+            ),
+            text: (
+                text: "",
+                font_size: 18.,
+                color: (0., 0., 0., 1.),
+                align: TopRight,
+                line_mode: Wrap,
+            )
+        ),
+        Label(
+            transform: (
+                id: "debug_button_P1",
+                anchor: BottomRight,
+                pivot: BottomLeft,
+                x: -100.,
+                y: 0.,
+                width: 100.,
+                height: 200.,
+            ),
+            text: (
+                text: "",
+                font_size: 18.,
+                color: (0., 0., 0., 1.),
+                line_mode: Wrap,
+            )
+        ),
+        Label(
+            transform: (
+                id: "debug_stick_P1",
+                anchor: BottomRight,
+                pivot: BottomLeft,
+                x: -200.,
+                y: 0.,
+                height: 200.,
+                width: 200.,
+            ),
+            text: (
+                text: "",
+                font_size: 18.,
+                color: (0., 0., 0., 1.),
+                line_mode: Wrap,
+            )
+        ),
+        //--------------------------Player1 Debug------------------------------
+    ],
+)
