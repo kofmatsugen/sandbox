@@ -23,8 +23,9 @@ module_levels = [
 
     ["amethyst_sprite_studio::system::build_nodes", "Warn"],
     ["amethyst_sprite_studio::resource", "Debug"],
+    ["amethyst_sprite_studio::renderer", "Error"],
 
-    ["movement_transform::system", "Warn"],
+    ["movement_transform::system", "Info"],
 
     #["command_parser::command", "trace"]
 ]
