@@ -37,6 +37,7 @@ pub struct MyState {
 impl MyState {
     fn load_animation<W: AnimationLoad>(&mut self, world: &mut W) {
         world.load_animation_files::<FightTranslation>(FileId::Sample, &mut self.progress_counter);
+        world.load_animation_files::<FightTranslation>(FileId::Sandbox, &mut self.progress_counter);
     }
 
     fn load_command<W: CommandLoad>(&mut self, world: &mut W) {
@@ -120,7 +121,7 @@ fn create_unit(world: &mut World, character_prefab: Handle<Prefab<CharacterPrefa
     anim_key.set_pack(PackKey::Base);
     anim_key.set_animation(AnimationKey::Stance);
     let mut anim_time = AnimationTime::new();
-    anim_time.set_speed(DEFAULT_SPEED);
+    anim_time.play(DEFAULT_SPEED);
 
     world
         .create_entity()

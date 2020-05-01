@@ -25,6 +25,7 @@ use amethyst_sprite_studio::{
 use debug_system::DebugSystemBundle;
 use fight_game::{
     bundle::{FightParamaterBundle, FightTransformBundle},
+    components::HitInfo,
     input::FightInput,
     paramater::{CollisionParamater, FightTranslation},
 };
@@ -61,14 +62,18 @@ fn main() -> amethyst::Result<()> {
         .with_bundle(TransformBundle::new())?
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
         // 移動とアニメーションノードの作成情報を反映
-        .with_bundle(FightParamaterBundle::<FightTranslation, CollisionParamater>::new())?
+        .with_bundle(FightParamaterBundle::<
+            FightTranslation,
+            CollisionParamater,
+            HitInfo,
+        >::new())?
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(AabbCollisionBundle::<CollisionParamater>::new())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
         .with(
             SpriteVisibilitySortingSystem::new(),
-            "sprite_visibility_system",
+            "sprite_visibility_sort",
             &[],
         )
         .with_bundle(

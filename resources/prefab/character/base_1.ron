@@ -4,23 +4,23 @@
         (
             data: (
                 transform: (
-                    translation: (1., 0., 0.),
-                    scale: (.5, .5, 1.0)
+                    translation: (200., 0., 0.),
+                    scale: (1, 1, 1.0)
                 ),
                 direction: Left,
                 player_tag: P2,
                 skill_set: (
                     neutral: Stance,
                     skills: {
-                        Walk: Walk,
-                        Dash: Run,
-                        Crouch: Sit,
-                        BackCrouch: Sit,
-                        FrontCrouch: Sit,
-                        A: Punch1,
-                        B: Kick1,
-                        C: Punch2,
-                        D: Kick1,
+                        // Walk: Walk,
+                        // Dash: Run,
+                        // Crouch: Sit,
+                        // BackCrouch: Sit,
+                        // FrontCrouch: Sit,
+                        // A: Punch1,
+                        // B: Kick1,
+                        // C: Punch2,
+                        // D: Kick1,
                     },
                 ),
             ),
