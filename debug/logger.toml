@@ -9,9 +9,9 @@ module_levels = [
 
     ["amethyst_collision::system::detect_contact" ,"Info"],
 
-    ["fight_game" ,"Error"],
+    ["fight_game" ,"Info"],
 #    ["fight_game::load" ,"Info"],
-#    ["fight_game::input" ,"Info"],
+    ["fight_game::input" ,"Error"],
 #    ["fight_game::system::debug::command" ,"Debug"],
     ["fight_game::system::extrude" ,"Warn"],
     ["fight_game::components::collision" ,"Error"],

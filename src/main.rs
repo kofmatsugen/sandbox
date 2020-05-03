@@ -56,7 +56,10 @@ fn main() -> amethyst::Result<()> {
                 .unwrap(),
         )?
         // 前のフレームで発生した格闘ゲーム関連の判定情報，移動情報を反映
-        .with_bundle(FightTransformBundle::<FightTranslation, CollisionParamater>::new())?
+        .with_bundle(FightTransformBundle::<
+            FightTranslation,
+            CollisionParamater<FightTranslation>,
+        >::new())?
         // 前のフレームで発生した全移動情報を反映
         .with(TransformMovementSystem::new(), "movement_transform", &[])
         .with_bundle(TransformBundle::new())?
@@ -64,11 +67,11 @@ fn main() -> amethyst::Result<()> {
         // 移動とアニメーションノードの作成情報を反映
         .with_bundle(FightParamaterBundle::<
             FightTranslation,
-            CollisionParamater,
-            HitInfo,
+            CollisionParamater<FightTranslation>,
+            HitInfo<FightTranslation>,
         >::new())?
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
-        .with_bundle(AabbCollisionBundle::<CollisionParamater>::new())?
+        .with_bundle(AabbCollisionBundle::<CollisionParamater<FightTranslation>>::new())?
         .with_bundle(DebugSystemBundle::new())?
         .with_barrier()
         .with(
