@@ -23,6 +23,8 @@ use amethyst_sprite_studio::{
     splash::{SplashState, SplashTranslation},
 };
 use debug_system::DebugSystemBundle;
+#[cfg(feature = "debug")]
+use fight_game::types::debug::DisplayInfo;
 use fight_game::{
     bundle::{FightParamaterBundle, FightTransformBundle},
     components::HitInfo,
@@ -72,7 +74,7 @@ fn main() -> amethyst::Result<()> {
         >::new())?
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(AabbCollisionBundle::<CollisionParamater<FightTranslation>>::new())?
-        .with_bundle(DebugSystemBundle::new())?
+        .with_bundle(DebugSystemBundle::<DisplayInfo>::new())?
         .with_barrier()
         .with(
             SpriteVisibilitySortingSystem::new(),

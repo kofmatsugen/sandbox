@@ -24,6 +24,11 @@ use fight_game::{
 };
 use movement_transform::components::Movement;
 
+#[cfg(feature = "debug")]
+use debug_system::components::DebugInfomationDisplay;
+#[cfg(feature = "debug")]
+use fight_game::types::debug::DisplayInfo;
+
 const DEFAULT_SPEED: f32 = 1.;
 
 #[derive(Default)]
@@ -121,7 +126,7 @@ fn create_unit(world: &mut World, character_prefab: Handle<Prefab<CharacterPrefa
     anim_key.set_pack(PackKey::Base);
     anim_key.set_animation(AnimationKey::Stance);
     let mut anim_time = AnimationTime::new();
-    anim_time.play(DEFAULT_SPEED);
+    anim_time.play(DEFAULT_SPEED / 10.);
 
     world
         .create_entity()
@@ -130,5 +135,6 @@ fn create_unit(world: &mut World, character_prefab: Handle<Prefab<CharacterPrefa
         .with(ActiveCommand::new())
         .with(character_prefab)
         .with(Movement::new())
+        .with(DebugInfomationDisplay::<DisplayInfo>::new())
         .build()
 }
