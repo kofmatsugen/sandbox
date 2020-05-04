@@ -3,13 +3,12 @@ mod state;
 
 use crate::state::example::MyState;
 use amethyst::{
-    assets::{HotReloadBundle, HotReloadStrategy, PrefabLoaderSystemDesc},
+    assets::PrefabLoaderSystemDesc,
     core::transform::TransformBundle,
     input::InputBundle,
     prelude::*,
     renderer::{
         plugins::{RenderDebugLines, RenderToWindow},
-        sprite_visibility::SpriteVisibilitySortingSystem,
         types::DefaultBackend,
         RenderingBundle,
     },
@@ -26,7 +25,7 @@ use debug_system::DebugSystemBundle;
 #[cfg(feature = "debug")]
 use fight_game::types::debug::DisplayInfo;
 use fight_game::{
-    bundle::{FightParamaterBundle, FightTransformBundle},
+    bundle::{FightCollisionBundle, FightParamaterBundle, FightTransformBundle},
     components::HitInfo,
     input::FightInput,
     paramater::{CollisionParamater, FightTranslation},
@@ -50,7 +49,6 @@ fn main() -> amethyst::Result<()> {
             "character_prefab_loader",
             &[],
         )
-        .with_bundle(HotReloadBundle::new(HotReloadStrategy::every(10)))?
         .with_bundle(FpsCounterBundle::default())?
         .with_bundle(
             InputBundle::<<FightInput as InputParser>::BindingTypes>::new()
@@ -61,26 +59,34 @@ fn main() -> amethyst::Result<()> {
         .with_bundle(FightTransformBundle::<
             FightTranslation,
             CollisionParamater<FightTranslation>,
+            HitInfo<FightTranslation>,
         >::new())?
+        .with_barrier()
         // 前のフレームで発生した全移動情報を反映
         .with(TransformMovementSystem::new(), "movement_transform", &[])
         .with_bundle(TransformBundle::new())?
+        .with_barrier()
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
+        .with_barrier()
         // 移動とアニメーションノードの作成情報を反映
         .with_bundle(FightParamaterBundle::<
             FightTranslation,
             CollisionParamater<FightTranslation>,
             HitInfo<FightTranslation>,
         >::new())?
+        .with_barrier()
         .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(AabbCollisionBundle::<CollisionParamater<FightTranslation>>::new())?
+        .with_barrier()
+        // 移動とアニメーションノードの作成情報を反映
+        .with_bundle(FightCollisionBundle::<
+            FightTranslation,
+            CollisionParamater<FightTranslation>,
+            HitInfo<FightTranslation>,
+        >::new())?
+        .with_barrier()
         .with_bundle(DebugSystemBundle::<DisplayInfo>::new())?
         .with_barrier()
-        .with(
-            SpriteVisibilitySortingSystem::new(),
-            "sprite_visibility_sort",
-            &[],
-        )
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
                 .with_plugin(RenderSpriteAnimation::<FightTranslation>::default())

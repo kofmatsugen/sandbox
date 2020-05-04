@@ -126,7 +126,7 @@ fn create_unit(world: &mut World, character_prefab: Handle<Prefab<CharacterPrefa
     anim_key.set_pack(PackKey::Base);
     anim_key.set_animation(AnimationKey::Stance);
     let mut anim_time = AnimationTime::new();
-    anim_time.play(DEFAULT_SPEED / 10.);
+    anim_time.play(DEFAULT_SPEED);
 
     world
         .create_entity()
