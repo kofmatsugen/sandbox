@@ -66,6 +66,7 @@ fn main() -> amethyst::Result<()> {
         .with(TransformMovementSystem::new(), "movement_transform", &[])
         .with_bundle(TransformBundle::new())?
         .with_barrier()
+        // 移動処理を終えてからアニメーション系の処理を行う
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
         .with_barrier()
         // 移動とアニメーションノードの作成情報を反映
@@ -85,6 +86,7 @@ fn main() -> amethyst::Result<()> {
             HitInfo<FightTranslation>,
         >::new())?
         .with_barrier()
+        // すべてのバンドル処理を終えたあとにデバッグ情報は追加する
         .with_bundle(DebugSystemBundle::<DisplayInfo>::new())?
         .with_barrier()
         .with_bundle(
