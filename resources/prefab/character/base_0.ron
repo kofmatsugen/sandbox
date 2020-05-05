@@ -12,7 +12,8 @@
                 skill_set: (
                     neutral: Stance,
                     skills: {
-                        // Walk: Walk,
+                        Walk: Walk,
+                        Back: Back,
                         // Dash: Run,
                         // Crouch: Sit,
                         // BackCrouch: Sit,

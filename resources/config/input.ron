@@ -10,5 +10,9 @@
         B(P1): [[Controller(0, A)]],
         C(P1): [[Controller(0, Y)]],
         D(P1): [[Controller(0, B)]],
+        A(P2): [[Key(Q)]],
+        B(P2): [[Key(W)]],
+        C(P2): [[Key(A)]],
+        D(P2): [[Key(S)]],
     },
 )
