@@ -21,6 +21,7 @@ use amethyst_sprite_studio::{
     renderer::RenderSpriteAnimation,
     splash::{SplashState, SplashTranslation},
 };
+#[cfg(feature = "debug")]
 use debug_system::DebugSystemBundle;
 #[cfg(feature = "debug")]
 use fight_game::types::debug::DisplayInfo;
@@ -31,7 +32,6 @@ use fight_game::{
     paramater::{CollisionParamater, FightTranslation},
 };
 use input_handle::traits::InputParser;
-use movement_transform::system::TransformMovementSystem;
 use prefab::character::CharacterPrefab;
 
 fn main() -> amethyst::Result<()> {
@@ -43,7 +43,7 @@ fn main() -> amethyst::Result<()> {
     let display_config_path = resources_dir.join("display_config.ron");
     let input_config_path = resources_dir.join("config").join("input.ron");
 
-    let game_data = GameDataBuilder::default()
+    let mut game_data = GameDataBuilder::default()
         .with_system_desc(
             PrefabLoaderSystemDesc::<CharacterPrefab>::default(),
             "character_prefab_loader",
@@ -55,39 +55,31 @@ fn main() -> amethyst::Result<()> {
                 .with_bindings_from_file(input_config_path)
                 .unwrap(),
         )?
-        // 前のフレームで発生した格闘ゲーム関連の判定情報，移動情報を反映
-        .with_bundle(FightTransformBundle::<
-            FightTranslation,
-            CollisionParamater<FightTranslation>,
-            HitInfo<FightTranslation>,
-        >::new())?
-        .with_barrier()
-        // 前のフレームで発生した全移動情報を反映
-        .with(TransformMovementSystem::new(), "movement_transform", &[])
-        .with_bundle(TransformBundle::new())?
-        .with_barrier()
         // 移動処理を終えてからアニメーション系の処理を行う
         .with_bundle(SpriteStudioBundle::<FightTranslation>::new())?
         .with_barrier()
-        // 移動とアニメーションノードの作成情報を反映
         .with_bundle(FightParamaterBundle::<
             FightTranslation,
             CollisionParamater<FightTranslation>,
             HitInfo<FightTranslation>,
         >::new())?
         .with_barrier()
-        .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_bundle(AabbCollisionBundle::<CollisionParamater<FightTranslation>>::new())?
         .with_barrier()
-        // 移動とアニメーションノードの作成情報を反映
         .with_bundle(FightCollisionBundle::<
             FightTranslation,
             CollisionParamater<FightTranslation>,
             HitInfo<FightTranslation>,
         >::new())?
         .with_barrier()
-        // すべてのバンドル処理を終えたあとにデバッグ情報は追加する
-        .with_bundle(DebugSystemBundle::<DisplayInfo>::new())?
+        .with_bundle(FightTransformBundle::<
+            FightTranslation,
+            CollisionParamater<FightTranslation>,
+            HitInfo<FightTranslation>,
+        >::new())?
+        .with_barrier()
+        .with_bundle(TransformBundle::new())?
+        .with_bundle(UiBundle::<<FightInput as InputParser>::BindingTypes>::new())?
         .with_barrier()
         .with_bundle(
             RenderingBundle::<DefaultBackend>::new()
@@ -100,6 +92,11 @@ fn main() -> amethyst::Result<()> {
                         .with_clear([0.34, 0.36, 0.52, 1.0]),
                 ),
         )?;
+
+    #[cfg(feature = "debug")]
+    {
+        game_data = game_data.with_bundle(DebugSystemBundle::<DisplayInfo>::new())?;
+    }
 
     let mut game = Application::new(resources_dir, SplashState::<MyState>::new(), game_data)?;
     game.run();

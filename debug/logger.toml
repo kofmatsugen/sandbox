@@ -1,6 +1,6 @@
 stdout="Colored"
 level_filter="Info"
-log_file="log/log.txt"
+#log_file="log/log.txt"
 
 module_levels = [
     ["debug_collision","Info"],
@@ -13,7 +13,7 @@ module_levels = [
 #    ["fight_game::load" ,"Info"],
     ["fight_game::input" ,"Error"],
 #    ["fight_game::system::debug::command" ,"Debug"],
-    ["fight_game::system::extrude" ,"Warn"],
+    ["fight_game::system::extrude" ,"Info"],
     ["fight_game::components::collision" ,"Error"],
     ["fight_game::paramater::translate_animation" ,"Debug"],
 

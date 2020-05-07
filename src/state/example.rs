@@ -22,7 +22,6 @@ use fight_game::{
     load::CommandLoad,
     paramater::FightTranslation,
 };
-use movement_transform::components::Movement;
 
 #[cfg(feature = "debug")]
 use debug_system::components::DebugInfomationDisplay;
@@ -128,13 +127,23 @@ fn create_unit(world: &mut World, character_prefab: Handle<Prefab<CharacterPrefa
     let mut anim_time = AnimationTime::new();
     anim_time.play(DEFAULT_SPEED);
 
-    world
+    #[cfg(feature = "debug")]
+    let entity = world
         .create_entity()
         .with(anim_key)
         .with(anim_time)
         .with(ActiveCommand::new())
         .with(character_prefab)
-        .with(Movement::new())
         .with(DebugInfomationDisplay::<DisplayInfo>::new())
-        .build()
+        .build();
+    #[cfg(not(feature = "debug"))]
+    let entity = world
+        .create_entity()
+        .with(anim_key)
+        .with(anim_time)
+        .with(ActiveCommand::new())
+        .with(character_prefab)
+        .build();
+
+    entity
 }
