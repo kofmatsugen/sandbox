@@ -5,7 +5,7 @@ authors = []
 edition = "2018"
 
 [dependencies]
-amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulkan", "sdl_controller", "no-slow-safety-checks"] }
+amethyst = {git = "https://github.com/amethyst/amethyst.git", features = ["vulkan", "sdl_controller"] }
 amethyst-sprite-studio={path="../amethyst-sprite-studio/"}
 amethyst-aabb={path="../amethyst-aabb/"}
 debug_system={path="../debug_system/"}
