@@ -3,8 +3,6 @@ level_filter="Info"
 #log_file="log/log.txt"
 
 module_levels = [
-    ["debug_collision","Info"],
-
     ["resource::animation" ,"Trace"],
 
     ["amethyst_collision::system::detect_contact" ,"Info"],
@@ -15,7 +13,9 @@ module_levels = [
 #    ["fight_game::system::debug::command" ,"Debug"],
     ["fight_game::system::extrude" ,"Info"],
     ["fight_game::components::collision" ,"Error"],
-    ["fight_game::paramater::translate_animation" ,"Debug"],
+#    ["fight_game::components::damaged" ,"Trace"],
+    ["fight_game::paramater::translate_animation" ,"Warn"],
+#    ["fight_game::system::apply_hit_info" ,"Debug"],
 
     ["sync_position_to_world" ,"Error"],
     ["gfx_backend_vulkan" ,"Warn"],
@@ -24,6 +24,7 @@ module_levels = [
     ["amethyst_sprite_studio::system::build_nodes", "Warn"],
     ["amethyst_sprite_studio::resource", "Debug"],
     ["amethyst_sprite_studio::renderer", "Error"],
+#    ["amethyst_sprite_studio::components::animation_time", "Trace"],
 
     ["movement_transform::system", "Info"],
 
