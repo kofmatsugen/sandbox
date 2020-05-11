@@ -76,6 +76,7 @@ Container(
                 y: -20.,
                 height: 16.,
                 width: 100.,
+                stretch: X(x_margin: 10.),
             ),
             text: (
                 text: "",
